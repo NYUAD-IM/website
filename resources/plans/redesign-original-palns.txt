@@ -1,0 +1,48 @@
+# Archived list from original planning meetings
+
+
+
+# Fundamental pieces of IM Site:
+
+
+- Image (Carousel)
+- Nav Bar (Condensed)
+	- About (IM Story/Description)
+	- Academics (courses & requirements)
+	- Activities: Workshops | Stuxdent Initiatives | Special Events | Final Showcase
+	- ~~Archive~~
+
+- IM Quote
+
+
+# Design principles
+- Image based design
+- Unified aesthetic
+- Responsive
+
+
+# Questions:
+
+ - Interactive elements of site?
+
+---
+
+# Feedback Round 1 (Early October)
+- Info architecture is great
+- Challenge is to articulate the mission and philosophy of the problem through different spaces (Lab, Web)
+- "What can I do?" takes you to a list of ways to participate (Facebook, Visit, Mailing List)
+
+---
+
+# New Direction - Interactive Banner, rest of site regular
+
+### Ideas
+- Colour changes on load
+	- R239, G139, B33
+	- R65, G152, B211
+	- R127, G190, B198
+	- R0, G141, B169
+	- R244, G205, B48
+	- R137, G102, B160
+- *Interactive Banner*
+	- Determine Large screen, small screen, and mobile size.
