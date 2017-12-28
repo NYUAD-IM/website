@@ -1,81 +1,118 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>nyuad im</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+<head>
+  <title>nyuad im</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/dropdown.css">
+  <link rel="stylesheet" type="text/css" href="css/overlay.css">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- FONTS -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
 
-    <!-- FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+  <!-- Builtin JS -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.js"  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <!-- P5 Libraries -->
+  <script type="text/javascript" src="js/p5/p5.js"></script>
+  <script type="text/javascript" src="js/p5/p5.dom.js"></script>
+  <script type="text/javascript" src="js/p5/p5.sound.js"></script>
+  <script type="text/javascript" src="js/sketch.js"></script>
 
-  </head>
-  <body>
-    
-    <!-- HEADER SECTION -->
-    
-    <div class="container-fluid" id="header-container">
+  <!-- Custom JS -->
+  <script type="text/javascript" src="js/script.js"></script>
 
-      <div id="nav-home">
-        <h1>IM</h1>
+</head>
+<body>
+
+  <!-- HEADER SECTION -->
+
+  <div class="container-fluid" id="header-container">
+
+    <!-- Container div to allow correct navbar layout -->
+    <div id="nav-dropdown-container">
+
+      <!-- Dropdown menu -->
+      <div id="nav-dropdown">
+
+        <!-- Main logo -->
+        <div id="nav-dropdown-btn">
+          <h1>IM</h1><img  src="/media/icons/down-arrow.png" width="15" height="15" >
+        </div>
+
+        <!-- Dropdown list items -->
+        <ul id="nav-dropdown-list">
+          <li><a href="http://nyuad.im">home</a></li>
+          <li><a href="#">classes</a></li>
+          <li><a href="https://nyuad.nyu.edu">nyuad</a></li>
+        </ul>
+
       </div>
 
-      <div id="nav-links">
-        about | academics | activities
-      </div>
-
-      <div id="nav-nyuad">
-          <img  src="/media/icons/primary-logo-black.png" class="img-fluid" >
-      </div>
     </div>
 
-
-    <!-- SKETCH SECTION -->
-
-    <div class="container-fluid" id="sketch-container">
-      <div id="canvas-container">
-
-        your sketch here
-
-      </div>
+    <div id="nav-links">
+      <a href="#">About</a> | 
+      <a href="#">Academics</a> |
+      <a href="#">Activities</a> 
     </div>
 
-    <!-- ACTION BUTTONS SECTION -->
-
-    <div class="container-fluid" id="button-container">
-      <div class="action-button">
-        what is IM?
-      </div>
-
-      <div class="action-button">
-        what does IM do?
-      </div>
-
-      <div class="action-button">
-        what can I do?
-      </div>
+    <div id="nav-nyuad">
+      <a href="https://nyuad.nyu.edu"><img  src="/media/icons/primary-logo-black.png" id="nyuad-logo" class="img-fluid" ></a>
     </div>
+  </div>
 
-    <!-- FOOTER SECTION -->
 
-    <div class="container-fluid" id="footer-container">
-      
+  <!-- SKETCH SECTION -->
+
+  <div class="container-fluid" id="sketch-container">
+
+    <div id="canvas-container">
+
     </div>
+  </div>
+
+  <!-- ACTION BUTTONS SECTION -->
+
+  <div class="container-fluid" id="button-container">
+
+    <button onclick="descriptionToggle()" class="action-button">
+      what is IM?
+    </button>
+
+    <button onclick="exampleToggle()" class="action-button">
+      what does IM do?
+    </button>
+
+    <button onclick="participationToggle()" class="action-button">
+      what can I do?
+    </button>
+  </div>
+
+  <!-- FOOTER SECTION -->
+
+  <div class="container-fluid" id="footer-container">
+  nyuad.im | 2017 | Captain Craig
+  </div>
+
+  <!-- OVERLAY SECTION -->
+
+  <div id="overlay-background"></div>
+  <div id="overlay-description" class="overlay"></div>
+  <div id="overlay-examples" class="overlay"></div>
+  <div id="overlay-participation" class="overlay"></div>
 
 
-  </body>
+
+</body>
 </html>

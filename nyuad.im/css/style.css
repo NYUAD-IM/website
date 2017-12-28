@@ -1,30 +1,35 @@
+/*
+This CSS is for the main site and general styling. 
+For style related to dropdown menus, see dropdown.css.
+For style related to the overlays, see overlay.css.
+*/
+
 /*GENERAL*/
 
 body{
+
 	font-family: 'Source Code Pro', monospace;
+
+	/*Colour scheme. This one is GRAY-t (geddit)*/
+	--main-colour: #eee;
+	--secondary-colour: #aaa;
+	--light-colour: #FFF;
+	--dark-colour:#111;
+
+	color: var(--dark-colour);
+
 }
 
 /*HEADER*/
 
 #header-container{
-	background-color: #eee;
+	background-color: var(--main-colour);
 
-	height: 5vh;
-	min-height: 50px;
+	height: 50px;
 
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-}
-
-#nav-home{
-	width: 25%;
-	height: 100%;
-
-	padding: 10px;
-
-	display: flex;
-	align-items: center;
 
 }
 
@@ -33,18 +38,49 @@ body{
 
 	display: none;
 
+}
+
+/*ABOUT | ACADEMICS | ACTIVITIES */
+
+#nav-links a{
+	text-decoration: none;
+	color: var(--dark-colour);
+	padding: 0 20px;
+	font-size: 1.2em;
+	font-weight: 400;
+
+	height: 50px;
+	display: flex;
 	align-items: center;
-	justify-content: center;
+}
+
+#nav-links a:hover{
+
+	background: var(--secondary-colour);
+	/*font-weight: 600;	 << Experimental font weight change. Doesn't look too good.	*/
+
 }
 
 #nav-nyuad{
-	width: 25%;
-
+	width: 50%;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
 }
 
+#nyuad-logo{
+	/*Aspect of nyuad logo is 700:256 (~2.73:1, so at min heigh of 50 min width is 136)*/
+	min-width: 136px;
+	min-height: 50px;
+}
+
+#nyuad-logo:hover{
+	/*Aspect of nyuad logo is 700:256 (~2.73:1, so at min heigh of 50 min width is 136)*/
+	min-width: 136px;
+	min-height: 50px;
+	cursor: pointer;
+	background: var(--secondary-colour);
+}
 
 .img-fluid{
 	width: auto;
@@ -54,10 +90,10 @@ body{
 /*SKETCH*/
 
 #sketch-container{
-	background-color: #fff;
 
-	height: 70vh;
-	min-height: 400px;
+	height: calc((100vh - 50px) * 0.5);
+
+	min-height: 200px;
 
 	display: flex;
 	justify-content: center;
@@ -65,7 +101,7 @@ body{
 }
 
 #canvas-container{
-	background-color: #aaa;
+
 	height: 80%;
 	width: 80%;
 
@@ -74,42 +110,63 @@ body{
 	align-items: center;
 }
 
-/*BUTTONS*/
+/*ACTION BUTTONS*/
 
 #button-container{
-	background-color: #fff;
 
 	width: 80%;
-	height: 20vh;
+	height: calc((100vh - 50px)* 0.48);
 
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+
+	
+}
+
+#button-container button{ 
+
+	text-decoration: none;
+	color: var(--dark-colour);
+	
+}
+
+#button-container button:hover{
+
+	background: var(--secondary-colour);
+	color: var(--light-colour);
+
 }
 
 .action-button{
 
-	width: 20%;
-	height: 30%;
+	width: 100%;
+	height: 10%;
 
 	min-height: 50px;
 	min-width: 175px;
 
-	border-color: #aaa;
+	border-color: var(--secondary-colour);
 	border-style: solid;
 	border-radius: 10px;
 
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
 }
 
 /*FOOTER*/
 
 #footer-container{
-	background-color: #eee;
 
-	height: 5vh;
+	background-color: var(--main-colour);
+	height: 2vh;
+	font-size: 0.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
 }
 
 
@@ -117,11 +174,7 @@ body{
 @media (min-width: 576px) { ... }
 
 /*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { ... }
-
-/*// Large devices (desktops, 992px and up)*/
-@media  (min-width: 992px) { 
-
+@media (min-width: 768px) {
 
 	#header-container{
 
@@ -133,25 +186,18 @@ body{
 		justify-content: space-between;
 	}
 
-	#nav-home{
-		width: 25%;
-		height: 100%;
-
-		padding: 10px;
+	
+	#nav-links{
 
 		display: flex;
 		align-items: center;
-
-	}
-
-	#nav-links{
-		width: 50%;
-
-		display: flex;
 		justify-content: center;
+
 	}
+
 
 	#nav-nyuad{
+
 		width: 25%;
 
 		display: flex;
@@ -161,44 +207,49 @@ body{
 
 
 	.img-fluid{
+
 		width: auto;
 		max-height: 5vh;
+
 	}
 
 	/*SKETCH*/
 
 	#sketch-container{
-		background-color: #fff;
 
-		height: 70vh;
+		background-color: var(--light-colour);
+
+		height: calc((100vh - 50px)* 0.7);
 		min-height: 400px;
 
 		display: flex;
 		justify-content: center;
 		align-items: center;
+
 	}
 
 	#canvas-container{
-		background-color: #aaa;
+
 		height: 80%;
 		width: 80%;
 
 		display: flex;
 		justify-content: center;
 		align-items: center;
+
 	}
 
 	/*BUTTONS*/
 
 	#button-container{
-		background-color: #fff;
 
 		width: 80%;
-		height: 20vh;
+		height: calc((100vh - 50px)* 0.28);
 
-		display: flex;
+		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
+
 	}
 
 	.action-button{
@@ -209,24 +260,27 @@ body{
 		min-height: 50px;
 		min-width: 175px;
 
-		border-color: #aaa;
+		border-color: var(--secondary-colour);
 		border-style: solid;
 		border-radius: 10px;
 
 		display: flex;
 		justify-content: center;
 		align-items: center;
+
 	}
 
 	/*FOOTER*/
 
 	#footer-container{
-		background-color: #eee;
 
-		height: 5vh;
+		background-color: var(--main-colour);
+
 	}
 
 }
+
+@media  (min-width: 992px) { ... }
 
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { ... }
