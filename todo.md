@@ -4,6 +4,8 @@
 
 - [RE: overlays] Take a second look at 'get in touch' page; could use another pass for layout
 
+- [RE: overlays - images] Add loading icon to images, or find faster way to load images
+
 # Future goals
 
 - [RE: Posting to Activities page] Incorporate Google Apps CMS to allow easy update posts events page
@@ -12,7 +14,6 @@
 
 - Horizontally scrollable images in overlay so no info is lost on small screens
 
-- Loading images icon
 
 ## Partially Completed
 
