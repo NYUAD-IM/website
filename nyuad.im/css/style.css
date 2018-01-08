@@ -1,7 +1,10 @@
 /*
-This CSS is for the main site and general styling. 
-For style related to dropdown menus, see dropdown.css.
-For style related to the overlays, see overlay.css.
+	This CSS is for the main site and general styling. 
+	Colour scheme adjusted using css variables in body tag
+	(first element below)
+
+	For style related to dropdown menus, see dropdown.css.
+	For style related to the overlays, see overlay.css.
 */
 
 /*GENERAL*/
@@ -11,19 +14,30 @@ body{
 	font-family: 'Source Code Pro', monospace;
 
 	/*Colour scheme. This one is GRAY-t (geddit)*/
-	--main-colour: #eee;
+	--main-colour: #f2f4f3;
+	--secondary-colour: #ced3dc;
+	--light-colour: #fcf7f8;
+	--dark-colour:#0a0908;
+
+	--link-colour:#a31621;
+
+	color: var(--dark-colour);
+	/*#b0b5b3*/
+	/*#dbdbdb*/
+	/*--main-colour: #eee;
 	--secondary-colour: #aaa;
 	--light-colour: #FFF;
 	--dark-colour:#111;
 
+	--link-colour:#a3b;
+	*/
 	color: var(--dark-colour);
-
 }
 
 /*HEADER*/
 
 #header-container{
-	background-color: var(--main-colour);
+	/*background-color: var(--main-colour);*/
 
 	height: 50px;
 
@@ -134,7 +148,7 @@ body{
 #button-container button:hover{
 
 	background: var(--secondary-colour);
-	color: var(--light-colour);
+	/*color: var(--light-colour);*/
 
 }
 
@@ -160,7 +174,6 @@ body{
 
 #footer-container{
 
-	background-color: var(--main-colour);
 	height: 2vh;
 	font-size: 0.5em;
 	display: flex;
@@ -195,6 +208,10 @@ body{
 
 	}
 
+	#nav-links a{
+		padding: 0 30px;
+	}
+
 
 	#nav-nyuad{
 
@@ -217,7 +234,7 @@ body{
 
 	#sketch-container{
 
-		background-color: var(--light-colour);
+		/*background-color: var(--light-colour);*/
 
 		height: calc((100vh - 50px)* 0.7);
 		min-height: 400px;
@@ -267,14 +284,6 @@ body{
 		display: flex;
 		justify-content: center;
 		align-items: center;
-
-	}
-
-	/*FOOTER*/
-
-	#footer-container{
-
-		background-color: var(--main-colour);
 
 	}
 

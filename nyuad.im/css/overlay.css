@@ -1,3 +1,12 @@
+/*
+    
+    Overlay Styles
+
+*/
+
+/*I've tried to use 'margin-bottom' as much as possible
+to give elements breathing space where necessary*/
+
 #overlay-background{
     width: 100vw;
     height: 100vh;
@@ -5,7 +14,7 @@
     display: none;  /* Hidden by default */
     top:0;
     left: 0;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0,0,0,0.75);      /*Slightly darken area around overlay*/  
     z-index: 1;
     cursor: pointer;
 }
@@ -19,10 +28,17 @@
     left: 10vw;
     right: 10vw;
     bottom: 10vh;
-    background-color: rgba(255,255,255,0.95); 
+    background-color: rgba(255,255,255,0.975);   /*Give the overlay a tiny bit of transparency*/
     z-index: 2;
     border: solid;
     border-color: var(--main-colour);
+    filter: blur(10);
+
+
+}
+
+.overlay a{
+    color: var(--link-colour);
 }
 
 .overlay-container{
@@ -34,18 +50,45 @@
 
 .overlay-title{
     text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
 }
 
 .post-title{
-    padding-top: 5px;
-    padding-bottom: 0px;
+    padding-bottom: 5px;
     text-decoration: underline;
 }
 
 .post-content{
     font-size: 0.8em;
-    width: 80%;
+    width: 100%;
     overflow: auto;
+}
+
+#participation-buttons{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap:  wrap;
+}
+
+#participation-buttons button{
+    background: none;
+    text-decoration: none;
+    border-style: none;
+    margin: 20px 0 0 0;
+    padding: 0px;
+}
+
+#participation-buttons button:hover{
+    /*background: var(--secondary-colour);*/
+    filter: invert(33%);                    /*<<Filter useful for pngs - only greys out non-transparent areas*/
+
+}
+
+#participation-buttons button img{
+    width: 100px;
+
 }
 
 /*///////////
@@ -55,18 +98,19 @@ OVERLAY IMAGE
 .overlay-image-container{
     width: 80%
     height: 20vh;
-
-    margin: 0px;
-    padding: 0px;
+    margin: 0;         
+    margin-bottom: 20px;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    /*background: var(--main-colour);*/
 }
 
 .overlay-image{
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto; /*Center align image at smallest screen size*/
 }
 
 #overlay-image-01{
@@ -79,6 +123,16 @@ OVERLAY IMAGE
     display: none;
 }
 
+#overlay-image-04{
+    display: flex;
+}
+#overlay-image-05{
+    display: none;
+}
+#overlay-image-06{
+    display: none;
+}
+
 @media (min-width: 576px) { 
     .overlay-image{
         width: 45%;
@@ -86,6 +140,21 @@ OVERLAY IMAGE
 
     #overlay-image-02{
         display: flex;
+    }
+
+    #overlay-image-05{
+        display: flex;
+    }
+
+    .overlay-image{
+        margin: 0;
+    }
+
+    #participation-buttons{
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap:  nowrap;
     }
 
 }
@@ -100,4 +169,17 @@ OVERLAY IMAGE
         display: flex;
     }
 
+    #overlay-image-06{
+        display: flex;
+    }
+}
+
+@media (min-width: 1200px) {
+    .overlay-image-container{
+        max-height: 250px;
+    }
+    .overlay-image{
+        width: 80%;
+        max-width: calc(1200px*0.8/3);
+    }
 }

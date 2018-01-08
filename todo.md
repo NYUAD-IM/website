@@ -1,14 +1,18 @@
 # Immediate next steps
 
-- [RE: overlays] fill out templates for the other two overlays (Examples and Participation)
-
 - [RE: subpages] Create outline pages for About, Academics, Activities
+
+- [RE: overlays] Take a second look at 'get in touch' page; could use another pass for layout
 
 # Future goals
 
 - [RE: Posting to Activities page] Incorporate Google Apps CMS to allow easy update posts events page
 
-- [RE: Quickinks dropdown] add nested dropdowns for class link (for now a separate page will have to do)
+- [RE: Quickinks dropdown] add nested dropdowns for individual class links (for now a separate page will have to do)
+
+- Horizontally scrollable images in overlay so no info is lost on small screens
+
+- Loading images icon
 
 ## Partially Completed
 
@@ -27,3 +31,7 @@
 - [RE: Usability] Convert current divs to useful tags (buttons, links, etc)
 
 - [RE: Overlays] Create overlay system for actionable buttons
+
+- [RE: overlays] fill out templates for the other two overlays (Examples and Participation)
+
+- [RE: overlays] Update social media icons

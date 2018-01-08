@@ -1,0 +1,40 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial;
+	font-size: 24px;
+	/*overflow: hidden;*/
+}
+
+#nav_bar{
+  position: fixed;
+	top:0;
+	left:0;
+  min-height: 60px;
+  height: 5vh;
+  width: 100%;
+  background-color: rgb(210,210,210);
+}
+
+#p5_container{
+	border: none;
+  top: 5vh;
+	left:0;
+  position: fixed;
+  height: 95vh;
+  width: 100%;
+}
+
+.instructions_container{
+    z-index: 10;
+    position: fixed;
+    left: 3vw;
+    top: 10vh;
+    width: 35vw;
+    max-width: 700px;
+    height: 25vh;
+    max-height: 500px;
+    /*background: white;*/
+}
+
+iframe{ border: none; }
