@@ -14,6 +14,7 @@
 
 - Horizontally scrollable images in overlay so no info is lost on small screens
 
+- Add link to github workshops
 
 ## Partially Completed
 
