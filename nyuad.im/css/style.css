@@ -173,12 +173,19 @@ body{
 /*FOOTER*/
 
 #footer-container{
+	position:fixed;
+	bottom:0px;
+	right: 0px;
+	left:0px;
+
+	background: white;
 
 	height: 2vh;
 	font-size: 0.5em;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	
 
 }
 
