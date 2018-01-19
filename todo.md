@@ -1,6 +1,8 @@
 # Immediate next steps
 
-- [RE: subpages] Create outline pages for About, Academics, Activities
+- [RE: subpages] 'Sectionalise' pages so, for example, activities can have a workshops section and an events section
+
+- [RE: Quicklinks] Add a 'contact' link that activates 'Particitpation' overlay
 
 - [RE: overlays] Take a second look at 'get in touch' page; could use another pass for layout
 
@@ -19,6 +21,9 @@
 ## Partially Completed
 
 - [RE: p5 sketch on landing page] Create p5 API that facilitates third party creation of responsive sketches
+
+- [RE: subpages] Create outline pages for About, Academics, Activities
+
 
 ## Completed
 
