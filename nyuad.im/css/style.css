@@ -1,5 +1,5 @@
 /*
-	This CSS is for the main site and general styling. 
+	This CSS is for the main site and general styling.
 	Colour scheme adjusted using css variables in body tag
 	(first element below)
 
@@ -22,6 +22,7 @@ body{
 	--link-colour:#a31621;
 
 	color: var(--dark-colour);
+	background-color: var(--main-colour);
 	/*#b0b5b3*/
 	/*#dbdbdb*/
 	/*--main-colour: #eee;
@@ -37,7 +38,7 @@ body{
 /*HEADER*/
 
 #header-container{
-	/*background-color: var(--main-colour);*/
+	background-color: var(--main-colour);
 
 	height: 50px;
 
@@ -63,7 +64,7 @@ body{
 	font-size: 1.2em;
 	font-weight: 400;
 
-	height: 50px;
+	height: 100%;
 	display: flex;
 	align-items: center;
 }
@@ -105,23 +106,31 @@ body{
 
 #sketch-container{
 
-	height: calc((100vh - 50px) * 0.5);
+	height: calc((100vh - 50px) * 0.7);
 
 	min-height: 200px;
 
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	padding: 0;
+
+	background-color: var(--main-colour);
 }
 
 #canvas-container{
 
-	height: 80%;
-	width: 80%;
+	height: 100%;
+	width: 100%;
 
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+canvas{
+	width: 100%;
 }
 
 /*ACTION BUTTONS*/
@@ -135,14 +144,14 @@ body{
     flex-direction: column;
     justify-content: space-around;
 
-	
+
 }
 
-#button-container button{ 
+#button-container button{
 
 	text-decoration: none;
 	color: var(--dark-colour);
-	
+
 }
 
 #button-container button:hover{
@@ -162,11 +171,12 @@ body{
 
 	border-color: var(--secondary-colour);
 	border-style: solid;
-	border-radius: 10px;
 
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	cursor: pointer;
 
 }
 
@@ -185,7 +195,7 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
+
 
 }
 
@@ -206,7 +216,7 @@ body{
 		justify-content: space-between;
 	}
 
-	
+
 	#nav-links{
 
 		display: flex;
@@ -243,7 +253,7 @@ body{
 
 		/*background-color: var(--light-colour);*/
 
-		height: calc((100vh - 50px)* 0.7);
+		height: calc((100vh - 50px)* 0.8);
 		min-height: 400px;
 
 		display: flex;
@@ -253,9 +263,6 @@ body{
 	}
 
 	#canvas-container{
-
-		height: 80%;
-		width: 80%;
 
 		display: flex;
 		justify-content: center;
@@ -267,9 +274,10 @@ body{
 
 	#button-container{
 
-		width: 80%;
-		height: calc((100vh - 50px)* 0.28);
+		width: 100%;
+		height: calc((100vh - 50px)* 0.18);
 
+		padding: 0;
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
@@ -278,19 +286,20 @@ body{
 
 	.action-button{
 
-		width: 20%;
-		height: 30%;
+		width: 34%;
+		height: 100%;
 
 		min-height: 50px;
 		min-width: 175px;
 
 		border-color: var(--secondary-colour);
-		border-style: solid;
-		border-radius: 10px;
+		border-style: none;
 
 		display: flex;
 		justify-content: center;
 		align-items: center;
+
+		font-size: 2em;
 
 	}
 
