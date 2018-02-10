@@ -46,7 +46,7 @@ body{
 	z-index: 3;
 	background-color: var(--main-colour);
 
-	height: auto;
+	height: 5%;
 
 	display: flex;
 	align-items: center;
@@ -85,6 +85,7 @@ body{
 }
 
 #nav-nyuad{
+	z-index: 1;
 	width: 50%;
 	display: flex;
 	justify-content: flex-end;
@@ -112,7 +113,10 @@ body{
 /*SKETCH*/
 
 #sketch-container{
-	z-index: -2;
+	z-index: -1;
+	position: absolute;
+	top: 5%;
+	left: 0;
 	height: calc((100vh - 50px) * 0.7);
 
 	min-height: 200px;
@@ -127,7 +131,9 @@ body{
 }
 
 #canvas-container{
-
+	position: absolute;
+	left: 0;
+	top: 0;
 	height: 100%;
 	width: 100%;
 
@@ -143,6 +149,8 @@ canvas{
 /*ACTION BUTTONS*/
 
 #button-container{
+	position: absolute;
+	top: 80%;
 	z-index: 3;
 	width: 80%;
 	height: calc((100vh - 50px)* 0.48);
@@ -151,6 +159,8 @@ canvas{
     	flex-direction: column;
     	justify-content: space-around;
 	outline: 3px solid black;
+
+	background-color: white;
 }
 
 #button-container button{
@@ -158,13 +168,20 @@ canvas{
 	text-decoration: none;
 	color: var(--dark-colour);
 
+	background-color: white;
+
+	border-radius: 50px;
+	border: 5px solid white;
+	padding: 8px;
+
+	transition: border 0.1s linear;
 }
 
 #button-container button:hover{
 
-	background: var(--secondary-colour);
 	/*color: var(--light-colour);*/
 
+	border: 5px solid black;
 }
 
 .action-button{
@@ -183,7 +200,6 @@ canvas{
 	align-items: center;
 
 	cursor: pointer;
-
 }
 
 .button-left-bg{
@@ -212,6 +228,47 @@ canvas{
 	z-index; 1;
 
 	transition: right 0.2s, ease-in-out;
+}
+
+/* DESCRIPTIONS */
+
+.description-left, .description-right{
+	font-size: 1.2em;
+	background-color: none;
+}
+
+.description-left{
+	position: absolute;
+	top: 20%;
+	left: 0;
+	background-color: transparent;
+	z-index: 4;
+	background: white;
+	width: 30%;
+	padding-left: 30px;
+	padding-right: 20px;
+
+	line-height: 2em;
+
+	opacity: 0;
+	transition: opacity 0.3s linear;
+}
+
+.description-right{
+	position: absolute;
+	top: 20%;
+	right: 0;
+	background-color: transparent;
+	z-index: 4;
+	background: white;
+	width: 30%;
+	padding-left: 20px;
+	padding-right: 30px;
+
+	line-height: 2em;
+
+	opacity: 0;
+	transition: opacity 0.3s linear;
 }
 
 /*FOOTER*/
@@ -322,8 +379,10 @@ canvas{
 
 	.action-button{
 
-		width: 34%;
-		height: 100%;
+		width: auto;
+		height: auto;
+		display: inline-block;
+		margin: auto;
 
 		min-height: 50px;
 		min-width: 175px;

@@ -28,10 +28,17 @@ $(document).ready(function(){
 
 function participationToggle(){
 
-	if(document.getElementById('button-right-bg').style.right == '-60%')
-		document.getElementById('button-right-bg').style.right = '-120%';
-	else
-		document.getElementById('button-right-bg').style.right = '-60%';
+	if(document.getElementById('button-right-bg').style.right == '-60%'){
+		setTimeout(() => { 
+			document.getElementById('button-right-bg').style.right = '-120%';
+		}, 500)
+		document.getElementById('description-right').style.opacity = 0
+	}else{
+		setTimeout(() => { 
+			document.getElementById('description-right').style.opacity = 1
+		}, 300)
+		document.getElementById('button-right-bg').style.right = '-60%'
+	}
 	/*
     loadNewImages();
 
@@ -47,10 +54,17 @@ function participationToggle(){
 
 function descriptionToggle(){
 	//console.log(document.getElementById('button-left-bg').style.left)
-	if(document.getElementById('button-left-bg').style.left == '-40%')
-		document.getElementById('button-left-bg').style.left = '-80%';
-	else
+	if(document.getElementById('button-left-bg').style.left == '-40%'){
+		document.getElementById('description-left').style.opacity = 0
+		setTimeout(() => { 
+			document.getElementById('button-left-bg').style.left = '-80%';
+		}, 300)
+	}else{
+		setTimeout(() => {
+			document.getElementById('description-left').style.opacity = 1
+		}, 300)
 		document.getElementById('button-left-bg').style.left = '-40%';
+	}
 /*
     loadNewImages();
     
