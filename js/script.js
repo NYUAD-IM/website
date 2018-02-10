@@ -12,6 +12,7 @@ $(document).ready(function(){
 
     //Inject resusable HTML 
     $('#header-container').load('./html/navigation.html');
+    $('#footer-container').load('./html/footer.html');
 
 
 	// Load overlays as HTML snippets (this way allows us to reuse the overlays across the site)
@@ -27,6 +28,11 @@ $(document).ready(function(){
 
 function participationToggle(){
 
+	if(document.getElementById('button-right-bg').style.right == '-60%')
+		document.getElementById('button-right-bg').style.right = '-120%';
+	else
+		document.getElementById('button-right-bg').style.right = '-60%';
+	/*
     loadNewImages();
 
     if(document.getElementById("overlay-participation").style.display == "block"){
@@ -36,10 +42,16 @@ function participationToggle(){
     	document.getElementById("overlay-background").style.display = "block";
     	document.getElementById("overlay-participation").style.display = "block";	
     }
+    */
 }
 
 function descriptionToggle(){
-
+	//console.log(document.getElementById('button-left-bg').style.left)
+	if(document.getElementById('button-left-bg').style.left == '-40%')
+		document.getElementById('button-left-bg').style.left = '-80%';
+	else
+		document.getElementById('button-left-bg').style.left = '-40%';
+/*
     loadNewImages();
     
     if(document.getElementById("overlay-description").style.display == "block"){
@@ -49,6 +61,7 @@ function descriptionToggle(){
     	document.getElementById("overlay-background").style.display = "block";
     	document.getElementById("overlay-description").style.display = "block";	
     }
+*/
 }
 
 function examplesToggle(){

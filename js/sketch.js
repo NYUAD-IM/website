@@ -115,7 +115,7 @@ function draw(){
 	// })
 
 
-	outline();
+//	outline();
 }
 
 function mouseEraser(){
