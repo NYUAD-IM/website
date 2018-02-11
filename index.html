@@ -10,7 +10,8 @@
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> -->
   <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
   <!-- Custom CSS -->
-  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <link rel="stylesheet" type="text/css" href="./css/landing.css">
   <link rel="stylesheet" type="text/css" href="./css/posts.css">
   <link rel="stylesheet" type="text/css" href="./css/dropdown.css">
   <link rel="stylesheet" type="text/css" href="./css/overlay.css">
@@ -35,7 +36,8 @@
   <script type="text/javascript" src="./js/sketch.js"></script>
 
   <!-- Custom JS -->
-  <script type="text/javascript" src="./js/script.js"></script>
+  <script type="text/javascript" src="./js/main.js"></script>
+  <script type="text/javascript" src="./js/landing.js"></script>
   <script type="text/javascript" src="./js/imagehandler.js"></script>
 
 </head>
@@ -64,6 +66,10 @@
   <div class="button-left-bg" id='button-left-bg'></div>
   <div class="button-right-bg" id='button-right-bg'></div>
 
+  <div class='description-center' id='description-center'>
+	  ?
+  </div>
+
 
   <div class='description-left' id='description-left'>
 	  The <b>Interactive Media</b> program begins with the premise that acces to newer and more expansive communication technologies create new opportunities for human expression. But this major takes the tools as a means of expression -- not an end in themselves. The goal of this endeavor is to augment and improve human experience, and to bring both meaning and delight to people's lives. <br>
@@ -74,9 +80,9 @@
   <div class='description-right' id='description-right'>
 	  We are dedicated to experiential learning --acquiring knowledge by making. Whether you like creative programming, cardboard cutouts, unexpected robotics or weaving LEDs in your clothes, we'd love to have you!<br>
 	  <br>
-	  Our classes gravitate around three clusters -Stuff in JavaScript, Michael's Robots and a Bunch Of Readings. Our <a href='/academics'>ACADEMICS</a> has a breakdown of our curriculum, as well as all the other courses at NYUAD that we cross-list, if you're considering a minor.<br>
+	  Our classes gravitate around three clusters -Stuff in JavaScript, Michael's Robots and a Bunch Of Readings; our <a href='/academics'>ACADEMICS</a> has a breakdown of our curriculum.
 	  <br>
-	  If you'd like to get a taste of Interactive Media, take a look at our <a href='./activities'>ACTIVITIES</a> page, where you can find a list of all our shows, workshops, and any SIG and non-SIG associated with IM.
+	  If you'd like to get a taste of Interactive Media, take a look at our <a href='./activities'>ACTIVITIES</a> page, where you can find a list of all our shows, workshops, and events.
   </div>
 
   <div class="container-fluid" id="button-container">
@@ -86,7 +92,7 @@
       </div>
     </button>
     <div class='button-center'>
-      <button onclick="examplesToggle()" class="action-button">
+      <button onclick="experienceToggle()" class="action-button">
         SEE FOR YOURSELF
       </button>
     </div>

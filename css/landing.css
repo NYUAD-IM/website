@@ -288,6 +288,26 @@ canvas{
 
 }
 
+/*FOOTER*/
+
+#footer-container{
+	z-index: 3;
+	position:fixed;
+	bottom:0px;
+	right: 0px;
+	left:0px;
+
+	background: white;
+
+	height: 2vh;
+	font-size: 1em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	padding: 20px;
+}
+
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { ... }

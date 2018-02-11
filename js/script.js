@@ -1,5 +1,5 @@
-/* 	
-	JS functions to deal with non-p5 & non-css related interactions on main page. 
+/*
+	JS functions to deal with non-p5 & non-css related interactions on main page.
 
 	Named 'script' to satisfy Pierre. Sorry, Craig.
 
@@ -7,39 +7,21 @@
 	James Hosken
 */
 
-$(document).ready(function(){
-	console.log("Page ready");
-
-    //Inject resusable HTML 
-    $('#header-container').load('./html/navigation.html');
-    $('#footer-container').load('./html/footer.html');
-
-
-	// Load overlays as HTML snippets (this way allows us to reuse the overlays across the site)
-	$('#overlay-description').load('./html/overlay-description.html');
-	$('#overlay-examples').load('./html/overlay-examples.html');
-	$('#overlay-participation').load('./html/overlay-participation.html');
-
-	//add event listener to background div (beneath overlays) to allow an outside click to close overlay
-	document.getElementById("overlay-background").addEventListener("click", overlayClose);
-
-});
-
 
 function participationToggle(){
 
-	if(document.getElementById('button-right-bg').style.right == '-60%'){
-		setTimeout(() => { 
-			document.getElementById('button-right-bg').style.right = '-105%';
-			document.getElementById('description-right').style.display = 'none';
+	if($('#button-right-bg').style.right == '-67%'){
+		setTimeout(() => {
+			$('#button-right-bg').style.right = '-105%';
+			$('#description-right').style.display = 'none';
 		}, 500)
-		document.getElementById('description-right').style.opacity = 0
+		$('#description-right').style.opacity = 0
 	}else{
-		setTimeout(() => { 
-			document.getElementById('description-right').style.opacity = 1
+		setTimeout(() => {
+			$('#description-right').style.opacity = 1
 		}, 300)
-		document.getElementById('description-right').style.display = 'block';
-		document.getElementById('button-right-bg').style.right = '-60%'
+		$('#description-right').style.display = 'block';
+		$('#button-right-bg').style.right = '-67%'
 	}
 	/*
     loadNewImages();
@@ -49,41 +31,49 @@ function participationToggle(){
     	document.getElementById("overlay-participation").style.display = "none";
     }else{
     	document.getElementById("overlay-background").style.display = "block";
-    	document.getElementById("overlay-participation").style.display = "block";	
+    	document.getElementById("overlay-participation").style.display = "block";
     }
     */
 }
 
 function descriptionToggle(){
-	//console.log(document.getElementById('button-left-bg').style.left)
-	if(document.getElementById('button-left-bg').style.left == '-40%'){
-		document.getElementById('description-left').style.opacity = 0
-		setTimeout(() => { 
-			document.getElementById('button-left-bg').style.left = '-80%';
-			document.getElementById('description-left').style.display = 'none';
+	//console.log($('#button-left-bg').style.left)
+	if($('#button-left-bg').style.left == '-40%'){
+		$('#description-left').style.opacity = 0
+		setTimeout(() => {
+			$('#button-left-bg').style.left = '-80%';
+			$('#description-left').style.display = 'none';
 		}, 300)
 	}else{
 		setTimeout(() => {
-			document.getElementById('description-left').style.opacity = 1
+			$('#description-left').style.opacity = 1
 		}, 300)
-		document.getElementById('description-left').style.display = 'block';
-		document.getElementById('button-left-bg').style.left = '-40%';
+		$('#description-left').style.display = 'block';
+		$('#button-left-bg').style.left = '-40%';
 	}
 /*
     loadNewImages();
-    
+
     if(document.getElementById("overlay-description").style.display == "block"){
     	document.getElementById("overlay-background").style.display = "none";
     	document.getElementById("overlay-description").style.display = "none";
     }else{
     	document.getElementById("overlay-background").style.display = "block";
-    	document.getElementById("overlay-description").style.display = "block";	
+    	document.getElementById("overlay-description").style.display = "block";
     }
 */
 }
 
-function examplesToggle(){
-
+function experienceToggle(){
+	let el = $('#description-center')
+	if(el.style.opacity== 0){
+		el.style.opacity = 1
+		el.style.top = '10%'
+	}else{
+		el.style.opacity = 0
+		el.style.top = '80%'
+	}
+	/*
     loadNewImages();
 
     if(document.getElementById("overlay-examples").style.display == "block"){
@@ -91,8 +81,8 @@ function examplesToggle(){
     	document.getElementById("overlay-examples").style.display = "none";
     }else{
     	document.getElementById("overlay-background").style.display = "block";
-    	document.getElementById("overlay-examples").style.display = "block";	
-    }
+    	document.getElementById("overlay-examples").style.display = "block";
+    }*/
 }
 
 //Use this to close overlays if clicked outside overlays
