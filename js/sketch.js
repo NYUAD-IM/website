@@ -1,6 +1,6 @@
 /*
 	Template code for sketch to run on nyuad.im website
-	
+
 	Modified Jan 2018
 	James Hosken
 */
@@ -10,14 +10,14 @@
 
 function setup() {
 
-	var canvas = createCanvas(window.innerWidth * 0.8, window.innerHeight * 0.6);
-	
+	var canvas = createCanvas(window.width * 1.0, window.innerHeight * 1.0);
+
 	// Move the canvas so it's inside our <div id="canvas-container">.
 	canvas.parent('canvas-container');
 
 	//Setup variables for custom sketch. Move your setup code into customSetup function below
-	customSetup();	
- 
+	customSetup();
+
 	resize();
 	createBackground();
 }
@@ -51,8 +51,10 @@ function resize(){
 
 function outline(){
 	noFill();
+	// fill(55);
 	strokeWeight(1);
 	stroke(0);
+	// noStroke()
 	rect(0,0,width-1, height-1);
 }
 
@@ -73,7 +75,7 @@ var ballArr = [];
 var numBalls = 40;
 var minSize = 10;
 var maxSize = 20;
-var maxSpeed = 20;	
+var maxSpeed = 20;
 
 var ballSize = 5;
 var letters = [];
@@ -83,7 +85,7 @@ var mouseVec;
 function customSetup(){
 	background(255);
 
-	
+
 	for(var i = 0; i < numBalls; i++){
 		ballArr.push(new Ball());
 	}
@@ -98,22 +100,22 @@ function customSetup(){
 
 function draw(){
 
-	ballArr.forEach(function(ball){
-		ball.update();
-	});
+	// ballArr.forEach(function(ball){
+	// 	ball.update();
+	// });
+  //
+	// mouseEraser();
+  //
+	// mouseVec = createVector(mouseX, mouseY);
+	// // mouseColourChange();
+  //
+	// letters.forEach(function(letter){
+	// 	letter.update();
+	// 	letter.render();
+	// })
 
-	mouseEraser();
 
-	mouseVec = createVector(mouseX, mouseY);
-	// mouseColourChange();
-
-	letters.forEach(function(letter){
-		letter.update();
-		letter.render();
-	})
-
-
-	outline();		
+	outline();
 }
 
 function mouseEraser(){
@@ -131,7 +133,7 @@ function mouseEraser(){
 var Ball = function(){
 
 	//create ball with random location and random size
-	
+
 	this.size = random(minSize, maxSize);
 	this.location = createVector(random(maxSize, width - maxSize), random(maxSize, height - maxSize));
 	this.velocity = createVector(random(maxSpeed) - maxSpeed/2 , random(maxSpeed) - maxSpeed/2);

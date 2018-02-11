@@ -1,5 +1,5 @@
 /*
-    
+
     Overlay Styles
 
 */
@@ -14,7 +14,7 @@ to give elements breathing space where necessary*/
     display: none;  /* Hidden by default */
     top:0;
     left: 0;
-    background-color: rgba(0,0,0,0.75);      /*Slightly darken area around overlay*/  
+    background-color: rgba(0,0,0,0.75);      /*Slightly darken area around overlay*/
     z-index: 1;
     cursor: pointer;
 }
@@ -22,11 +22,11 @@ to give elements breathing space where necessary*/
 .overlay {
     position: fixed;
     display: none;
-    width: 80%; 
-    height: 80%; 
-    top: 10vh;
-    left: 10vw;
-    right: 10vw;
+    width: 100%;
+    height: 76%;
+    top: 5.1vh;
+    left: 0 ;
+    right: 0  ;
     bottom: 10vh;
     background-color: rgba(255,255,255,0.975);   /*Give the overlay a tiny bit of transparency*/
     z-index: 2;
@@ -98,7 +98,7 @@ OVERLAY IMAGE
 .overlay-image-container{
     width: 80%
     height: 20vh;
-    margin: 0;         
+    margin: 0;
     margin-bottom: 20px;
 
     display: flex;
@@ -133,7 +133,7 @@ OVERLAY IMAGE
     display: none;
 }
 
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
     .overlay-image{
         width: 45%;
     }
