@@ -30,13 +30,15 @@ function participationToggle(){
 
 	if(document.getElementById('button-right-bg').style.right == '-60%'){
 		setTimeout(() => { 
-			document.getElementById('button-right-bg').style.right = '-120%';
+			document.getElementById('button-right-bg').style.right = '-105%';
+			document.getElementById('description-right').style.display = 'none';
 		}, 500)
 		document.getElementById('description-right').style.opacity = 0
 	}else{
 		setTimeout(() => { 
 			document.getElementById('description-right').style.opacity = 1
 		}, 300)
+		document.getElementById('description-right').style.display = 'block';
 		document.getElementById('button-right-bg').style.right = '-60%'
 	}
 	/*
@@ -58,11 +60,13 @@ function descriptionToggle(){
 		document.getElementById('description-left').style.opacity = 0
 		setTimeout(() => { 
 			document.getElementById('button-left-bg').style.left = '-80%';
+			document.getElementById('description-left').style.display = 'none';
 		}, 300)
 	}else{
 		setTimeout(() => {
 			document.getElementById('description-left').style.opacity = 1
 		}, 300)
+		document.getElementById('description-left').style.display = 'block';
 		document.getElementById('button-left-bg').style.left = '-40%';
 	}
 /*
