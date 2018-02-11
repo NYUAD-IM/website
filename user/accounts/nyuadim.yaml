@@ -1,0 +1,11 @@
+email: nyuad.im@nyu.edu
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+fullname: NYUADIM
+title: Administrator
+state: enabled
+hashed_password: $2y$10$XQW2SjnZAT3/HXottdpNPeKc0XtT6RwOHYZu2Qse9Zwdn6nO9DF3K
