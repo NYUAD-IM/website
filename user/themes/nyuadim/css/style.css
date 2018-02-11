@@ -1,0 +1,321 @@
+/*
+	This CSS is for the main site and general styling. 
+	Colour scheme adjusted using css variables in body tag
+	(first element below)
+
+	For style related to dropdown menus, see dropdown.css.
+	For style related to the overlays, see overlay.css.
+*/
+
+/*GENERAL*/
+
+body{
+
+
+	font-family: 'Source Code Pro', monospace;
+
+	/*Colour scheme. This one is GRAY-t (geddit)*/
+	--main-colour: #fafafa;
+	--secondary-colour:  #aaa;
+	--light-colour: #fff;
+	--dark-colour:#0a0908;
+
+	--link-colour:#a31621;
+
+	color: var(--dark-colour);
+	/*
+	--main-colour: #f2f4f3;
+	--secondary-colour: #ced3dc;
+	--light-colour: #fcf7f8;
+	--dark-colour:#0a0908;
+
+	--link-colour:#a31621;
+
+	color: var(--dark-colour);
+	*/
+	/*#b0b5b3*/
+	/*#dbdbdb*/
+	/*--main-colour: #eee;
+	--secondary-colour: #aaa;
+	--light-colour: #FFF;
+	--dark-colour:#111;
+
+	--link-colour:#a3b;
+	*/
+	color: var(--dark-colour);
+}
+
+/*HEADER*/
+
+#header-container{
+	background-color: var(--light-colour);
+	position: fixed;
+	height: 50px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+#header-placeholder{
+	position: relative;
+	height: 50px;
+
+}
+#nav-links{
+	width: 50%;
+
+	display: none;
+
+}
+
+/*ABOUT | ACADEMICS | ACTIVITIES */
+
+#nav-links a{
+	text-decoration: none;
+	color: var(--dark-colour);
+	padding: 0 20px;
+	font-size: 1.2em;
+	font-weight: 400;
+
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+
+#nav-links a:hover{
+
+	background: var(--secondary-colour);
+	/*font-weight: 600;	 << Experimental font weight change. Doesn't look too good.	*/
+
+}
+
+#nav-nyuad{
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#nyuad-logo{
+	/*Aspect of nyuad logo is 700:256 (~2.73:1, so at min heigh of 50 min width is 136)*/
+	min-width: 136px;
+	min-height: 50px;
+}
+
+#nyuad-logo:hover{
+	/*Aspect of nyuad logo is 700:256 (~2.73:1, so at min heigh of 50 min width is 136)*/
+	min-width: 136px;
+	min-height: 50px;
+	cursor: pointer;
+	background: var(--secondary-colour);
+}
+
+.img-fluid{
+	width: auto;
+	max-height: 5vh;
+}
+
+.wrapper{
+	padding-top: 50px;
+}
+
+/*SKETCH*/
+
+#sketch-container{
+
+	height: calc((100vh - 50px) * 0.5);
+
+	min-height: 200px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#canvas-container{
+
+	height: 80%;
+	width: 80%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*ACTION BUTTONS*/
+
+#button-container{
+
+	width: 80%;
+	height: calc((100vh - 50px)* 0.48);
+
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+	
+}
+
+#button-container button{ 
+
+	text-decoration: none;
+	color: var(--dark-colour);
+	
+}
+
+#button-container button:hover{
+
+	background: var(--secondary-colour);
+	/*color: var(--light-colour);*/
+
+}
+
+.action-button{
+
+	width: 100%;
+	height: 10%;
+
+	min-height: 50px;
+	min-width: 175px;
+
+	border-color: var(--secondary-colour);
+	border-style: solid;
+	border-radius: 10px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+/*FOOTER*/
+
+#footer-container{
+	position:fixed;
+	bottom:0px;
+	right: 0px;
+	left:0px;
+
+	background: white;
+
+	height: 2vh;
+	font-size: 0.5em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+
+}
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+	#header-container{
+
+		height: 5vh;
+		min-height: 50px;
+
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	
+	#nav-links{
+
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	}
+
+	#nav-links a{
+		padding: 0 30px;
+	}
+
+
+	#nav-nyuad{
+
+		width: 25%;
+
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+
+	.img-fluid{
+
+		width: auto;
+		max-height: 5vh;
+
+	}
+
+	/*SKETCH*/
+
+	#sketch-container{
+
+		/*background-color: var(--light-colour);*/
+
+		height: calc((100vh - 50px)* 0.7);
+		min-height: 400px;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	#canvas-container{
+
+		height: 80%;
+		width: 80%;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	/*BUTTONS*/
+
+	#button-container{
+
+		width: 80%;
+		height: calc((100vh - 50px)* 0.28);
+
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+
+	}
+
+	.action-button{
+
+		width: 20%;
+		height: 30%;
+
+		min-height: 50px;
+		min-width: 175px;
+
+		border-color: var(--secondary-colour);
+		border-style: solid;
+		border-radius: 10px;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+}
+
+@media  (min-width: 992px) { ... }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }

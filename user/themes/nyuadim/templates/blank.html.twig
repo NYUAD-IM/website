@@ -1,0 +1,32 @@
+{% set theme_config = attribute(config.themes, config.system.pages.theme) %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{header.title|e('html')}}</title>
+    <link rel="canonical" href="{{site.base_url }}{{page.header.routes.canonical }}" />
+
+    {% block stylesheets %}
+        {% do assets.addCss('theme://css/style.css', 98) %}
+        {% do assets.addCss('theme://css/posts.css', 98) %}
+        {% do assets.addCss('theme://css/overlay.css', 98) %}
+        {% do assets.addCss('theme://css/dropdown.css', 98) %}
+    {% endblock %}
+    {{ assets.css() }}
+
+    {% block javascripts %}
+        {% do assets.addJs('jquery', 100) %}
+        {% do assets.addJs("https://unpkg.com/popper.js", 100) %}
+        {% do assets.addJs("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js", 100) %}
+        {% do assets.addJs('theme://js/p5/p5.js', 99) %}
+        {% do assets.addJs('theme://js/p5/p5.js', 99) %}
+        {% do assets.addJs('theme://js/p5/p5.dom.js', 98) %}
+        {% do assets.addJs('theme://js/p5/p5.sound.js', 98) %}
+        
+    {% endblock %}
+    {{ assets.js() }}
+    
+</head>
+<body>
+    {{page.content }}
+</body>
+</html>

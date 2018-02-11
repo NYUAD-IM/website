@@ -1,0 +1,123 @@
+---
+title: Academics
+media_order: 'im-site-img-34.jpg,im-site-img-11.jpg'
+---
+
+# NYUAD IM Courses
+
+![](im-site-img-11.jpg?cropZoom=1000,333)
+
+# Courses still open:
+
+<h2 class="purple-text">Temporary Expert </h2>
+What does it mean to become a “temporary expert?” How does one develop one’s own creative research-based practice? This course will address these questions by engaging with Abu Dhabi's environmental and social dimensions as a subject for research, context and imaginative art and design opportunities. Students will adopt a wide variety of tools and strategies in order to lay the foundations for a research-based art practice that considers materials, media, context, and audience, as well as one’s personal strengths and desires. Over the course of the semester, students will develop art and design projects that interface with a multiplicity of other disciplines, and engage in idea exchange with experts in the field. Through hands-on practice, case studies, and readings on systems thinking, communication, and the idea of "the public," we will explore method, documentation and presentation of research, as well as the merits of both success and failure. 
+
+<h2 class="purple-text">Network Everything</h2>
+This course explores the possibilities and challenges of designing alternate physical network interfaces. Through weekly readings, class discussions, and a series of projects, students will create physical objects that talk to each other over distance. Various wireless communication mechanisms such as radio (Bluetooth, Zigbee, WiFi, and raw), infrared, and ultrasonic are used in the context of creating novel “smart” devices. Topics of discussion in this course include networking protocols and network topologies; network time versus physical time; mobile objects; and wireless networks. Opportunities to build collaborative and creative campus-wide networked projects and systems will also be explored.
+
+<h2 class="purple-text">Introduction to Interactive Media</h2>
+With the advent of digital computation, humans have found a variety of new tools for self-expression and communication. Thinking about how we interface with these tools beyond the mouse and keyboard, we can approach software and electronics as artists and designers and explore new paradigms of interaction with machines and each other. This introductory course will provide students hands-on experience with screen-based and physical interaction design through programming and electronics using microcontrollers, electronics, and writing our own software. Fundamentals of programming and circuit design will supplement readings on human-computer interaction and design theory. Weekly lab exercises encourage students to experiment freely, creating their own novel interfaces and controls for working with machines.
+
+---
+
+# Full courses:
+
+## Machine Lab 
+The saying goes, "If all you have is a hammer, then every problem looks like a nail." What if all you have is a 3D Printer? In this course, students will be introduced to, and engage critically with, a range of contemporary machines inside and around the Interactive Media Lab. Leveraging historical perspectives, current use-cases, and hands-on making, the course will explore how machines enhance, or limit, our creative processes. Readings and discussion will be paired with practical designing, prototyping, and making of creative computer controlled devices, such as drawing machines, musical instruments, and a collaborative Rube Goldberg contraption. Over the course of the semester, students will be exposed to a variety of tools, materials, and fabrication techniques as well as learn how to use micro-controllers and software to give their machines unique behaviors and abilities. By thinking about machines, using machines, and making machines, the course will offer insight into our creative relationships with our tools.
+
+## Making Education 
+Making Education is a regional seminar course that will focus on education theory, instructional design, creative collaboration, and production of site-specific “maker” learning materials. Rooted in the Interactive Media culture of openness, accessibility and making, students will be challenged to thoughtfully navigate the education system in Kathmandu, Nepal and meaningfully affect learning opportunities in collaboration with our local partner organization. Iterative design cycles and project-based work will be paired with semi- formal research, theoretical analysis, ethnographic interviews, reflective writing, and project documentation. By researching, investigating, and applying creative educational models, students will experience a unique opportunity to apply the processes and principles of the Interactive Media Program onto a real-world use case. Ideally, a combination of making, teaching, and learning will result in insights that are both personally significant, locally relevant, and globally transferable. This course does involve a week-long Spring Break trip to Kathmandu, Nepal and a formal commitment to engage with our local partners.
+
+## A.rt I.ntel
+Artificial intelligence and machine learning algorithms affect many aspects of our lives whether we realize it or not: banking transactions, healthcare treatments and diagnoses, entertainment recommendations, smart car functionality, customer service agents, financial trading... the list goes on and on. The power of these algorithms lies in their ability to leverage computers to "study" and "learn". Instead of programming a computer to do a specific task, we program the computer to train and teach itself how to do any number of tasks. As artists, how can we harness the power of these algorithms and apply them towards creative endeavors? This class will explore that basic question. Through a combination of high level applied machine learning techniques, speculative design of artificial intelligence, and some basic understanding of how these algorithms work at a low level, students will explore this rich new field. With their machine counterparts, they will create images, sounds, text, intuitive interactions, chatbots, and more. 
+
+## Alternate Realities
+This course will introduce students to the design and development of Virtual Reality experiences. We will examine these increasingly popular means of delivering content and social interactions and identify their unique affordances over existing platforms. Students will be challenged to harness the specific advantages of VR from conception through functional prototype. The class will also cover case studies of effective use of VR in information delivery, as well as social and artistic experiences. 
+
+## Communications Lab
+A production based course that surveys various technologies including digital imaging, video, audio, animation, and basic web development. The forms and uses of new communications technologies are explored in a laboratory context of experimentation and discussion. Principles of interpersonal communications and media theory are considered in this new context. 
+
+---
+
+# Required for the Minor 
+
+## Introduction to Interactive Media
+### Fall & Spring Semester - IM Foundation
+With the advent of digital computation, humans have found a variety of new tools for self expression and communication. By approaching software and electronics as artists and designers, we can explore new paradigms of interaction with machines and each other. This introductory course will provide students hands-on experience with screen-based and physical interaction design through programming and electronics
+
+## Introduction to Communications Lab
+### Spring Semester - IM Foundation
+A production based course that surveys various technologies including digital imaging, video, audio, animation, and basic web development. The forms and uses of new communications technologies are explored in a laboratory context of experimentation and discussion. Principles of interpersonal communications and media theory are considered in this new context.
+
+# Electives 
+## Art, Performance, and Social Practice
+### Spring Semester - IM Elective (Crosslisted with Theater)
+#### Prof. Debra Levine
+How do we begin to know each other differently from the way in which dominant social systems and communicative technologies structure our daily interactions? This question drives art and performance’s “social turn” to real-world collaborations between artists and performers who act in the role of instigators or catalysts with the communities around them. The social turn explicitly rejects the artist’s more traditional role as the producer of a consumable aesthetic object or theatrical performance and instead proposes that the conscious processes of collaborative engagement—activist, participatory, coauthored— must be understood and valued as art. In this intertwining of art with performance, cooperative processes are foregrounded as frameworks to understand and shift the impact of political and social policy, architecture, art history, urban planning, and new media on our lives. The social practice of art proposes that in making encounters where artists engage with the members of communities as “expert participants,” we might construct more livable alternatives through social cooperation. Art as social practice also insists that this process is an aesthetic practice. In this course we will read recent critical theories and histories of the aesthetics and politics of the social practice of art, explore case studies of “relational art,” and collaborate on our own “living as form” project that engages with the built and social environment of Abu Dhabi.
+
+## Circuit Breakers!
+### Fall Semester - IM Elective
+#### Prof. Jonny Farrow
+Circuit Breakers! is a course designed to introduce students to the world of hardware hacking and circuit bending for artistic and mainly sonic ends. By literally opening up common battery powered objects such as toys and finding their circuit boards, one can change the behavior of the object by interrupting the flow of electricity, creating novel, unexpected outcomes. This technique has both predictable and unpredictable outcomes, but it is almost always satisfying. In addition to hacking off-the-shelf toys, students will also build their own circuits with a minimum amount of components. Many of the projects in this course center on common integrated circuits, which we will cajole, trick, and abuse in order to create art.
+
+## Collaborating in the Digital Domain
+### Spring Semester - IM Elective (Crosslisted with Music)
+#### Prof. Carlos Guedes
+Departing from the Wagnerian notion of Gesamkunstwerk, this course examines paradigmatic artistic collaborations in the 20th century and the impact of digital technologies in promoting more intricate types of collaboration between different domains, such as music, performing arts, moving image, engineering and computer science. Students develop artistic collaborative projects involving sound, movement, digital video, lighting, interaction technologies, and telematics, which are presented publicly at the end of the semester. This course requires no skills and is open to anyone willing to establish a collaborative project involving different art forms and other domains.
+
+## Mashups: Creating with Web APIs
+### Fall Semester - IM Elective
+#### Prof. Craig Protzel
+As the World Wide Web continues to grow and pervade our everyday lives, an ever-increasing amount of data and digital services are becoming accessible to us through public web APIs (Application Programming Interfaces). Common to many web sites, including YouTube, Twitter, Google Maps, Wikipedia and more, these web APIs offer a way to programmatically request and re-purpose endless troves of information. How might we use these available resources to create unique, creative, and compelling web experiences of our own? Subscribing to a process-oriented approach, much of class time will be spent reviewing and writing code, primarily Javascript, for client-side (front-end) web development.
+
+## New Interfaces of Musical Expression (NIME)
+### Spring Semester - IM Elective
+This course approaches questions such as "What is performance?", "What makes a musical interface intuitive and emotionally immediate?", and "How do we create meaningful correlations between performance gestures and their musical consequences?" Over the semester, we look at many examples of current work by creators of musical interfaces, and discuss a wide range of issues facing technology-enabled performance. Students will design and prototype a musical instrument - a complete system encompassing musical controller, algorithm for mapping input to sound, and the sound output itself. A technical framework for prototyping performance controllers is made available. Students focus on musical composition and improvisation techniques as they prepare their prototypes for live performance.
+
+## The Politics of Code
+### Fall Semester - IM Elective
+#### Prof. Pierre Depaz
+While our relationships between ourselves, our environment, and other people are inherently political, computer technologies and technology companies consistently claim to remain “neutral”. This course will assume the opposite —software is political—, and focus on how software applications share commonalities with political systems, how they affect their users as political actors and how we can build alternatives to those systems. This course is aimed at deconstructing the design and implementation of software as a political medium, such as Facebook’s timeline algorithm, city officials’ use of computer simulations to orchestrate urban life, blockchain-backed proof of ownership and algorithmic criminal assessment. Along with an introduction to political theory and media studies, coupled with an exploration of the underlying political impacts of those systems, students will work on several hands-on projects to offer functioning alternatives to those systems. To that end, this course will include several workshops in JavaScript and Python.
+
+## Software Art: Image
+### Fall Semester - IM Elective
+#### Prof. Pierre Depaz
+An introduction to the history, theory and practice of computer-aided artistic endeavours in the field of visual arts. This class will focus on the appearance of computers as a new tool for artists to integrate in their artistic practice, and how it shaped a specific aesthetic language across traditional practitioners and newcomers alike. We will be elaborating and discussing concepts and paradigms specific to computing platforms, such as system art, generative art, image processing and motion art. Drawing on those areas, students will explore their own artistic practice through the exclusive use of their computers. The course will also serve as a technical introduction to the OpenFrameworks programming environment to create works of visual art. As such, Software Art: Image will be an art history and critical studies course with a studio component. Software Art: Image is a complement to Software Art: Text, a 7-week course approaching software and computation from the perspective of poetry and fiction. The two courses can be taken in series or independently.
+
+## Software Art: Text
+### Fall Semester - IM Elective
+#### Prof. Pierre Depaz
+An introduction to the history, theory and practice of computer-aided artistic endeavours in the field of prose and poetry. This class will focus on the appearance and role of computers as a new way for artists to write and read both programming and natural languages. While elaborating and discussing concepts and paradigms specific to computing platforms, such as recomposition, stochastic writing and ambiguity, students will be encouraged to explore their own artistic practice through the exclusive use of their computers, by writing their own programs. As such, Software Art: Text will be a literary history and critical studies course with an active writing component (in both Python and English). Students will be exposed to new creative perspectives on reading and writing in the digital age. Software Art: Text is a complement to Software Art: Image, a 7-week course approaching software and computation from the perspective of the visual arts. The two courses can be taken in series or independently.
+
+## Performing Robots
+### Fall Semester - IM Elective
+#### Prof. Michael Shiloh
+Students in this course will produce sculptural and site-specific works of Sound Art, using sound, materials, and space as their palette. The class will focus its study on artists who primarily work with sound in gallery-based situations and the surrounding fine art discourses. While the term “Sound Art” is not as old, the practice of using sound in the context of gallery-based visual arts as both material and concept stretches back over 100 years, and comes from various artists and art movements, such as Marcel Duchamp, the Futurists, Dada, and forward to the happenings of Fluxus, the Minimalists, specifically Robert Morris, and through to the procedural art making methods of John Cage and the countless artists he influenced. According to Alan Licht, the term “Sound Art” dates back to 1982 with the founding of William Hellermann’s Sound Art Foundation, which organized an early show of sound sculpture and other work at the Sculpture Center (NYC) in 1983. Around the turn of the 21st century, many more high profile exhibitions of sound art were mounted with varying curatorial approaches serving to further broaden the use of the term. We will examine the use of the term carefully and draw our own conclusions about its utility, while exploring the use of sound to unlock sculptural, architectural, material, and conceptual potentials. There are no prerequisites for this course.
+
+## Decoding Nature
+### Fall Semester - IM Elective
+#### Prof. Aaron Sherwood
+An introduction to the history, theory and practice of computer-aided artistic endeavours in the field of prose and poetry. This class will focus on the appearance and role of computers as a new way for artists to write and read both programming and natural languages. While elaborating and discussing concepts and paradigms specific to computing platforms, such as recomposition, stochastic writing and ambiguity, students will be encouraged to explore their own artistic practice through the exclusive use of their computers, by writing their own programs. As such, Software Art: Text will be a literary history and critical studies course with an active writing component (in both Python and English). Students will be exposed to new creative perspectives on reading and writing in the digital age. Software Art: Text is a complement to Software Art: Image, a 7-week course approaching software and computation from the perspective of the visual arts. The two courses can be taken in series or independently.
+
+# CORE 
+## COREAD19: Communication & Technology
+### Fall Semester
+#### Prof. Craig Protzel
+From cave paintings to live video streams on smartwatches, this course will explore the development, reaction, and impact of some of humankind's most transformative inventions - its forms of communication. How have these inventions, such as writing, printing, photography, the telegraph, television, radio, and the internet, influenced human behavior throughout the course of history? What role do they play in shaping our lives today? Toward the end of the course, students will speculate on the future of communication technologies in a connected world by prototyping their own inventions and experiences. Readings and discussion will cover communication theory, technical processes, and creative applications. Writing assignments will be paired with practical assignments where students will be challenged to bring their analysis and ideas to life. We will also utilize the world wide web as a test bed for experiencing and experimenting with various forms of communication both old and new, ranging anywhere from the printing press to the 3D printer and everything in between. 
+
+
+# PAST 
+## Experiential Video Art
+### Spring Semester - IM Elective (Crosslisted with Film)
+#### Prof. Scott Fitzgerald
+The advent of video heralded a new, mediated form of expression, quickly embraced by artists, journalists, and provocateurs. This course provides an overview of video art since its inception in the late 1960s and is designed to trace the path of the medium to contemporary practices. Emerging methods of video interaction in the context of performance and installation will be applied. Students will develop their own work while examining technical and aesthetic concepts embedded in existing pieces.
+
+## Foundations of 4D
+### Spring Semester - IM Elective (Crosslisted with Visual Arts)
+#### Prof. David Darts
+This course offers an intensive exploration of analog and digital media. Students are introduced to aesthetic, conceptual, and historical aspects of contemporary art by interfacing with a variety of imaging, audio, and communication applications. Students work in photography, video, digital art, per- formance, gaming, sound, and emerging practices.
+
+## COREAD52: Play
+### Fall Semester
+#### Prof. Scott Fitzgerald
+We are engaged in play throughout our lives. It socializes and engages us in a deeply meaningful way that serves as an essential component of our education in the world. Beginning with the imaginative and open-ended games of our childhood, and continuing through more structured aspects of play like sport, theatre, board and video games, it serves a vital tool in our development as individuals. It can be collaborative or competitive, open-ended or closed, but always is innately fun. Examining the topic from a variety of perspectives, including psychological, artistic and philosophical, we will engage with multiple levels of playfulness throughout history, from simple childhood escapism to urban scale games facilitated by new technologies . Students will be challenged to create new forms of play by prototyping and designing their own games and frameworks for play throughout the semester.

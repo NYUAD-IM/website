@@ -1,0 +1,102 @@
+{#  
+    use the twig attribute function to dynamically retreive theme data, 
+    reducing file naming problems from dashes or special characters 
+#}
+{% set theme_config = attribute(config.themes, config.system.pages.theme) %}
+<!DOCTYPE html>
+<html lang="{{ grav.language.getActive ?: theme_config.default_lang }}">
+<head>
+
+{% block head %}
+
+    <meta charset="utf-8" />
+
+    <title>
+        {# create page title based on page header #}
+        {% if header.title %}{{ header.title|e('html') }} | {% endif %}{{ site.title|e('html') }}
+    </title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {# below loads page metadata, from general site data to page-specific overrides #}
+    {% include 'partials/metadata.html.twig' %}
+
+    {# theme-specific icons #}
+    <link rel="icon" type="image/png" href="{{ url('theme://images/logo.png') }}" />
+    <link rel="canonical" href="{{ page.url(true, true) }}" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+
+    {# 
+        use the Asset Manager to load necessary css and js 
+        note: 'theme://' finds the relative path for active theme, in our 
+        case nyuadim.
+    #}
+
+    {% block stylesheets %}
+        {% do assets.addCss('theme://css/style.css', 98) %}
+        {% do assets.addCss('theme://css/posts.css', 98) %}
+        {% do assets.addCss('theme://css/overlay.css', 98) %}
+        {% do assets.addCss('theme://css/dropdown.css', 98) %}
+    {% endblock %}
+    {{ assets.css() }}
+
+    {% block javascripts %}
+        {% do assets.addJs('jquery', 100) %}
+        {% do assets.addJs("https://unpkg.com/popper.js", 100) %}
+        {% do assets.addJs("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js", 100) %}
+        {% do assets.addJs('theme://js/p5/p5.js', 99) %}
+        {% do assets.addJs('theme://js/p5/p5.js', 99) %}
+        {% do assets.addJs('theme://js/p5/p5.dom.js', 98) %}
+        {% do assets.addJs('theme://js/p5/p5.sound.js', 98) %}
+        
+    {% endblock %}
+    {{ assets.js() }}
+
+{% endblock head%}
+</head>
+
+
+<body id="top" class="{{ page.header.body_classes }}">
+
+{# Load same header for all pages (unless overwritten) #}
+
+{% block header %}
+    
+    <div class="container-fluid" id="header-container">
+            {% block header_navigation %}
+                {% include 'partials/navigation.html.twig' %}
+            {% endblock %}
+    </div>
+
+{% endblock %}
+
+{% block body %}
+        <div class="wrapper padding">
+
+        {# this section will be overwritten on each page #}
+        {% block content %}{% endblock %}
+
+        </div>
+{% endblock %}
+
+{% block footer %}
+    <div class="footer text-center">
+        <div class="wrapper padding">
+           
+        </div>
+    </div>
+{% endblock %}
+
+{% block overlays %}
+{# empty block for use in homepage #}
+{% endblock %}
+
+{% block bottom %}
+    {{ assets.js('bottom') }}
+{% endblock %}
+
+</body>
+</html>

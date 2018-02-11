@@ -1,0 +1,11 @@
+email: james.hosken@nyu.edu
+fullname: 'James Hosken'
+title: Administrator
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$zcJrIa.jZ.nXoPyk.2pObOT0ge5AzD90zo3jgK.gpCZRrYqQEv9Jy

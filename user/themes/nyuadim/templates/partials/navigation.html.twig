@@ -1,0 +1,92 @@
+{# 
+    Here is a mix of the original Grav navigation code and some custom functions I
+    had written for the original site 
+#}
+
+{# This code loops through all active pages on site and loads them into a drop #}
+{#}
+
+#}
+
+
+
+
+<!-- Container div to allow correct navbar layout -->
+<div id="nav-dropdown-container">
+
+  <!-- Dropdown menu -->
+  <div id="nav-dropdown">
+
+    <!-- Main logo -->
+    <div id="nav-dropdown-btn">
+      <h1>IM</h1><img  src="user/pages/images/icons/down-arrow.png" width="15" height="15" >
+    </div>
+
+    <!-- Dropdown list items -->
+    <ul id="nav-dropdown-list">
+        {% if theme_config.dropdown.enabled %}
+            {{ _self.loop(pages) }}
+        {% else %}
+            {% for page in pages.children.visible %}
+                {% set current_page = (page.active or page.activeChild) ? 'selected' : '' %}
+                <li class="{{ current_page }}">
+                    <a href="{{ page.url }}">
+                        {% if page.header.icon %}<i class="fa fa-{{ page.header.icon }}"></i>{% endif %}
+                        {{ page.menu }}
+                    </a>
+                </li>
+            {% endfor %}
+        {% endif %}
+        {% for mitem in site.menu %}
+            <li class="nav-dropdown-mobile">
+                <a href="{{ mitem.url }}" >
+                    {% if mitem.icon %}<i class="fa fa-{{ mitem.icon }}"></i>{% endif %}
+                    {{ mitem.text }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+    
+  </div>
+
+</div>
+
+<div id="nav-links">
+  <a href="/about">About</a> | 
+  <a href="/academics">Academics</a> |
+  <a href="/activities">Activities</a> 
+</div>
+
+<div id="nav-nyuad">
+  <a href="https://nyuad.nyu.edu"><img  src="user/pages/images/icons/primary-logo-black.png" id="nyuad-logo" class="img-fluid" ></a>
+</div>
+
+
+
+{#  
+    Loop through all active pages and construct a dropdown menu
+    Useful as a quicklinks bar
+#}
+{% macro loop(page) %}
+    {% for p in page.children.visible %}
+        {% set current_page = (p.active or p.activeChild) ? 'selected' : '' %}
+        {% if p.children.visible.count > 0 %}
+            <li class="has-children {{ current_page }}">
+                <a href="{{ p.url }}">
+                    {% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
+                    {{ p.menu }}
+                </a>
+                <ul>
+                    {{ _self.loop(p) }}
+                </ul>
+            </li>
+        {% else %}
+            <li class="{{ current_page }}">
+                <a href="{{ p.url }}">
+                    {% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
+                    {{ p.menu }}
+                </a>
+            </li>
+        {% endif %}
+    {% endfor %}
+{% endmacro %}
