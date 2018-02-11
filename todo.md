@@ -1,20 +1,22 @@
 # Immediate next steps
 
-- [RE: subpages] 'Sectionalise' pages so, for example, activities can have a workshops section and an events section
+- Condsider a static subdomain (static.nyuad.im?) for p5 sketches and plain html.
+
+# Future goals
 
 - [RE: Quicklinks] Add a 'contact' link that activates 'Particitpation' overlay
 
-- [RE: overlays] Take a second look at 'get in touch' page; could use another pass for layout
-
 - [RE: overlays - images] Add loading icon to images, or find faster way to load images
 
-# Future goals
+- [RE: subpages] 'Sectionalise' pages so, for example, activities can have a workshops section and an events section
 
 - [RE: Posting to Activities page] Incorporate Google Apps CMS to allow easy update posts events page
 
 - [RE: Quickinks dropdown] add nested dropdowns for individual class links (for now a separate page will have to do)
 
-- Horizontally scrollable images in overlay so no info is lost on small screens
+- [RE: overlays] Take a second look at 'get in touch' page; could use another pass for layout
+
+- Horizontally scrollable images in overlay so no info is lost on small screens?
 
 - Add link to github workshops
 
@@ -27,7 +29,9 @@
 
 ## Completed
 
-- [RE: REsponsiveness] Responsive Header: Turn 'About|Academics|Activities' into a drop down menu below certain widths.
+-[RE: CMS] Port site to Grav, a flat-file cms with full-featured admin panel
+
+- [RE: Responsiveness] Responsive Header: Turn 'About|Academics|Activities' into a drop down menu below certain widths.
 
 - [RE: Responsiveness] Update responsiveness
   - Actionable buttons section needs to be changed for portrait screens
