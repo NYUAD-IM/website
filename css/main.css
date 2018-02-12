@@ -32,7 +32,7 @@ body{
 /*HEADER*/
 
 #header-container{
-	z-index: 3;
+	z-index: 2;
 	background-color: var(--main-colour);
 
 	height: 5%;
@@ -42,13 +42,6 @@ body{
 	justify-content: space-between;
 
 	border-bottom: 3px solid black;
-
-}
-
-#nav-links{
-	width: 50%;
-
-	display: none;
 
 }
 

@@ -1,5 +1,28 @@
-#nav-dropdown-container{
-	z-index: 3;
+.nav-nyuad{
+	z-index: 2;
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	float: right;
+
+	border-bottom: 3px solid black;
+}
+
+.nyuad-logo{
+	min-width: 136px;
+	min-height: 50px;
+
+	height: 5vh;
+	width: auto;
+}
+
+.nyuad-logo:hover{
+	cursor: pointer;
+}
+
+.nav-dropdown-container{
+    z-index: 3;
 
     width: 75%;         /*When screen is small, middle section disappears so header becomes 2 elements, not 3 */
     height: 100%;
@@ -7,15 +30,15 @@
 
 }
 
-#nav-dropdown{
+.nav-dropdown{
 
-    width: auto;       /*Size of 'IM' + down arrow */
+    width: 80%;       /*Size of 'IM' + down arrow */
     height: 100%;       /*Height fills header bar*/
     position: relative;
 
 }
 
-#nav-dropdown-btn{
+.nav-dropdown-btn{
     /*background: var(--main-colour);   << Disable this to keep IM logo highlighted during dropdown */
 
     padding: 0;
@@ -33,20 +56,20 @@
   font-weight: bold;
 }
 
-#nav-dropdown-btn:hover{
+.nav-dropdown-btn:hover{
 
     background: var(--secondary-colour);
 
 }
 
-#nav-dropdown:hover{
+.nav-dropdown:hover{
 
     background: var(--secondary-colour);
 
 }
 
 /*Setup style of drop down menu, but do not display yet*/
-#nav-dropdown-list{
+.nav-dropdown-list{
 
     background: var(--main-colour);
 
@@ -54,48 +77,48 @@
     border: none;
     padding: 0px;
     margin: 0px;
+    width: auto;
 
     font-size: 1.2em;
     text-align: center;
 
     list-style-type: none;
-    display: none;
+    display: block;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.2s ease-in-out;
 }
 
 
-#nav-dropdown-list li{
+.nav-dropdown-list li{
 
     background: var(--main-colour);
     padding: 5px 10px;
+    display: inline-block;
 
 }
 
-#nav-dropdown-list li:hover{
+.nav-dropdown-list li:hover{
 
     background: var(--secondary-colour);
     cursor: pointer;
 
 }
 
-#nav-dropdown-list a{
+.nav-dropdown-list a{
 
     text-decoration: none;
     color: var(--dark-colour);
 
 }
 
-/*Display the child list elements when hovered*/
-#nav-dropdown:hover > #nav-dropdown-list{
-
-    display: inline-block;
-
-}
-
-
-
 @media  (min-width: 768px) {
 
-    #nav-dropdown-container{
+    .nav-dropdown-container{
 
             width: 50%;
             height: 100%;

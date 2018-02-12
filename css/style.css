@@ -84,7 +84,7 @@ body{
 
 }
 
-#nav-nyuad{
+.nav-nyuad{
 	z-index: 1;
 	width: 50%;
 	display: flex;
@@ -92,13 +92,13 @@ body{
 	align-items: center;
 }
 
-#nyuad-logo{
+.nyuad-logo{
 	/*Aspect of nyuad logo is 700:256 (~2.73:1, so at min heigh of 50 min width is 136)*/
 	min-width: 136px;
 	min-height: 50px;
 }
 
-#nyuad-logo:hover{
+.nyuad-logo:hover{
 	/*Aspect of nyuad logo is 700:256 (~2.73:1, so at min heigh of 50 min width is 136)*/
 	min-width: 136px;
 	min-height: 50px;
@@ -288,6 +288,26 @@ canvas{
 
 }
 
+/*FOOTER*/
+
+#footer-container{
+	z-index: 3;
+	position:fixed;
+	bottom:0px;
+	right: 0px;
+	left:0px;
+
+	background: white;
+
+	height: 2vh;
+	font-size: 1em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	padding: 20px;
+}
+
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { ... }
@@ -320,7 +340,7 @@ canvas{
 	}
 
 
-	#nav-nyuad{
+	.nav-nyuad{
 
 		width: 25%;
 
