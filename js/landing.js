@@ -44,10 +44,11 @@ let descriptionToggle = () => {
 let experienceToggle = () => {
 	let el = $('#description-center')
 	if(el.css('opacity') == 0){
-		el.css('opacity', 1)
-		el.css('top', '10%')
+		document.getElementById('description-center').style.opacity = 1
+		setTimeout(() => {
+			window.location = '/about'
+		}, 2000)
 	}else{
 		el.css('opacity', 0)
-		el.css('top', '80%')
 	}
 }

@@ -63,28 +63,6 @@ body{
 
 }
 
-/*ABOUT | ACADEMICS | ACTIVITIES */
-
-#nav-links a{
-	text-decoration: none;
-	color: var(--dark-colour);
-	padding: 0 20px;
-	font-size: 1.2em;
-	font-weight: 400;
-
-	height: 100%;
-	display: flex;
-	align-items: center;
-}
-
-#nav-links a:hover{
-
-	background: var(--secondary-colour);
-	/*font-weight: 600;	 << Experimental font weight change. Doesn't look too good.	*/
-
-}
-
-
 .img-fluid{
 	width: auto;
 	max-height: 5vh;
@@ -218,18 +196,17 @@ canvas{
 /* DESCRIPTIONS */
 
 .description-center{
-	font-size: 4em;
-	min-width: 100px;
-	min-height: 100px;
-	width: 4%;
-	height: 80%;
+	z-index: 4;
+	display: block;
 	position: absolute;
-	top: 80%;
-	left: 48%;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	top: 0;
+	left: 0;
 	background-color: white;
-	text-align: center;
-
-	transition: top 0.2s linear;
+	opacity: 0;
+	transition: opacity 0.9s linear;
 }
 
 .description-left, .description-right{

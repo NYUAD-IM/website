@@ -7,16 +7,19 @@
 
         <!-- Main logo -->
 	<div class="nav-dropdown-btn" onclick='showNavigation()'>
-         <img src="./media/icons/down-arrow.png" width="15" height="15" ><div class="im-logo" id='nav-im' >INTERACTIVE MEDIA</div>
+		<img src="./media/icons/down-arrow.png" width="15" height="15" ><div class="im-logo" id='nav-im' >
+			I<span class="color-shift 0">N</span><span class="color-shift 3">T</span><span class="color-shift 4">E</span><span class="color-shift 5">R</span><span class="color-shift 4">A</span><span class="color-shift 2">C</span><span class="color-shift 1">T</span><span class="color-shift 5">I</span><span class="color-shift 0">V</span><span class="color-shift 2">E</span> <span class="color-shift 1">M</span><span class="color-shift 5">E</span><span class="color-shift 2">D</span><span class="color-shift 0">I</span>A
+		</div>
         </div>
 
 	<!-- Dropdown list items -->
 	<ul class='nav-dropdown-list' id='nav-dropdown-list'>
-		<li class='nav-dropdown-mobile'><a href='/about'>About</a></li>
-		<li class='nav-dropdown-mobile'><a href='/academics'>Academics</a></li>
-		<li class='nav-dropdown-mobile'><a href='/activities'>Activities</a></li>
-		<li class='nav-dropdown-mobile'><a href='/people'>People</a></li>
-      		<li class='nav-dropdown-mobile'><a href='/opportunities'>Opportunities</a></li>
+		<li class='nav-dropdown-mobile'><a href='/about' onmouseenter='changeColor(this, "orange", 0)' onmouseleave='resetColor(this)'>About</a></li>
+		<li class='nav-dropdown-mobile'><a href='/academics' onmouseenter='changeColor(this, "teal", 1)' onmouseleave='resetColor(this)'>Academics</a></li>
+		<li class='nav-dropdown-mobile'><a href='/activities' onmouseenter='changeColor(this, "grey", 2)' onmouseleave='resetColor(this)'>Activities</a></li>
+		<li class='nav-dropdown-mobile'><a href='/people' onmouseenter='changeColor(this, "pink", 3)' onmouseleave='resetColor(this)'>People</a></li>
+      		<li class='nav-dropdown-mobile'><a href='/opportunities' onmouseenter='changeColor(this, "green", 4)' onmouseleave='resetColor(this)'>Opportunities</a></li>
+		<li class='nav-dropdown-mobile'><a href='/lab' onmouseenter='changeColor(this, "yellow", 5)' onmouseleave='resetColor(this)'>Lab</a></li>
 	</ul>
 
       </div>

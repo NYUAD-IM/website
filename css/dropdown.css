@@ -1,3 +1,5 @@
+/* NYUAD LOGO LEFT */
+
 .nav-nyuad{
 	z-index: 2;
 	width: 50%;
@@ -21,6 +23,8 @@
 	cursor: pointer;
 }
 
+/* DROPDOWN */
+
 .nav-dropdown-container{
     z-index: 3;
 
@@ -39,8 +43,6 @@
 }
 
 .nav-dropdown-btn{
-    /*background: var(--main-colour);   << Disable this to keep IM logo highlighted during dropdown */
-
     padding: 0;
 
     height: 100%;           /*Height fills header bar*/
@@ -49,29 +51,26 @@
     cursor: pointer;
 
     text-align: center center;
+    transition: color 0.3s linear;
+}
+
+.color-shift{
+	transition: color 0.2s ease-in-out;
+	padding: 0;
+	margin: 0;
 }
 
 .im-logo {
   font-size: 2.5em;
   font-weight: bold;
+
+  transition: color 0.2s linear;
 }
 
-.nav-dropdown-btn:hover{
-
-    background: var(--secondary-colour);
-
-}
-
-.nav-dropdown:hover{
-
-    background: var(--secondary-colour);
-
-}
 
 /*Setup style of drop down menu, but do not display yet*/
 .nav-dropdown-list{
-
-    background: var(--main-colour);
+    background: white;
 
     position:absolute;
     border: none;
@@ -95,25 +94,22 @@
 
 
 .nav-dropdown-list li{
-
-    background: var(--main-colour);
     padding: 5px 10px;
     display: inline-block;
+
+    transition: color 0.3s linear;
 
 }
 
 .nav-dropdown-list li:hover{
-
-    background: var(--secondary-colour);
     cursor: pointer;
-
 }
 
 .nav-dropdown-list a{
-
+    width: 100%;
+    color: black;
     text-decoration: none;
-    color: var(--dark-colour);
-
+    transition: color 0.3s linear;
 }
 
 @media  (min-width: 768px) {

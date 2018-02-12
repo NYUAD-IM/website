@@ -16,3 +16,14 @@ let showNavigation = () => {
 		$('#nav-dropdown-list').css('height', '0px');
 	}
 }
+
+let changeColor = (el, color, index) => {
+
+	el.style.color = color;
+	$('.'+index).css('color', color);
+}
+
+let resetColor = (el) => {
+	$('.color-shift').css('color', 'black')
+	el.style.color = 'black'
+}
