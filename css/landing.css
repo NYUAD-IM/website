@@ -7,66 +7,11 @@
 	For style related to the overlays, see overlay.css.
 */
 
-/*GENERAL*/
+body {
 
-body{
-
-	font-family: 'Source Sans Pro', monospace;
-
-	/*Colour scheme. This one is GRAY-t (geddit)*/
-	--main-colour: #f2f4f3;
-	--secondary-colour: #ced3dc;
-	--light-colour: #fcf7f8;
-	--dark-colour:#0a0908;
-
-	--link-colour:#a31621;
-
-	color: var(--dark-colour);
-	background-color: var(--main-colour);
-	/*#b0b5b3*/
-	/*#dbdbdb*/
-	/*--main-colour: #eee;
-	--secondary-colour: #aaa;
-	--light-colour: #FFF;
-	--dark-colour:#111;
-
-	--link-colour:#a3b;
-	*/
-	color: var(--dark-colour);
-	z-index: 3;
-
-	height:100%;
-	width:100%;
 	overflow: hidden;
 }
 
-/*HEADER*/
-
-#header-container{
-	z-index: 3;
-	background-color: var(--main-colour);
-
-	height: 5%;
-
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-
-	border-bottom: 3px solid black;
-
-}
-
-#nav-links{
-	width: 50%;
-
-	display: none;
-
-}
-
-.img-fluid{
-	width: auto;
-	max-height: 5vh;
-}
 
 /*SKETCH*/
 
@@ -245,69 +190,11 @@ canvas{
 
 }
 
-/*FOOTER*/
-
-#footer-container{
-	z-index: 3;
-	position:fixed;
-	bottom:0px;
-	right: 0px;
-	left:0px;
-
-	background: white;
-
-	height: 2vh;
-	font-size: 1em;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-	padding: 20px;
-}
-
-
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { ... }
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-
-	#header-container{
-		background-color: white;
-		z-index: 3;
-		height: 5vh;
-		min-height: 50px;
-
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-	}
-
-
-	#nav-links{
-
-		display: flex;
-		align-items: center;
-		justify-content: center;
-
-	}
-
-	#nav-links a{
-		padding: 0 30px;
-	}
-
-
-	.nav-nyuad{
-
-	}
-
-
-	.img-fluid{
-
-		width: auto;
-		max-height: 5vh;
-
-	}
 
 	/*SKETCH*/
 
