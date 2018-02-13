@@ -2,9 +2,9 @@ $(document).ready(function(){
 	console.log("Welcome to IM!");
 
     	//Inject resusable HTML
-    	$('#header-container').load('/html/navigation.html');
-    	$('#footer-container').load('/html/footer.html');
-    
+    	$('#header-container').load(path_prefix+'html/navigation.html');
+    	$('#footer-container').load(path_prefix+'html/footer.html');
+
 });
 
 let showNavigation = () => {

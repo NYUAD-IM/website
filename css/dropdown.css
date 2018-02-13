@@ -62,6 +62,7 @@
 
 .nav-dropdown-btn{
     padding: 0;
+		padding-left: 10px;
 
     height: 100%;           /*Height fills header bar*/
     display: flex;          /*flexbox to center IM logo and arrow icon*/
@@ -70,6 +71,11 @@
 
     text-align: center center;
     transition: color 0.3s linear;
+}
+
+.nav-dropdown-btn a, .nav-dropdown-btn a:hover {
+	color: black;
+	text-decoration: none;
 }
 
 .color-shift{
@@ -81,6 +87,8 @@
 .im-logo {
   font-size: 2.5em;
   font-weight: bold;
+
+	padding-left: 20px;
 
   transition: color 0.2s linear;
 }
