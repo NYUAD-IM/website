@@ -54,7 +54,7 @@
 
 .nav-dropdown{
 
-    width: 80%;       /*Size of 'IM' + down arrow */
+    width: 100%;       /*Size of 'IM' + down arrow */
     height: 100%;       /*Height fills header bar*/
     position: relative;
 

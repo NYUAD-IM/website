@@ -59,8 +59,8 @@ canvas{
 	height: calc((100vh - 50px)* 0.48);
 
 	display: flex;
-    	flex-direction: column;
-    	justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-around;
 	outline: 3px solid black;
 
 	background-color: white;
@@ -84,7 +84,7 @@ canvas{
 
 	/*color: var(--light-colour);*/
 
-	border: 5px solid black;
+	border: 3px solid black;
 }
 
 .button-center{
@@ -94,8 +94,11 @@ canvas{
 
 .action-button{
 
-	width: 100%;
+	width: 80%;
+	margin-left: 10%;
 	height: 10%;
+
+	font-size: 1.6em;
 
 	min-height: 50px;
 	min-width: 175px;
@@ -155,10 +158,10 @@ canvas{
 }
 
 .description-left, .description-right{
-	font-size: 1.2em;
+	font-size: 1em;
 	background-color: none;
 	position: absolute;
-	line-height: 1.8em;
+	line-height: 1.4em;
 	display: none;
 	opacity: 0;
 	transition: opacity 0.3s linear;
@@ -166,7 +169,7 @@ canvas{
 }
 
 .description-left{
-	top: 25%;
+	top: 15%;
 	left: 0;
 	background-color: transparent;
 	z-index: 4;
@@ -179,7 +182,7 @@ canvas{
 }
 
 .description-right{
-	top: 15%;
+	top: 18%;
 	right: 0;
 	background-color: transparent;
 	z-index: 4;
@@ -235,8 +238,8 @@ canvas{
 
 	.action-button{
 
-		width: auto;
-		height: auto;
+		/* width: auto;
+		height: 100%;
 		display: inline-block;
 		margin: auto;
 
@@ -250,7 +253,7 @@ canvas{
 		justify-content: center;
 		align-items: center;
 
-		font-size: 2em;
+		font-size: 1.6em; */
 
 	}
 
