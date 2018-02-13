@@ -37,6 +37,11 @@ body{
 	max-height: 5vh;
 }
 
+.page-title{
+	text-align: center;
+	font-size: 4em;
+}
+
 /*FOOTER*/
 
 #footer-container{

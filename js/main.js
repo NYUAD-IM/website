@@ -2,8 +2,8 @@ $(document).ready(function(){
 	console.log("Welcome to IM!");
 
     	//Inject resusable HTML
-    	$('#header-container').load(path_prefix+'html/navigation.html');
-    	$('#footer-container').load(path_prefix+'html/footer.html');
+    	$('#header-container').load('/website/html/navigation.html');
+    	$('#footer-container').load('/website/html/footer.html');
 
 });
 
