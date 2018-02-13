@@ -18,7 +18,7 @@
 
 }
 
-/* NYUAD LOGO LEFT */
+/* NYUAD LOGO RIGHT */
 
 .nav-nyuad{
 	z-index: 2;
@@ -46,7 +46,7 @@
 .nav-dropdown-container{
     z-index: 3;
 
-    width: 75%;         /*When screen is small, middle section disappears so header becomes 2 elements, not 3 */
+    width: 100%;         /*When screen is small, middle section disappears so header becomes 2 elements, not 3 */
     height: 100%;
     padding: 0px;
 
@@ -153,7 +153,7 @@
 
     .nav-dropdown-container{
 
-            width: 50%;
+            width: 70%;
             height: 100%;
 
             display: flex;
