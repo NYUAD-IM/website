@@ -46,48 +46,49 @@
         <div class="page-container">
 
         <h1 class="page-title">ACADEMICS</h1>
-
-	<div class="left-align fall-container">
-		<div class="semester-title">FALL</div>
-		<div class="courses-container" id="fall-requirements"></div>
-		<div class="courses-container" id="fall-electives"></div>
-		<div class="courses-container" id="fall-crosslisted"></div>
+	
+	<div class="semesters">
+	  <div class="left-align fall-container">
+		  <div class="semester-title">FALL</div>
+		  <div class="courses-container" id="fall-requirements"></div>
+		  <div class="courses-container" id="fall-electives"></div>
+		  <div class="courses-container" id="fall-crosslisted"></div>
+	  </div>
+  
+	  <div class="right-align spring-container">
+		  <div class="semester-title">SPRING</div>
+		  <div class="courses-container" id="spring-requirements"></div>
+		  <div class="courses-container" id="spring-electives"></div>
+		  <div class="courses-container" id="spring-crosslisted"></div>
+	  </div>
 	</div>
-
-	<div class="right-align spring-container">
-		<div class="semester-title">SPRING</div>
-		<div class="courses-container" id="spring-requirements"></div>
-		<div class="courses-container" id="spring-electives"></div>
-		<div class="courses-container" id="spring-crosslisted"></div>
-	</div>
-
-	<div class="left-align january-container">
-		<div class="semester-title">JANUARY</div>
-		<div class="courses-container" id="january-requirements"></div>
-		<div class="courses-container" id="january-electives"></div>
-		<div class="courses-container" id="january-crosslisted"></div>
-	</div>
-
-	<div class="right-align june-container">
-		<div class="semester-title">JUNE</div>
-		<div class="courses-container" id="june-requirements"></div>
-		<div class="courses-container" id="june-electives"></div>
-		<div class="courses-container" id="june-crosslisted"></div>
+	<div class="semesters">
+	  <div class="left-align january-container">
+		  <div class="semester-title">JANUARY</div>
+		  <div class="courses-container" id="january-requirements"></div>
+		  <div class="courses-container" id="january-electives"></div>
+		  <div class="courses-container" id="january-crosslisted"></div>
+	  </div>
+  
+	  <div class="right-align june-container">
+		  <div class="semester-title">JUNE</div>
+		  <div class="courses-container" id="june-requirements"></div>
+		  <div class="courses-container" id="june-electives"></div>
+		  <div class="courses-container" id="june-crosslisted"></div>
+	  </div>
 	</div>
 
 	</div>
 	<div class="container-fluid filter-container">
 		<div class="button-center">
-			<button onclick='filter(this)' class="filter-button">COMPUTATIONAL MEDIA</button>
+			<button onclick='filter(this, "computational-media")' class="filter-button comp-med-btn">COMPUTATIONAL MEDIA</button>
 		</div>
 		<div class="button-center">
-			<button onclick='filter(this)' class="filter-button">PHYSICAL COMPUTING</button>
+			<button onclick='filter(this, "physical-computing")' class="filter-button pcomp-btn">PHYSICAL COMPUTING</button>
 		</div>
 		<div class="button-center">
-			<button onclick='filter(this)' class="filter-button">MEDIA & DESIGN THINKING</button>
+			<button onclick='filter(this, "media-and-design-thinking")' class="filter-button mdt-btn">MEDIA & DESIGN THINKING</button>
 		</div>
-		
-
     </div>
 
       <div class="container-fluid" id="footer-container">

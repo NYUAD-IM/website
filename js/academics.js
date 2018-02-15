@@ -18,81 +18,164 @@ let populate = (d) => {
 let addElement = (_course) => {
 
 	for(let term of _course.terms){
-
-	let track = ""
-	let offered = ""
-	let _track = _course.track
-	if(_track == "Foundation"
-	  || _track == "Computational Media"
-	  || _track == "Physical Computing"
-	  || _track == "Media & Design Thinking"){
-		track = _course.track.toLowerCase().split(' ').join('-')
-		track = track.replace('&', 'and')
-	  }
 	
-	if(_course.currently_offered)
-		offered = "offered"
+		let course = document.createElement('div')
 
-	let cluster = "" //whether requirement, elective, or none
-	if(_course.title == "Introduction to Interactive Media" || _course.title == "Communications Lab" || _course.title == "Communication & Technology" || _course.title == "Capstone Seminar" || _course.title == "Capstone Project")
-		cluster = "requirements"
-	else if(track != "") //if track is either CompMed, PComp or MDT:
-		cluster = "electives"
-	else
-		cluster = "crosslisted"
-
-	let course = document.createElement('div')
-	course.setAttribute('class', ['course-container ', track, cluster, offered].join(' '))
-	console.log(course.getAttribute('class'));
-
-	let _t = createEl('div', 'course-title', _course.title)
-	course.appendChild(_t)
-
-	let _n = createEl('div', 'course-number', _course.number)
-	course.appendChild(_n)
-
-	let _p = createEl('div', 'course-program', _course.program)
-	course.appendChild(_p)
-
-	let _tr = createEl('div', 'course-track', _course.track)
-	course.appendChild(_tr)
-
-	let _i = createEl('div', 'course-instructors', '')
-	for(let instructor of _course.instructors)
-		_i.innerText += instructor+' / '
-	course.appendChild(_i)	
-
-	let _te = createEl('div', 'course-terms', '')
-	for(let term of _course.terms)
-		_te.innerText += term + ' -'
-	course.appendChild(_te)
-
-	if(_course.link != ""){
-		let _l = createEl('a', 'course-link', 'course website')
-		_l.src = _course.link
-		course.appendChild(_l)
-	}
-
-	let _ds = createEl('div', 'course-desc-short', _course.description.short)
-	course.appendChild(_ds)
-
-	let _dl = createEl('div', 'course-desc-long', _course.description.long)
-	course.appendChild(_dl)
+		let track = ""
+		let offered = ""
+		let _track = _course.track
+		if(_track == "Foundation"
+	  	|| _track == "Computational Media"
+	  	|| _track == "Physical Computing"
+	  	|| _track == "Media & Design Thinking"){
+			track = _course.track.toLowerCase().split(' ').join('-')
+			track = track.replace('&', 'and')
+	  	}
+		
+		if(!_course.currently_offered)
+			offered = "not-offered"
 	
-	let _ta = createEl('div', 'course-tags', '')
-	for(let tag of _course.tags)
-		_ta.innerText += tag + " |"
-	course.appendChild(_ta)
+		let cluster = "" //whether requirement, elective, or none
+		if(_course.title == "Introduction to Interactive Media" || _course.title == "Communications Lab" || _course.title == "Communication & Technology" || _course.title == "Capstone Seminar" || _course.title == "Capstone Project")
+			cluster = "requirements"
+		else if(track != "") //if track is either CompMed, PComp or MDT:
+			cluster = "electives"
+		else
+			cluster = "crosslisted"
+	
+		course.setAttribute('class', ['course-container ', track, cluster, offered].join(' '))
+		course.setAttribute('track', track)
+	
+		let _t = createEl('div', 'course-title', _course.title)
+		course.appendChild(_t)
+	
+		let _n = createEl('div', 'course-number', _course.number)
+		course.appendChild(_n)
+	
+		let _p = createEl('div', 'course-program', _course.program)
+		course.appendChild(_p)
+	
+		let _ds = createEl('div', 'course-desc-short', _course.description.short)
+		course.appendChild(_ds)
+	
+		let _divider = document.createElement('hr')
+		course.append(_divider)
+	
+		let expand_container = createEl('div', 'expand-container')
+	
+		/*
+		let _tr = createEl('div', 'course-track', _course.track)
+		course.appendChild(_tr)
+		*/
+		let _i = createEl('div', 'course-instructors', '')
+		_i.innerText = _course.instructors.join(' & ')
+		expand_container.appendChild(_i)	
+	
+		/*
+		let _te = createEl('div', 'course-terms', '')
+		for(let term of _course.terms)
+			_te.innerText += term + ' -'
+		course.appendChild(_te)
+		*/
+	
+		if(_course.link != ""){
+			let _l = createEl('a', 'course-link', 'course website')
+			_l.setAttribute('href', _course.link)
+			expand_container.appendChild(_l)
+		}
+	
+		let _dl = createEl('div', 'course-desc-long', _course.description.long)
+		expand_container.appendChild(_dl)
+		
+		let _ta = createEl('div', 'course-tags', '')
+		for(let tag of _course.tags)
+			_ta.innerText += tag + " |"
+		expand_container.appendChild(_ta)
+		expand_container.expanded = "false"
+	
+		course.appendChild(expand_container)
+		course.setAttribute('onclick', 'expand(this)')
 
-	//concat the track+semester to add the class(foundation, elective, cross-listed) + (fall, spring, etc)
-		document.getElementById(term.toLowerCase()+'-'+cluster).appendChild(course)
+		//concat the track+semester to add the class(foundation, elective, cross-listed) + (fall, spring, etc)
+			document.getElementById(term.toLowerCase()+'-'+cluster).appendChild(course)
 	}
 }
 
 let createEl = (_type, _class, _content) => {
 	let el = document.createElement(_type)
 	el.setAttribute('class', _class)
+	if(_content != undefined)
 	el.innerText = _content
 
 	return el
+}
+
+let expand = (el) => {
+	let ex = el.children[5]
+	if(ex.style.height == '200px'){
+		ex.style.height = '0px';
+		ex.style.overflow = 'hidden'
+	}else{
+		ex.style.height = '200px'
+		ex.style.overflow = 'scroll'
+	}
+}
+
+let filters = {
+	"computational-media": false,
+	"physical-computing": false,
+	"media-and-design-thinking": false
+}
+
+let filter = (_el, _tag) => {
+
+	filters[_tag] = !filters[_tag]
+
+	if(_el.style.border == '3px solid black')
+		console.log('we outthere');
+	//button feedback
+	/*
+	let btns = document.getElementsByClassName('filter-button')
+	for(let btn of btns){
+		btn.style.border = '3px solid white'
+		btn.style.transform = 'translateY(0px)'
+		btn.style.backgroundColor = 'white'
+	}
+	*/
+        if(filters[_tag]){
+		_el.style.transform = 'translateY(-'+(_el.getBoundingClientRect().height)+'px)'
+		_el.style.border = '3px solid black'
+		_el.style.borderBottom = 'none'
+
+		if(_tag == 'computational-media') _el.style.backgroundColor= 'lightgreen'
+		if(_tag == 'physical-computing') _el.style.backgroundColor= 'pink'
+		if(_tag == 'media-and-design-thinking') _el.style.backgroundColor= 'lightblue'
+
+	}else{
+		_el.style.border = '3px solid white'
+		_el.style.transform = 'translateY(0px)'
+		_el.style.backgroundColor = 'white'
+	}
+
+
+	//filter elements
+
+	let courses = document.getElementsByClassName('course-container')
+	for(let course of courses)
+		course.style.opacity = '0.2'
+	
+	let nofilter = true
+	for(let tag in filters){
+		if(filters[tag]){
+			nofilter = false
+			for(let course of courses){
+				if(course.getAttribute('track') == tag)
+					course.style.opacity = '1'
+			}
+		}
+	}
+
+	if(nofilter)
+		for(let course of courses)
+			course.style.opacity = '1'
 }

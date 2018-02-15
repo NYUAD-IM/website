@@ -5,20 +5,29 @@
 .left-align{
 	float: left;
 	padding-right: 4%;
-	border-right: 3px solid black;
 }
 
 .right-align{
 	float: right;
 	padding-left: 4%;
-	border-left: 3px solid black;
 	text-align: right;
 }
 
-.semester-title {
-	font-size: 2em;
+.semesters {
+	width: 100%;
+	float: left;
+	height: auto;
+	margin-bottom: 60px;
 }
 
+.semester-title {
+	font-size: 2.4em;
+	font-weight: bold;
+
+	margin-bottom: 5%
+}
+
+/** BUTTONS **/
 
 .filter-container{
 	position: fixed;
@@ -46,26 +55,14 @@
 
 	background-color: white;
 
-	border-radius: 50px;
-	border: 5px solid white;
+	border-bottom: 9px solid white;
 	padding: 8px;
-
-	transition: border 0.1s linear;
-}
-
-.filter-container button:hover{
-
-	/*color: var(--light-colour);*/
-
-	border: 3px solid black;
-}
-
-.button-center{
-	width: 30%;
-	height: auto;
 }
 
 .filter-button{
+
+	position: relative;
+	top: 0;
 
 	width: 80%;
 	margin-left: 10%;
@@ -74,62 +71,154 @@
 	min-height: 50px;
 	min-width: 175px;
 
-	border-color: black;
-	border-style: solid;
+	border: none;
 
 	display: flex;
 	justify-content: center;
 	align-items: center;
 
 	cursor: pointer;
+
+	transform: translateY(0px);
+}
+
+.filter-button, .comp-med-btn, .pcomp-btn, .mdt-btn {
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+}
+
+
+.filter-container .comp-med-btn:hover{
+	border-bottom: 9px solid lightgreen;
+}
+
+
+.filter-container .pcomp-btn:hover{
+	border-bottom: 9px solid pink;
+}
+
+.filter-container .mdt-btn:hover{
+	border-bottom: 9px solid lightblue;
+}
+
+.button-center{
+	width: 30%;
+	height: auto;
 }
 
 
 /** COURSES STYLING **/
+
+hr {
+	height: 3px;
+	border: none;
+	background-color: black;
+}
+
+.not-offered {
+	opacity: 0.5
+}
+
 .course-container{
-	height: 50px;
+	height: auto;
 	overflow: hidden;
 	width: 100%;
 	border: 3px-solid-black;
 	margin-bottom: 30px;
+	padding: 10px;
+
+	cursor: pointer;
+
+	transition: opacity 0.2s linear;
 }
 
 
 .course-title {
 	font-size: 1.3em;
+	font-weight: bold;
+	width: 75%;
+}
+
+.course-number {
+	width: 25%;
+}
+
+.course-link {
+	font-weight: bold;
+}
+
+.expand-container {
+	height: 0;
+	overflow: hidden;
+	transition: height 0.2s ease-in-out;
+}
+
+.course-instructors, .course-link{
+	width: 40%;
+}
+
+.course-desc-long, .course-tags {
+	text-align: justify;
+	float: left;
 	width: 100%;
+	margin-top: 10px;
 }
 
-.left-align .course-title {
+.course-desc-long {
+	font-style: italic;
+}
+
+.left-align .course-title, .left-align .course-instructors {
 	float: left;
 }
 
-.left-align .course-number {
+.left-align .course-number, .left-align .course-link {
 	float: right;
+	text-align: right;
 }
 
-.right-align .course-number {
+.right-align .course-number , .right-align .course-link{
 	float: left;
+	text-align: left;
 }
 
-.right-align .course-title{
+.right-align .course-title, .right-align .course-instructors {
 	float: right;
 }
 
 /** TRACKS STYLING **/
 
 .requirements {
+	border: 3px solid black;
+}
+
+.requirements .course-number {
 	background-color: orange;
 }
 
 .computational-media {
-	background-color: teal;
+	border: 3px solid black;
+}
+
+.computational-media .course-number {
+	background-color: lightgreen;
 }
 
 .physical-computing {
+	border: 3px solid black;
+}
+
+.physical-computing .course-number {
 	background-color: pink;
 }
 
 .media-and-design-thinking {
+	border: 3px solid black;
+}
+
+.media-and-design-thinking .course-number{
 	background-color: lightblue;
 }
