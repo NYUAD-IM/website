@@ -1,15 +1,16 @@
-.fall-container, .spring-container {
-	width: 50%;
-	padding-left: 4%;
-	padding-right: 4%;
+.left-align, .right-align{
+	width: 45%;
 }
 
-.fall-container {
+.left-align{
 	float: left;
+	padding-right: 4%;
+	border-right: 3px solid black;
 }
 
-.spring-container {
+.right-align{
 	float: right;
+	padding-left: 4%;
 	border-left: 3px solid black;
 	text-align: right;
 }
@@ -20,7 +21,7 @@
 
 
 .filter-container{
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	top: 80%;
 	z-index: 3;
@@ -81,4 +82,54 @@
 	align-items: center;
 
 	cursor: pointer;
+}
+
+
+/** COURSES STYLING **/
+.course-container{
+	height: 50px;
+	overflow: hidden;
+	width: 100%;
+	border: 3px-solid-black;
+	margin-bottom: 30px;
+}
+
+
+.course-title {
+	font-size: 1.3em;
+	width: 100%;
+}
+
+.left-align .course-title {
+	float: left;
+}
+
+.left-align .course-number {
+	float: right;
+}
+
+.right-align .course-number {
+	float: left;
+}
+
+.right-align .course-title{
+	float: right;
+}
+
+/** TRACKS STYLING **/
+
+.requirements {
+	background-color: orange;
+}
+
+.computational-media {
+	background-color: teal;
+}
+
+.physical-computing {
+	background-color: pink;
+}
+
+.media-and-design-thinking {
+	background-color: lightblue;
 }

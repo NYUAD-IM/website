@@ -31,7 +31,7 @@
   <!-- Custom JS -->
   <script> const TARGET_URL = '/website/resources/data/academics.json' </script>
   <script type="text/javascript" src="/website/js/main.js"></script>
-  <script type="text/javascript" src="/website/js/populate.js"></script>
+  <script type="text/javascript" src="/website/js/fetch.js"></script>
   <script type="text/javascript" src="/website/js/academics.js"></script>
   <script type="text/javascript" src="/website/js/imagehandler.js"></script>
 
@@ -47,12 +47,32 @@
 
         <h1 class="page-title">ACADEMICS</h1>
 
-	<div class="fall-container">
+	<div class="left-align fall-container">
 		<div class="semester-title">FALL</div>
+		<div class="courses-container" id="fall-requirements"></div>
+		<div class="courses-container" id="fall-electives"></div>
+		<div class="courses-container" id="fall-crosslisted"></div>
 	</div>
 
-	<div class="spring-container">
+	<div class="right-align spring-container">
 		<div class="semester-title">SPRING</div>
+		<div class="courses-container" id="spring-requirements"></div>
+		<div class="courses-container" id="spring-electives"></div>
+		<div class="courses-container" id="spring-crosslisted"></div>
+	</div>
+
+	<div class="left-align january-container">
+		<div class="semester-title">JANUARY</div>
+		<div class="courses-container" id="january-requirements"></div>
+		<div class="courses-container" id="january-electives"></div>
+		<div class="courses-container" id="january-crosslisted"></div>
+	</div>
+
+	<div class="right-align june-container">
+		<div class="semester-title">JUNE</div>
+		<div class="courses-container" id="june-requirements"></div>
+		<div class="courses-container" id="june-electives"></div>
+		<div class="courses-container" id="june-crosslisted"></div>
 	</div>
 
 	</div>
