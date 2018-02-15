@@ -2,7 +2,7 @@ let container
 
 $(document).ready(() => {
 	fetch()
-	container = document.getElementById('academics-container')
+	container = document.getElementById('page-container')
 })
 
 let populate = (d) => {

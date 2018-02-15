@@ -37,6 +37,17 @@ body{
 	max-height: 5vh;
 }
 
+.page-container{
+	width: 80%;
+	margin: 8%;
+	display: block;
+	text-align: justify;
+	background-color: white;
+	border: 3px solid black;
+	padding: 2%;
+	overflow: auto;
+}
+
 .page-title{
 	text-align: center;
 	font-size: 4em;

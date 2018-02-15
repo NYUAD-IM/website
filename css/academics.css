@@ -1,0 +1,84 @@
+.fall-container, .spring-container {
+	width: 50%;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+
+.fall-container {
+	float: left;
+}
+
+.spring-container {
+	float: right;
+	border-left: 3px solid black;
+	text-align: right;
+}
+
+.semester-title {
+	font-size: 2em;
+}
+
+
+.filter-container{
+	position: absolute;
+	width: 100%;
+	top: 80%;
+	z-index: 3;
+
+	display: flex;
+
+	padding: 0;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+
+	background-color: white;
+}
+
+.filter-container button{
+	z-index: 2;
+	text-decoration: none;
+	color: var(--dark-colour);
+
+	background-color: white;
+
+	border-radius: 50px;
+	border: 5px solid white;
+	padding: 8px;
+
+	transition: border 0.1s linear;
+}
+
+.filter-container button:hover{
+
+	/*color: var(--light-colour);*/
+
+	border: 3px solid black;
+}
+
+.button-center{
+	width: 30%;
+	height: auto;
+}
+
+.filter-button{
+
+	width: 80%;
+	margin-left: 10%;
+	font-size: 1.6em;
+
+	min-height: 50px;
+	min-width: 175px;
+
+	border-color: black;
+	border-style: solid;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	cursor: pointer;
+}

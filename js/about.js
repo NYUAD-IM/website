@@ -24,5 +24,4 @@ let expand = (el) => {
 let colorize = (color) => {
 	document.body.onmousemove = null
 	document.body.style.backgroundColor = color
-	console.log(color);
 }
