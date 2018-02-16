@@ -1,3 +1,14 @@
+.activities-container{
+	width: 80%;
+	margin: 8%;
+	display: block;
+	text-align: justify;
+	background-color: white;
+	border: 3px solid black;
+	padding: 2%;
+	overflow: auto;
+}
+
 .activity-row{
 	float: left;
 	width: 100%;
@@ -15,7 +26,8 @@
 .activity-container {
 	position: relative;
 	overflow: hidden;
-	background-color: orange;
+	background-color: white;
+	border: 2px solid black;
 }
 
 .act-left{
@@ -52,9 +64,13 @@
 }
 
 .activity-link a {
-	background-color: black;
+	background-color: white;
 	font-weight: bold;
-	color: white;
+	color: black;
+	
+	padding: 2px;
+	border: 2px solid black;
+	border-bottom: 2px solid white;
 }
 
 .activity-image {
@@ -69,9 +85,13 @@
 	font-size: 1.6em;
 	font-weight: bold;
 	text-align: center;
-	width: 100%;
-	color: white;
-	background-color: black;
+	width: 80%;
+	margin-left: 10%;
+	color: black;
+	background-color: white;
+	border: 2px solid black;
+	border-top: 2px solid white;
+	transform: translateY(-3px);
 }
 
 .note-container {
@@ -85,10 +105,11 @@
 	top: 0;
 	right: 0;
 	margin-left: 40%;
-	width: 20%;
-	height:20%;
+	width: 40px;
+	height: 40px;
 	background-color: black;
 
-	border-radius: 80px;
+	transform: rotate(45deg);
+
 }
 

@@ -101,14 +101,6 @@ let addElement = (_course) => {
 	}
 }
 
-let createEl = (_type, _class, _content) => {
-	let el = document.createElement(_type)
-	el.setAttribute('class', _class)
-	if(_content != undefined)
-	el.innerText = _content
-
-	return el
-}
 
 let expand = (el) => {
 	let ex = el.children[5]

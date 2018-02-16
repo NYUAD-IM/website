@@ -27,3 +27,13 @@ let resetColor = (el) => {
 	$('.color-shift').css('color', 'black')
 	el.style.color = 'black'
 }
+
+
+let createEl = (_type, _class, _content) => {
+	let el = document.createElement(_type)
+	el.setAttribute('class', _class)
+	if(_content != undefined)
+	el.innerText = _content
+
+	return el
+}

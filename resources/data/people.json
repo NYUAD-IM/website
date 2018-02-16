@@ -1,0 +1,113 @@
+[
+  {
+  	"name": "Craig Protzel",
+  	"roles": ["Program Head of Interactive Media", "Assistant Professor of Interactive Media"],
+  	"current": true,
+  	"description": {
+      "short":"runs the ship",
+      "long": "Craig comes from LA and has been doing editing and production work in the entertainment and teaching creative coding for a while!"
+    },
+  	"courses": ["Communication and Technology", "Communication Lab", "Mashups: Creating with Web API", "Making Education", "Explorable Stories"],
+  	"website": "http://craigprotzel.com/",
+  	"email": "craig.protzel@nyu.edu",
+    "img": "craigprotzel.jpg"
+  },
+
+  {
+  	"name": "Pierre Depaz",
+  	"roles": ["Lecturer of Interactive Media","Howler Radio DJ"],
+  	"current": true,
+  	"description": {
+      "short":"assigns a very reasonable amount of work in 2-cred classes",
+      "long": "une bande de brigands ravageait la campagne. Le chef des brigands dit à son fidèle second, Pedro: \"Pedro, toi qui sais si bien raconter les histoires, raconte-nous une histoire...\" Et Pedro commença en ces termes: 'Une bande de brigands ravageait la campagne...'"
+    },
+  	"courses": ["Communication Lab", "Politics of Code", "Alternate Realities", "Software Art: Image", "Software Art: Text"],
+  	"website": "https://pierredepaz.net/",
+  	"email": "pierre.depaz@nyu.edu",
+    "img": "pierredepaz.jpg"
+  },
+
+  {
+  	"name": "Scott Fitzgerald",
+  	"roles": ["Program Head of Interactive Media", "Assistant Professor of Interactive Media"],
+  	"current": false,
+  	"description": {
+      "short":"came up with the idea",
+      "long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+  	"courses": ["Intro to Interactive Media", "Light", "Experiential Video Art"],
+  	"website": "https://scottfitzgerald.net/",
+  	"email": "scott.fitzgerald@nyu.edu",
+    "img": "scottfitzgerald.jpg"
+  },
+
+  {
+  	"name": "Ume Hussain",
+  	"roles": ["Instructor of the Arts", "Lab Manager"],
+  	"current": true,
+  	"description": {
+      "short":"holds us together",
+      "long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+  	"courses": [],
+  	"website": "https://umehussain.net/",
+  	"email": "uh242@nyu.edu",
+    "img": "umehussain.jpg"
+  },
+
+  {
+  	"name": "James Hosken",
+  	"roles": ["Instructor of the Arts"],
+  	"current": false,
+  	"description": {
+      "short":"abandoned ship",
+      "long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+  	"courses": [],
+  	"website": "https://umehussain.net/",
+  	"email": "uh242@nyu.edu",
+    "img": "jameshosken.jpg"
+  },
+
+  {
+  	"name": "Arantza Rodriguez",
+  	"roles": ["Lab Monitor"],
+  	"current": true,
+  	"description": {
+      "short":"pretends she is a CS major",
+      "long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+  	"courses": [],
+  	"website": "https://arantza-rodriguez.net/",
+  	"email": "ar240@nyu.edu",
+    "img": "arantzarodriguez.jpg"
+  },
+
+  {
+  	"name": "Adham Chakohi",
+  	"roles": ["Lab Monitor"],
+  	"current": true,
+  	"description": {
+      "short":"pretends he is an Engineering major",
+      "long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+  	"courses": [],
+  	"website": "https://adhamchakori.net/",
+  	"email": "amc115@nyu.edu",
+    "img": "adhamchakohi.jpg"
+  },
+
+  {
+  	"name": "Miha Klasinc",
+  	"roles": ["Lab Monitor"],
+  	"current": true,
+  	"description": {
+      "short":"pretends he is a Psych major",
+      "long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+  	"courses": [],
+  	"website": "https://miha.net/",
+  	"email": "mk4908@nyu.edu",
+    "img": "mihaklasinc.jpg"
+  }
+]

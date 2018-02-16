@@ -1,0 +1,133 @@
+.page-container {
+	overflow: hidden;
+}
+
+.all-headshots-container {
+	width: 55%;
+	float: left;
+	overflow: hidden;
+	margin-top: 5%;
+}
+
+.bio-restrain{
+
+}
+
+.bio-container {
+	position: relative;
+	width: 40%;
+	border-left: 3px solid black;
+	float: right;
+	overflow: hidden;
+	transition: top 0.2s ease;
+}
+
+
+/* HEADSHOTS LEFT */
+
+.headshots-container {
+	height: auto;
+	overflow: auto;
+	margin-bottom: 15%;
+}
+
+.people-role {
+	font-size: 1.8em;
+	font-weight: bold;
+}
+
+.single-headshot {
+	float: left;
+	z-index: 4;
+	max-width: 20%;
+	height: 250px;
+	margin: 3%;
+	padding: 2%;
+	border: 3px solid black;
+
+	cursor: pointer;
+}
+
+.headshot-image-container {
+	width: 150px;
+	height: 150px;
+}
+
+.headshot-image-container img {
+	width: 100%;
+
+}
+
+.headshot-description {
+	font-style: italic;
+}
+
+
+/* BIOS RIGHT */
+
+
+
+.current-expand {
+	color: white;
+}
+
+.current-headshot-container, .current-name, .current-roles, .current-courses, .current-description, .current-website, .current-email {
+	display: inline-block;
+	border: 3px solid black;
+	float: left;
+	border-left: none;
+	padding: 0px;
+	padding-left: 3px;
+	padding-right: 3px;
+	height: auto;
+	max-height: 0;
+	overflow: hidden;
+
+	margin-bottom: 2%;
+
+	transition: all 0.5s ease-in-out;
+}
+.current-headshot-container {
+	width: 250px;
+	height: 250px;
+	overflow: hidden;
+}
+
+.current-headshot-container img {
+	padding: 1%;
+	width: 98%;
+}
+
+.current-name, .current-roles{
+	border-left: 3px solid black;
+
+	float: right;
+	width: 50%;
+	margin-left: auto;
+
+	text-align: right;
+}
+
+.current-name {
+	font-weight: bold;
+}
+
+.current-roles {
+
+}
+
+.current-courses {
+
+}
+
+.current-descriptions {
+
+}
+
+.current-website {
+
+}
+
+.current-email {
+
+}
