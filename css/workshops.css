@@ -1,0 +1,135 @@
+body {
+	transition: background-color 0.2s ease;
+}
+
+/* MAIN STRUCTURE */
+
+.workshops-container {
+	width: 80%;
+	margin-left: 10%;
+	border-right: 3px solid black;
+	border-left: 3px solid black;
+
+	overflow: auto;
+}
+
+/* INDIVIDUAL WORKSHOPS */
+
+.bg-lightgreen {
+	background-color: lightgreen;
+}
+
+.bg-pink {
+	background-color: pink;
+}
+
+.bg-lightblue {
+	background-color: lightblue;
+}
+
+.workshop-container{
+	width: 60%;
+	margin-bottom: 5%;
+	overflow-x: visible;
+}
+
+.workshop-title {
+	width: 100%;
+	display: inline-block;
+	font-size: 1.4em;
+	font-weight: bold;
+	min-width: auto;
+
+	padding-left: 10px;
+	padding-right: 10px;
+	cursor: pointer;
+
+	text-align: center;
+}
+
+.workshop-instructor {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.workshop-description {
+	font-style: italic;
+	text-align: justify;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.workshop-location, .workshop-tags, .workshop-links {
+	width: 100%;
+}
+
+.container-left {
+	float: left;
+	text-align: left;
+}
+
+.container-right {
+	float: right;
+	text-align: right;
+}
+
+.container-left .workshop-title {
+	float: left;
+	border: 3px solid black;
+	border-left: none;
+}
+
+.container-right .workshop-title {
+	float: right;
+	border: 3px solid black;
+	border-right: none;
+}
+
+.subcontainer-left, .subcontainer-right {
+	position: relative;
+	color: white;
+	border: 3px solid black;
+	margin-top: 1%;
+	padding: 10px;
+	width: 0px;
+	max-height: 200px;
+	overflow: hidden;
+
+	transition: all 0.3s ease;
+}
+
+.subcontainer-left{
+	float: left;
+	border-left: none;
+}
+
+.subcontainer-right {
+	float: right;
+	border-right: none;
+}
+
+.subcontainer-left .workshop-date, .subcontainer-left .workshop-location{
+	float: right;
+	text-align: right;
+}
+
+.subcontainer-right .workshop-date, .subcontainer-right .workshop-location{
+	float: left;
+	text-align: left;
+}
+
+.subcontainer-left .workshop-instructor, .subcontainer-left .workshop-tags, .subcontainer-left .workshop-links {
+	float: left;
+}
+
+.subcontainer-right .workshop-instructor, .subcontainer-right .workshop-tags, .subcontainer-right .workshop-links {
+	float: right;
+}
+
+.subcontainer-left .workshop-description {
+	float: left;
+}
+
+.subcontainer-right .workshop-description {
+	float: right;
+}

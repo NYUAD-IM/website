@@ -41,9 +41,9 @@ let createEl = (_type, _class, _content) => {
 let about = () => {
 	let ab = document.getElementById('about')
 	console.log(ab);
-	if(ab.style.top == '1000px'){
-		ab.style.top = '100px'
+	if(ab.style.top == '200px'){
+		ab.style.top = '1400px'
 	}else{
-		ab.style.top = '1000px'
+		ab.style.top = '200px'
 	}
 }

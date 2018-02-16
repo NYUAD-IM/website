@@ -80,12 +80,12 @@ body{
 }
 
 .about-website {
+	z-index: 1;
 	position: fixed;
 	display: inline-block;
-	float: left;
 	width: 60%;
-	left: 20%;
-	top: 15%;
+	top: 1400px;
+	left: 100px;
 
 	background-color: white;
 	border: 3px solid black;
@@ -99,9 +99,10 @@ body{
 
 .lewis-quote {
 	display: inline-block;
-	width: 100%;
+	width: 90%;
+	float: left;
 	margin-top: 1%;
-	padding: 5%;
+	padding: 1%;
 	font-style: italic;
 }
 

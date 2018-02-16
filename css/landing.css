@@ -167,14 +167,14 @@ canvas{
 	opacity: 0;
 	transition: opacity 0.3s linear;
 	text-align: justify;
+
+	z-index: 3;
+	background-color: white;
 }
 
 .description-left{
 	top: 15%;
 	left: 0;
-	background-color: transparent;
-	z-index: 4;
-	background: white;
 	width: 25%;
 	padding-left: 40px;
 	padding-right: 20px;
@@ -185,9 +185,6 @@ canvas{
 .description-right{
 	top: 18%;
 	right: 0;
-	background-color: transparent;
-	z-index: 4;
-	background: white;
 	width: 25%;
 	padding-left: 20px;
 	padding-right: 40px;
