@@ -37,10 +37,10 @@
 }
 
 .single-headshot {
+	position: relative;
 	float: left;
-	z-index: 4;
-	max-width: 20%;
-	height: 250px;
+	max-width: 30%;
+	height: 300px;
 	margin: 3%;
 	padding: 2%;
 	border: 3px solid black;
@@ -58,8 +58,16 @@
 
 }
 
+.headshot-name {
+	font-weight: bold;
+	text-align: center;
+}
+
 .headshot-description {
-	font-style: italic;
+`	font-style: italic;
+	position: absolute;
+	bottom: 10px;
+	width: 80%;
 }
 
 
