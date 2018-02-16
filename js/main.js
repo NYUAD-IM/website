@@ -3,7 +3,7 @@ $(document).ready(function(){
 
     	//Inject resusable HTML
     	$('#header').load('/website/html/dropdown.html');
-    	$('#footer-container').load('/website/html/footer.html');
+    	$('#footer').load('/website/html/footer.html');
 
 });
 
