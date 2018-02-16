@@ -2,7 +2,7 @@ $(document).ready(function(){
 	console.log("Welcome to IM!");
 
     	//Inject resusable HTML
-    	$('#header-container').load('/website/html/dropdown.html');
+    	$('#header').load('/website/html/dropdown.html');
     	$('#footer-container').load('/website/html/footer.html');
 
 });

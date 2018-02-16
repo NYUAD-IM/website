@@ -123,17 +123,7 @@ let filter = (_el, _tag) => {
 
 	filters[_tag] = !filters[_tag]
 
-	if(_el.style.border == '3px solid black')
-		console.log('we outthere');
 	//button feedback
-	/*
-	let btns = document.getElementsByClassName('filter-button')
-	for(let btn of btns){
-		btn.style.border = '3px solid white'
-		btn.style.transform = 'translateY(0px)'
-		btn.style.backgroundColor = 'white'
-	}
-	*/
         if(filters[_tag]){
 		_el.style.transform = 'translateY(-'+(_el.getBoundingClientRect().height)+'px)'
 		_el.style.border = '3px solid black'
