@@ -1,53 +1,50 @@
 let container
-let workshops
+let opportunities
+let title, category, loc, link, deadline, description
 
 $(document).ready(() => {
 	fetch()
-	container = document.getElementById('workshops-container')
+	container = document.getElementById('opportunities')
+	title = document.getElementById('title')
+	category = document.getElementById('categories')
+	loc = document.getElementById('location')
+	link = document.getElementById('link')
+	deadline = document.getElementById('deadline')
+	description = document.getElementById('description')
 })
 
 let populate = (d) => {
-	workshops = d
-	console.log(workshops)
-	for(let workshop, index of workshops)
-		createWorkshop(workshop, index)
+	opportunities = d
+	console.log(opportunities)
+	for(let opportunity of opportunities)
+		create(opportunity)
 }
 
-let createWorkshop = (_ws, _i) => {
-	let side = _i % 2 == 0 ? 'left' : 'right'
+let create = (_o) => {
+	let cont = createEl('div', 'opportunity-list-container')
+	cont.setAttribute('onclick', 'replace(this, "'+_o.title+'")')
 
-	let cont = createEl('div', ['workshop-container', 'container-'+side].join(' '))
-
-	let t = createEl('div', 'workshop-title', _ws.title)
+	let t = createEl('div', 'opportunity-list-title', _o.title)
 	cont.appendChild(t)
 
-	let sub_cont = createEl('div', ['workshop-subcontainer', 'subcontainer-'+side].join(' ')])
-	let instructor = creatEl('div', 'workshop-instructor', _ws.instructor)
-	sub_cont.appendChild(instructor)
+	let c = createEl('div', 'opportunity-list-category', _o.category.main)
+	cont.appendChild(c)
 
-	let date = createEl('div', 'workshop-date', _ws.date)
-	sub_cont.appendChild(date)
+	container.appendChild(cont)
+}
 
-	let loc = createEl('div', 'workshop-location', _ws.location)
-	sub_cont.appendChild(loc)
+let replace = (el, _title) => {
+	let current
+	for(let opp of opportunities)
+		if(opp.title == _title)
+			current = opp
 
-	let desc = createEl('div', 'workshop-description', _ws.description)
-	sub_cont.appendChild(desc)
+	if(current == null) return
 
-	let tags = createEl('div', 'workshop-tags', _ws.tags.join(' - '))
-	sub_cont.appendChild(tags)
-
-	let links = createEl('div', 'workshop-links')
-	for(let l of _ws.links){
-		let link = createEl('a', 'workshop-link', l.text)
-		link.setAttribute('href', l.url)
-		links.appendChild(links)
-	}
-
-	sub_cont.appendChild(links)
-
-	cont.appendChild(sub_cont)
-
-	containter.appendChild(cont)
-
+	title.innerText = current.title
+	category.innerText = current.category.sub.join(' - ')
+	loc.innerText = current.location
+	link.setAttribute('href', current.link)
+	deadline.innerText = current.deadline
+	description.innerText = current.description
 }
