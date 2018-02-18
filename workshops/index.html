@@ -11,7 +11,7 @@
 
   <!-- Custom CSS -->
   <link rel="stylesheet" type="text/css" href="/website/css/main.css">
-  <link rel="stylesheet" type="text/css" href="/website/css/activities.css">
+  <link rel="stylesheet" type="text/css" href="/website/css/workshops.css">
   <link rel="stylesheet" type="text/css" href="/website/css/posts.css">
   <link rel="stylesheet" type="text/css" href="/website/css/dropdown.css">
   <link rel="stylesheet" type="text/css" href="/website/css/overlay.css">
@@ -29,28 +29,32 @@
   <script type="text/javascript" src="/website/js/lib/bootstrap.min.js"></script>
 
   <!-- Custom JS -->
+  <script> const TARGET_URL = '/website/resources/data/workshops.json' </script>
   <script type="text/javascript" src="/website/js/main.js"></script>
-  <script type="text/javascript" src="/website/js/populate.js"></script>
-  <script type="text/javascript" src="/website/js/activities.js"></script>
+  <script type="text/javascript" src="/website/js/fetch.js"></script>
+  <script type="text/javascript" src="/website/js/workshops.js"></script>
   <script type="text/javascript" src="/website/js/imagehandler.js"></script>
 </head>
 <body>
 
   <!-- HEADER SECTION -->
 
-  <div class="container-fluid" id="header-container">
+  <div class="container-fluid header-container" id="header">
   </div>
 
   <!-- CONTENT SECTION -->
 
   <div class="page-container">
-        <h1 class="page-title">IM OPPORTUNITIES</h1>
+        <h1 class="page-title">WORKSHOPS</h1>
+	<div class="workshops-container" id="workshops-container">
 
+	</div>
+  </div>
 
 
   <!-- FOOTER SECTION -->
 
-  <div class="container-fluid" id="footer-container">
+  <div class="container-fluid footer-container" id="footer">
   </div>
 
   <!-- OVERLAY SECTION -->

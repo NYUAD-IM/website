@@ -1,6 +1,6 @@
 /*HEADER*/
 
-#header-container{
+.header-container{
 	position: fixed;
 	top: 0;
 	left: 0;

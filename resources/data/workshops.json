@@ -1,0 +1,81 @@
+[
+  {
+  	"title": "Writing Sounds with ToneJS",
+  	"instructor": "Pierre Depaz",
+  	"date": {
+      "human": "Feb. 5th 6:00pm-8:00pm",
+      "machine":"180212"
+    },
+  	"location": "Arts Center - C3-006",
+  	"description": "To kick-off the Spring IM workshops, Prof. Pierre Depaz will lead us through the possibilities of writing, playing, manipulating and creating sounds with your computer. Using the ToneJS library, you will learn how to sample your favorite tunes and synthesize endless possibilities of digital sound. No prior programming experience required. Please bring your laptop and some headphones!",
+    "tags":["generative", "javascript", "steve reich"],
+    "links": [{
+      "url":"https://github.com/periode",
+      "text":"repo"
+    }]
+  },
+
+  {
+    "title": "Intro To Contact Improvisation",
+  	"instructor": "Kiori Kawai",
+  	"date": {
+      "human": "Feb. 12th 6:00pm-8:00pm",
+      "machine":"180212"
+    },
+  	"location": "Arts Center - C3-006",
+  	"description": "Kiori Kawai is a dancer, performance artist, and yogi whose work focuses on human interaction with contemporary technologies. In this workshop she will: Explore how physical contact affects our bodies and minds. Use kinesthetic awareness as a conversation to explore connection with others. Observe your conscious and unconscious choices. Integrate physical partnering with exchanging ideas. Athletic wear is encouraged as we will be moving about. This event will be held in Rm.144 in the Arts Center. Kiori will also be running a second workshop later this semester on 'Improvisational Performance with Technology'. Stay tuned for that as well!",
+    "tags":["generative", "javascript", "steve reich"],
+    "links": [{
+      "url":"https://github.com/periode",
+      "text":"repo"
+    }]
+  },
+
+  {
+  	"title": "Nothing to Something - An Intro to Rapid Prototyping",
+  	"instructor": "Felix Beck",
+  	"date": {
+      "human": "Feb. 19th 6:00pm-8:00pm",
+      "machine":"180212"
+    },
+  	"location": "Arts Center - C3-006",
+  	"description": "Prof. Felix Beck will introduce us to the wonderful world of rapid prototyping. By utilizing a variety of low-tech methods and processes, you can take any idea and bring it to life. This session will empower you with the mindset and tools to go from nothing to something.",
+    "tags":["generative", "javascript", "steve reich"],
+    "links": [{
+      "url":"https://github.com/periode",
+      "text":"repo"
+    }]
+  },
+
+  {
+  	"title": "Special Event: 24X",
+  	"instructor": "???",
+  	"date": {
+      "human": "Feb. 24th 3:00pm - Feb. 25th 3:00pm",
+      "machine":"180212"
+    },
+  	"location": "Arts Center - C3-029 (IM Lab)",
+  	"description": "In the spirit of Rhizome’s Seven on Seven and Experiments in Art and Technology’s “9 Evenings”, NYUAD Interactive Media presents The 2nd Annual 24X. 24X is an event where 10 students from diverse disciplines come together for 24 hours to create something new. Public presentations of the experience will happen Saturday Feb. 25th from 4pm - 6:30pm. All are invited. And then we eat!",
+    "tags":["generative", "javascript", "steve reich"],
+    "links": [{
+      "url":"https://github.com/periode",
+      "text":"repo"
+    }]
+  },
+
+  {
+  	"title": "Exploring Arduino",
+  	"instructor": "Michael Shiloh",
+  	"date": {
+      "human": "Feb. 26th 6:00pm-8:00pm",
+      "machine":"180212"
+    },
+  	"location": "Arts Center - C3-006",
+  	"description": "Special Guest Michael Shiloh, lifelong tinkerer and maker, will take us through a creative exploration of an Interactive Media staple, the Arduino platform. Whether you are brand new to physical computing or have been working with micro-controllers, circuits and sensors for years, this workshop is not to be missed!",
+    "tags":["generative", "javascript", "steve reich"],
+    "links": [{
+      "url":"https://github.com/periode",
+      "text":"repo"
+    }]
+  }
+]

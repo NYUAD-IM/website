@@ -37,6 +37,17 @@ body{
 	max-height: 5vh;
 }
 
+.page-container{
+	width: 80%;
+	margin: 8%;
+	display: block;
+	text-align: justify;
+	background-color: white;
+	border: 3px solid black;
+	padding: 2%;
+	overflow: auto;
+}
+
 .page-title{
 	text-align: center;
 	font-size: 4em;
@@ -44,7 +55,7 @@ body{
 
 /*FOOTER*/
 
-#footer-container{
+.footer-container{
 	z-index: 3;
 	position:fixed;
 	bottom:0px;
@@ -61,6 +72,38 @@ body{
 
 	padding: 20px;
 	border-top: 3px solid black;
+}
+
+.about-website-btn{
+	color: #007bff;
+	cursor: pointer;
+}
+
+.about-website {
+	z-index: 1;
+	position: fixed;
+	display: inline-block;
+	width: 60%;
+	top: 1400px;
+	left: 100px;
+
+	background-color: white;
+	border: 3px solid black;
+	padding: 5%;
+
+	font-size: 1.1em;
+	text-align: justify;
+
+	transition: all 0.4s ease;
+}
+
+.lewis-quote {
+	display: inline-block;
+	width: 90%;
+	float: left;
+	margin-top: 1%;
+	padding: 1%;
+	font-style: italic;
 }
 
 @media (min-width: 768px) {

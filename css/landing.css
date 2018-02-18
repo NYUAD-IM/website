@@ -15,7 +15,7 @@ body {
 
 /*SKETCH*/
 
-#sketch-container{
+.sketch-container{
 	z-index: -1;
 	position: absolute;
 	top: 5%;
@@ -51,16 +51,13 @@ canvas{
 
 /*ACTION BUTTONS*/
 
-#button-container{
+.button-container{
 	position: absolute;
 	width: 100%;
 	top: 80%;
 	z-index: 3;
-	/* height: calc((100vh - 50px)* 0.48); */
 
 	display: flex;
-  /* flex-direction: column;
-  justify-content: space-around; */
 
 	padding: 0;
 	flex-direction: row;
@@ -69,30 +66,19 @@ canvas{
 
 	border-top: 3px solid black;
 	border-bottom: 3px solid black;
-	/* border-bottom-color: white; */
 
 	background-color: white;
 }
 
-#button-container button{
+.button-container button{
 	z-index: 2;
 	text-decoration: none;
 	color: var(--dark-colour);
 
 	background-color: white;
-
-	border-radius: 50px;
-	border: 5px solid white;
+	border: none;
+	border-bottom: 9px solid white;
 	padding: 8px;
-
-	transition: border 0.1s linear;
-}
-
-#button-container button:hover{
-
-	/*color: var(--light-colour);*/
-
-	border: 3px solid black;
 }
 
 .button-center{
@@ -101,32 +87,38 @@ canvas{
 }
 
 .action-button{
+	position: relative;
+	top: 0;
 
 	width: 80%;
 	margin-left: 10%;
-	/* height: 10%; */
-
 	font-size: 1.6em;
 
 	min-height: 50px;
 	min-width: 175px;
-
-	border-color: var(--secondary-colour);
-	border-style: solid;
 
 	display: flex;
 	justify-content: center;
 	align-items: center;
 
 	cursor: pointer;
+
+	transform: translateY(0px);
+
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
 }
 
 .button-left-bg{
 	background-color: white;
+	border: 3px solid black;
 	position: absolute;
-	width: 100%;
+	width: 85%;
 	height: 100%;
-	top: 15%;
+	top: -45%;
 	left: -80%; /*-40% start*/
 	transform: rotate(75deg);
 
@@ -137,6 +129,7 @@ canvas{
 
 .button-right-bg{
 	background-color: white;
+	border: 3px solid black;
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -174,14 +167,14 @@ canvas{
 	opacity: 0;
 	transition: opacity 0.3s linear;
 	text-align: justify;
+
+	z-index: 3;
+	background-color: white;
 }
 
 .description-left{
 	top: 15%;
 	left: 0;
-	background-color: transparent;
-	z-index: 4;
-	background: white;
 	width: 25%;
 	padding-left: 40px;
 	padding-right: 20px;
@@ -192,9 +185,6 @@ canvas{
 .description-right{
 	top: 18%;
 	right: 0;
-	background-color: transparent;
-	z-index: 4;
-	background: white;
 	width: 25%;
 	padding-left: 20px;
 	padding-right: 40px;

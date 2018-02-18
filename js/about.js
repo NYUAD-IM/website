@@ -15,14 +15,13 @@ let attachListener = () => {
 }
 
 let expand = (el) => {
-	if(el.style.height == '100px')
-		el.style.height = '500px'
-	else
+	if(el.style.height == '500px')
 		el.style.height = '100px'
+	else
+		el.style.height = '500px'
 }
 
 let colorize = (color) => {
 	document.body.onmousemove = null
 	document.body.style.backgroundColor = color
-	console.log(color);
 }

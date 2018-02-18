@@ -1,0 +1,74 @@
+[
+  {
+        "title":"Performer wanted",
+        "category":{
+                "main":"JOBS/INTERNSHIPS",
+                "sub": ["software development", "performance", "vr", "physical computing"]
+                },
+        "location": "Bulawayo, Zimbabwe",
+        "link":"http://yoo.ooo/",
+        "deadline": "May 7th 2018",
+        "description":"perform on the other side of the world!",
+        "connections":[
+                {
+                 "name":"John Doe",
+                 "contact": "john@doe.com",
+                 "relationship" : "friend of the program"
+                }
+              ]
+  },
+  {
+        "title":"Artist wanted",
+        "category":{
+                "main":"CALL FOR PROPOSALS",
+                "sub": ["media art", "art world", "make $$$", "lol"]
+                },
+        "location": "Windhoek, Namibia",
+        "link":"http://yoo.ooo/",
+        "deadline": "January 14th 2018",
+        "description":"do all these things on the other side of the world!",
+        "connections":[
+                {
+                 "name":"John Doe",
+                 "contact": "john@doe.com",
+                 "relationship" : "friend of the program"
+                }
+              ]
+  },
+  {
+        "title":"Researcher wanted",
+        "category":{
+                "main":"GRADUATE EDUCATION",
+                "sub": ["phd", "research statemetn", "real reality", "physical exercise"]
+                },
+        "location": "Harare, Zimbabwe",
+        "link":"http://yoo.ooo/",
+        "deadline": "July 14th 2018",
+        "description":"research on the other side of the world!",
+        "connections":[
+                {
+                 "name":"John Doe",
+                 "contact": "john@doe.com",
+                 "relationship" : "friend of the program"
+                }
+              ]
+  },
+  {
+        "title":"Lab monitor position",
+        "category":{
+                "main":"JOBS/INTERNSHIPS",
+                "sub": ["help", "teach", "stuff", "making education"]
+                },
+        "location": "Kigali, Rwanda",
+        "link":"http://yoo.ooo/",
+        "deadline": "June 6th 2018",
+        "description":"monitor on the other side of the world!",
+        "connections":[
+                {
+                 "name":"John Doe",
+                 "contact": "john@doe.com",
+                 "relationship" : "friend of the program"
+                }
+              ]
+  }
+]

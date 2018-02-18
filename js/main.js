@@ -2,8 +2,8 @@ $(document).ready(function(){
 	console.log("Welcome to IM!");
 
     	//Inject resusable HTML
-    	$('#header-container').load('/website/html/navigation.html');
-    	$('#footer-container').load('/website/html/footer.html');
+    	$('#header').load('/website/html/dropdown.html');
+    	$('#footer').load('/website/html/footer.html');
 
 });
 
@@ -26,4 +26,24 @@ let changeColor = (el, color, index) => {
 let resetColor = (el) => {
 	$('.color-shift').css('color', 'black')
 	el.style.color = 'black'
+}
+
+
+let createEl = (_type, _class, _content) => {
+	let el = document.createElement(_type)
+	el.setAttribute('class', _class)
+	if(_content != undefined)
+	el.innerText = _content
+
+	return el
+}
+
+let about = () => {
+	let ab = document.getElementById('about')
+	console.log(ab);
+	if(ab.style.top == '200px'){
+		ab.style.top = '1400px'
+	}else{
+		ab.style.top = '200px'
+	}
 }

@@ -1,0 +1,89 @@
+.opportunities-container {
+	position: relative;
+	height: auto;
+	width: auto;
+}
+
+/* LISTINGS - LEFT SIDE */
+
+.opportunities-listing-container {
+	float: left;
+	text-align: right;
+	width: 28%;
+
+	border-right: 3px solid black;
+}
+
+.opportunity-list-container {
+	margin-right: 2%;
+
+	margin-top: 4%;
+	margin-bottom: 4%;
+
+	cursor: pointer;
+}
+
+
+.opportunity-list-title {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+
+/* DETAILS - RIGHT SIDE */
+
+.opportunities-details-container {
+	position: relative;
+	float: left;
+	height: 100%;
+	width: 48%;
+}
+
+.opportunity-container {
+	width: 100%;
+	height: 100%;
+	float: left;
+	text-align: left;
+
+	padding-right: 10px;
+	padding-left: 10px;
+
+	background-color: pink;
+	border: 3px solid black;
+	border-left: none;
+}
+
+.opportunity-title {
+	float: left;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.opportunity-location, .opportunity-deadline{
+	float: right;
+	width: 50%;
+	text-align: right;
+	font-size: 1.3em;
+}
+
+.opportunity-description {
+	float: left;
+	text-align: justify;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.opportunity-categories {
+	font-style: italic;
+	font-size: 1.2em;
+
+	float: left;
+	width: 100%;
+}
+
+.opportunity-link {
+	float: right;
+	font-weight: bold;
+	margin-bottom: 1%;
+}

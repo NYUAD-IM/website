@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>activities</title>
+  <title>people</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,7 +11,7 @@
 
   <!-- Custom CSS -->
   <link rel="stylesheet" type="text/css" href="/website/css/main.css">
-  <link rel="stylesheet" type="text/css" href="/website/css/activities.css">
+  <link rel="stylesheet" type="text/css" href="/website/css/people.css">
   <link rel="stylesheet" type="text/css" href="/website/css/posts.css">
   <link rel="stylesheet" type="text/css" href="/website/css/dropdown.css">
   <link rel="stylesheet" type="text/css" href="/website/css/overlay.css">
@@ -29,39 +29,48 @@
   <script type="text/javascript" src="/website/js/lib/bootstrap.min.js"></script>
 
   <!-- Custom JS -->
-  <script> const path_prefix = './../' </script>
+  <script> const TARGET_URL = '/website/resources/data/people.json' </script>
   <script type="text/javascript" src="/website/js/main.js"></script>
-  <script type="text/javascript" src="/website/js/populate.js"></script>
-  <script type="text/javascript" src="/website/js/activities.js"></script>
+  <script type="text/javascript" src="/website/js/fetch.js"></script>
+  <script type="text/javascript" src="/website/js/people.js"></script>
   <script type="text/javascript" src="/website/js/imagehandler.js"></script>
 </head>
 <body>
 
   <!-- HEADER SECTION -->
 
-  <div class="container-fluid" id="header-container">
+  <div class="container-fluid header-container" id="header">
   </div>
 
   <!-- CONTENT SECTION -->
 
   <div class="page-container">
-        <h1 class="page-title">IM PEOPLE</h1>
-
+        <h1 class="page-title">PEOPLE</h1>
+	<div class="all-headshots-container" id="headshots">
+		<div class="headshots-container" id="instructors">
+			<div class="people-role">INSTRUCTORS</div>
+		</div>
+		<div class="headshots-container" id="monitors">
+			<div class="people-role">LAB MONITORS</div>
+		</div>
+	</div>
+	<div class="bio-container" id="bio">
+		<div class="current-headshot-container current-expand">
+			<img class="current-headshot"  id="headshot" src="/website/media/img/people/craigprotzel.jpg"/>
+		</div>
+		<div class="current-name current-expand" id="name">Craig Protzel</div>
+		<div class="current-roles current-expand" id="roles">Program Head</div>
+		<div class="current-courses current-expand" id="courses">Communications Lab, Mashups, Making Education</div>
+		<div class="current-description current-expand" id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+		<div  class="current-website current-expand" id="website"><a href="http://craigprotzel.com">www</a></div>
+		<div class="current-email current-expand"><a href="mailto:craigprotzel@nyu.edu" id="email">craig.protzel@nyu.edu</a></div>
+	</div>
+  </div>
 
 
   <!-- FOOTER SECTION -->
 
-  <div class="container-fluid" id="footer-container">
+  <div class="container-fluid footer-container" id="footer">
   </div>
-
-  <!-- OVERLAY SECTION -->
-
-  <!-- <div id="overlay-background"></div>
-  <div id="overlay-description" class="overlay"></div>
-  <div id="overlay-examples" class="overlay"></div>
-  <div id="overlay-participation" class="overlay"></div>
- -->
-
-
 </body>
 </html>
