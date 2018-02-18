@@ -106,10 +106,24 @@ body{
 	font-style: italic;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 500px) and (orientation: portrait){
+	body {
+	}
+
 	.img-fluid{
 		width: auto;
 		max-height: 5vh;
+	}
+
+	.footer-container {
+		font-size: 0.7em;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.about-website {
+		width: 90%;
+		left: 10px;
 	}
 
 }

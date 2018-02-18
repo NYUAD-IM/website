@@ -1,3 +1,5 @@
+let dropdown_height
+
 $(document).ready(function(){
 	console.log("Welcome to IM!");
 
@@ -5,12 +7,15 @@ $(document).ready(function(){
     	$('#header').load('/website/html/dropdown.html');
     	$('#footer').load('/website/html/footer.html');
 
+
+	dropdown_height = detectmob() ? '120px' : '40px'
 });
 
-let showNavigation = () => {
-	if($('#nav-dropdown-list').css('height') == '0px' || $('#nav-dropdown-list').css('height') == '3px'){//show it
 
-    		$('#nav-dropdown-list').css('height', '40px');
+let showNavigation = () => {
+	if($('#nav-dropdown-list').css('height') == '0px' || $('#nav-dropdown-list').css('height') == '3px'){//show it TODO fix
+
+    		$('#nav-dropdown-list').css('height', dropdown_height);
 
 	}else{ //hide it
 		$('#nav-dropdown-list').css('height', '0px');
@@ -46,4 +51,17 @@ let about = () => {
 	}else{
 		ab.style.top = '200px'
 	}
+}
+
+let detectmob = () => {
+	if( navigator.userAgent.match(/Android/i)
+		|| navigator.userAgent.match(/webOS/i)
+		|| navigator.userAgent.match(/iPhone/i)
+		|| navigator.userAgent.match(/iPad/i)
+		|| navigator.userAgent.match(/iPod/i)
+		|| navigator.userAgent.match(/BlackBerry/i)
+		|| navigator.userAgent.match(/Windows Phone/i))
+		return true
+	else
+		return false
 }
