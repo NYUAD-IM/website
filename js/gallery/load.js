@@ -5,7 +5,7 @@ var my_data = {
     $.getJSON(index_file_path,function(data){
         if(Array.isArray(data)){
           data.forEach(function(el,id){
-            var project_data_path = data_directory + el.folder_name + '/data.json';
+            var project_data_path = data_directory + 'projects/' + el.folder_name + '/data.json';
             (function(){
               var create_categ_bar = id === data.length - 1 ? true : false;
               $.getJSON(project_data_path,function(d){

@@ -23,7 +23,7 @@ function Thumbnail(project,index){
 
     function create_html_element(metadata){
       // thumbnail img path
-      var thumbnail_img = PROJECTS_PATH_HTML + index.folder_name + '/img/' + index.img[0];
+      var thumbnail_img = DATA_PATH_HTML + 'projects/' + index.folder_name + '/img/' + index.img[0];
       var htmlString = '';
       htmlString = '<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-12 thumb" ' + metadata + ' >';
       htmlString += '<div class="overlay-container"> ';

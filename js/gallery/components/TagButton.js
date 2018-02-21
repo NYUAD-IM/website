@@ -12,7 +12,7 @@ function TagButton(category,selector){
       var htmlString = '';
       htmlString += '<li class="tags tag-' + ctg + ' not-visible" ';
       htmlString += 'id="filter-' + tag + '">' + tag;
-      htmlString += '<img src="../img/gallery/x-icon-white.png" class="x-icon hidden"></li>';
+      htmlString += '<img src="' + IMG_PATH_HTML + 'x-icon-white.png" class="x-icon hidden"></li>';
       $(htmlString).data("toggleBool",false).prependTo('#active-tags-bar');
     };
 

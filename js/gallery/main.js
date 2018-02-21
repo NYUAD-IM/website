@@ -1,9 +1,9 @@
 // global variables
 var $grid;
 var new_categ_object = {};
-var PROJECTS_PATH_JS = '../../data/gallery/projects/'; //relative to the JS file
-var PROJECTS_PATH_HTML = '../data/gallery/projects/'; // relative to the index.html file
-
+var DATA_PATH_JS = '../../gallery/data/'; //relative to the JS file
+var DATA_PATH_HTML = '../gallery/data/'; // relative to the index.html file
+var IMG_PATH_HTML = '../gallery/img/';
 //method to create a grid with isotope
 
 function createGrid(){
@@ -47,7 +47,7 @@ $(document).ready(function(){
 
   // load data, will populate the gallery thumbnails + create category and tag buttons
 
-  my_data.load_data_from_index(PROJECTS_PATH_JS);
+  my_data.load_data_from_index(DATA_PATH_JS);
 
   // click handler for the show-all button
 

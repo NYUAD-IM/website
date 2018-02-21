@@ -21,7 +21,7 @@ function Popup(project,index){
 
     var html_string = '';
     html_string += '<div class="popup-window">';
-    html_string += '<img class="popup-window__exit-button" src="../img/gallery/x-icon-black.png" />';
+    html_string += '<img class="popup-window__exit-button" src="' + IMG_PATH_HTML + 'x-icon-white.png" />';
     html_string += '<section><h1 class="popup-window__title">' + d.title+ '</h1>';
     html_string += '<p class="popup-window__description--short">' + d.description.short + '</p></section>';
     // if there is a video show video first otherwise show image
