@@ -17,7 +17,7 @@ function Popup(project,index){
 
   function create_html_element(d){
 
-    var first_img = PROJECTS_PATH_HTML + index.folder_name + '/img/' + index.img[0];
+    var first_img = DATA_PATH_HTML + index.folder_name + '/img/' + index.img[0];
 
     var html_string = '';
     html_string += '<div class="popup-window">';
