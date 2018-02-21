@@ -1,3 +1,41 @@
+function datePassed(date){
+  var workshopyy = Number(date.slice(0,2));
+  var workshopMM = Number(date.slice(2,4));
+  var workshopdd = Number(date.slice(4,6));
+  var workshophh = Number(date.slice(7,9));
+  var workshopmm = Number(date.slice(9,11));
+  var currentDate = new Date();
+  var currentyy = Number(String(currentDate.getFullYear()).slice(2,4));
+  var currentMM = currentDate.getMonth()+1;
+  var currentdd = currentDate.getDate();
+  var currenthh = currentDate.getHours();
+  var currentmm = currentDate.getMinutes();
+  
+  if (workshopyy == currentyy && workshopMM == currentMM && workshopdd == currentdd) {
+    if (workshophh < currenthh) {
+      return true;
+    } else if (workshophh > currenthh) {
+      return false;
+    } else {
+      if (workshopmm <= currentmm){
+        return true;
+      } else if (workshopmm > currentmm){
+        return false;
+      }
+    }
+  }
+
+  if(workshopyy < currentyy){
+    return true;
+  } else if (workshopMM < currentMM){
+    return true;
+  } else if (workshopdd < currentdd){
+    return true;
+  } else {
+    return false;
+  }
+}
+
 let container
 let workshops
 let colors = ['pink', 'lightblue', 'lightgreen']
