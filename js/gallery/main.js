@@ -1,9 +1,9 @@
 // global variables
 var $grid;
 var new_categ_object = {};
-var DATA_PATH_JS = '../../gallery/data/'; //relative to the JS file
-var DATA_PATH_HTML = '../gallery/data/'; // relative to the index.html file
-var IMG_PATH_HTML = '../gallery/img/';
+var DATA_PATH_JS = '../../website/gallery/data/'; //relative to the JS file
+var DATA_PATH_HTML = '../website/gallery/data/'; // relative to the index.html file
+var IMG_PATH_HTML = '../website/gallery/img/';
 //method to create a grid with isotope
 
 function createGrid(){
