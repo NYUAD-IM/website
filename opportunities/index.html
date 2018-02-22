@@ -1,19 +1,19 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title>opportunities</title>
+  <title>nyuad im | opportunities</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> -->
+  <link rel="stylesheet" type="text/css" href="/website/css/bootstrap.min.css">
   <!-- Custom CSS -->
   <link rel="stylesheet" type="text/css" href="/website/css/main.css">
   <link rel="stylesheet" type="text/css" href="/website/css/opportunities.css">
   <link rel="stylesheet" type="text/css" href="/website/css/posts.css">
-  <link rel="stylesheet" type="text/css" href="/website/css/dropdown.css">
+  <link rel="stylesheet" type="text/css" href="/website/css/header.css">
   <link rel="stylesheet" type="text/css" href="/website/css/overlay.css">
 
   <!-- FONTS -->
@@ -47,23 +47,35 @@
   <div class="page-container">
         <h1 class="page-title">OPPORTUNITIES</h1>
 
-	<div class="opportunities-container">
-		<div class="opportunities-listing-container" id="opportunities">
-		</div>
-		<div class="opportunities-details-container">
-			<div class="opportunity-container">
-				<div class="opportunity-title" id="title">Lover</div>
-				<div class="opportunity-location" id="location">Napoli</div>
-				<div class="opportunity-deadline" id="deadline">Soon</div>
-				<div class="opportunity-categories" id="categories">if - only - i - could</div>
-				<div class="opportunity-description" id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-				<div class="opportunity-link">
-					<a href="" id="link">www</a>
-				</div>
-			</div>
-		</div>
+  	<div class="opportunities-container">
+  		<div class="opportunities-listing-container" id="opportunities">
+  		</div>
+  		<div class="opportunities-details-container">
+  			<div class="opportunity-container" id="opportunity">
+  				<div class="opportunity-title" id="title"></div>
+  				<div class="opportunity-location" id="location"></div>
+  				<div class="opportunity-deadline" id="deadline"></div>
+  				<div class="opportunity-categories" id="categories"></div>
+  				<div class="opportunity-description" id="description"></div>
+  				<div class="opportunity-link">
+  					<a href="" id="link"></a>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
 	</div>
-	</div>
+
+  <div class="container-fluid button-container">
+    <div class="button-center">
+      <button onclick='filter(this, "jobs")' class="action-button comp-med-btn">JOBS/INTERNSHIPS</button>
+    </div>
+    <div class="button-center">
+      <button onclick='filter(this, "calls")' class="action-button pcomp-btn">CALL FOR PROPOSALS</button>
+    </div>
+    <div class="button-center">
+      <button onclick='filter(this, "education")' class="action-button mdt-btn">ACADEMIA</button>
+    </div>
+  </div>
 
   <!-- FOOTER SECTION -->
 

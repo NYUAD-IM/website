@@ -7,13 +7,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous"> -->
+  <link rel="stylesheet" type="text/css" href="/website/css/bootstrap.min.css">
   <!-- Custom CSS -->
   <link rel="stylesheet" type="text/css" href="/website/css/main.css">
   <link rel="stylesheet" type="text/css" href="/website/css/academics.css">
   <link rel="stylesheet" type="text/css" href="/website/css/posts.css">
-  <link rel="stylesheet" type="text/css" href="/website/css/dropdown.css">
+  <link rel="stylesheet" type="text/css" href="/website/css/header.css">
   <link rel="stylesheet" type="text/css" href="/website/css/overlay.css">
 
   <!-- FONTS -->
@@ -33,7 +33,6 @@
   <script type="text/javascript" src="/website/js/main.js"></script>
   <script type="text/javascript" src="/website/js/fetch.js"></script>
   <script type="text/javascript" src="/website/js/academics.js"></script>
-  <script type="text/javascript" src="/website/js/imagehandler.js"></script>
 
 </head>
 <body>
@@ -46,7 +45,7 @@
         <div class="page-container">
 
         <h1 class="page-title">ACADEMICS</h1>
-	
+
 	<div class="semesters">
 	  <div class="left-align fall-container">
 		  <div class="semester-title">FALL</div>
@@ -54,7 +53,7 @@
 		  <div class="courses-container" id="fall-electives"></div>
 		  <div class="courses-container" id="fall-crosslisted"></div>
 	  </div>
-  
+
 	  <div class="right-align spring-container">
 		  <div class="semester-title">SPRING</div>
 		  <div class="courses-container" id="spring-requirements"></div>
@@ -69,7 +68,7 @@
 		  <div class="courses-container" id="january-electives"></div>
 		  <div class="courses-container" id="january-crosslisted"></div>
 	  </div>
-  
+
 	  <div class="right-align june-container">
 		  <div class="semester-title">JUNE</div>
 		  <div class="courses-container" id="june-requirements"></div>
@@ -79,15 +78,15 @@
 	</div>
 
 	</div>
-	<div class="container-fluid filter-container">
+	<div class="container-fluid button-container">
 		<div class="button-center">
-			<button onclick='filter(this, "computational-media")' class="filter-button comp-med-btn">COMPUTATIONAL MEDIA</button>
+			<button onclick='filter(this, "computational-media")' class="action-button comp-med-btn">COMPUTATIONAL MEDIA</button>
 		</div>
 		<div class="button-center">
-			<button onclick='filter(this, "physical-computing")' class="filter-button pcomp-btn">PHYSICAL COMPUTING</button>
+			<button onclick='filter(this, "physical-computing")' class="action-button pcomp-btn">PHYSICAL COMPUTING</button>
 		</div>
 		<div class="button-center">
-			<button onclick='filter(this, "media-and-design-thinking")' class="filter-button mdt-btn">MEDIA & DESIGN THINKING</button>
+			<button onclick='filter(this, "media-and-design-thinking")' class="action-button mdt-btn">MEDIA & DESIGN THINKING</button>
 		</div>
     </div>
 

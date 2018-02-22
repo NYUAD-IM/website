@@ -67,7 +67,7 @@
 	background-color: white;
 	font-weight: bold;
 	color: black;
-	
+
 	padding: 2px;
 	border: 2px solid black;
 	border-bottom: 2px solid white;
@@ -107,9 +107,9 @@
 	margin-left: 40%;
 	width: 40px;
 	height: 40px;
-	background-color: black;
+	background-color: white;
+	border: 3px solid black;
 
 	transform: rotate(45deg);
 
 }
-

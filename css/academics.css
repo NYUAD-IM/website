@@ -29,7 +29,7 @@
 
 /** BUTTONS **/
 
-.filter-container{
+.button-container{
 	position: fixed;
 	width: 100%;
 	top: 80%;
@@ -48,7 +48,7 @@
 	background-color: white;
 }
 
-.filter-container button{
+.button-container button{
 	z-index: 2;
 	text-decoration: none;
 	color: var(--dark-colour);
@@ -59,7 +59,7 @@
 	padding: 8px;
 }
 
-.filter-button{
+.action-button{
 
 	position: relative;
 	top: 0;
@@ -82,7 +82,7 @@
 	transform: translateY(0px);
 }
 
-.filter-button, .comp-med-btn, .pcomp-btn, .mdt-btn {
+.action-button, .comp-med-btn, .pcomp-btn, .mdt-btn {
 	transition: all 0.2s ease;
 	-webkit-transition: all 0.2s ease;
 	-ms-transition: all 0.2s ease;
@@ -91,16 +91,16 @@
 }
 
 
-.filter-container .comp-med-btn:hover{
+.button-container .comp-med-btn:hover{
 	border-bottom: 9px solid lightgreen;
 }
 
 
-.filter-container .pcomp-btn:hover{
+.button-container .pcomp-btn:hover{
 	border-bottom: 9px solid pink;
 }
 
-.filter-container .mdt-btn:hover{
+.button-container .mdt-btn:hover{
 	border-bottom: 9px solid lightblue;
 }
 

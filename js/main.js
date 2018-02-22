@@ -4,7 +4,7 @@ $(document).ready(function(){
 	console.log("Welcome to IM!");
 
     	//Inject resusable HTML
-    	$('#header').load('/website/html/dropdown.html');
+    	$('#header').load('/website/html/header.html');
     	$('#footer').load('/website/html/footer.html');
 
 

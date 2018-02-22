@@ -14,15 +14,7 @@ body{
 
 	color: var(--dark-colour);
 	background-color: white;
-	/*#b0b5b3*/
-	/*#dbdbdb*/
-	/*--main-colour: #eee;
-	--secondary-colour: #aaa;
-	--light-colour: #FFF;
-	--dark-colour:#111;
 
-	--link-colour:#a3b;
-	*/
 	color: var(--dark-colour);
 	z-index: 3;
 
@@ -53,7 +45,72 @@ body{
 	font-size: 4em;
 }
 
-/*FOOTER*/
+
+/*--------------------------------------*/
+/*------------ACTION BUTTONS------------*/
+.button-container{
+	position: absolute;
+	width: 100%;
+	top: 80%;
+	z-index: 3;
+
+	display: flex;
+
+	padding: 0;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+
+	background-color: white;
+}
+
+.button-container button{
+	z-index: 2;
+	text-decoration: none;
+	color: var(--dark-colour);
+
+	background-color: white;
+	border: none;
+	border-bottom: 9px solid white;
+	padding: 8px;
+}
+
+.button-center{
+	width: 30%;
+	height: auto;
+}
+
+.action-button{
+	position: relative;
+	top: 0;
+
+	width: 80%;
+	margin-left: 10%;
+	font-size: 1.6em;
+
+	min-height: 50px;
+	min-width: 175px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	cursor: pointer;
+
+	transform: translateY(0px);
+
+	transition: all 0.2s ease;
+	-webkit-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+}
+
+/*------------------------------*/
+/*------------FOOTER------------*/
 
 .footer-container{
 	z-index: 3;

@@ -18,7 +18,7 @@ let populate = (d) => {
 let addElement = (_course) => {
 
 	for(let term of _course.terms){
-	
+
 		let course = document.createElement('div')
 
 		let track = ""
@@ -31,10 +31,10 @@ let addElement = (_course) => {
 			track = _course.track.toLowerCase().split(' ').join('-')
 			track = track.replace('&', 'and')
 	  	}
-		
+
 		if(!_course.currently_offered)
 			offered = "not-offered"
-	
+
 		let cluster = "" //whether requirement, elective, or none
 		if(_course.title == "Introduction to Interactive Media" || _course.title == "Communications Lab" || _course.title == "Communication & Technology" || _course.title == "Capstone Seminar" || _course.title == "Capstone Project")
 			cluster = "requirements"
@@ -42,57 +42,57 @@ let addElement = (_course) => {
 			cluster = "electives"
 		else
 			cluster = "crosslisted"
-	
+
 		course.setAttribute('class', ['course-container ', track, cluster, offered].join(' '))
 		course.setAttribute('track', track)
-	
+
 		let _t = createEl('div', 'course-title', _course.title)
 		course.appendChild(_t)
-	
+
 		let _n = createEl('div', 'course-number', _course.number)
 		course.appendChild(_n)
-	
+
 		let _p = createEl('div', 'course-program', _course.program)
 		course.appendChild(_p)
-	
+
 		let _ds = createEl('div', 'course-desc-short', _course.description.short)
 		course.appendChild(_ds)
-	
+
 		let _divider = document.createElement('hr')
 		course.append(_divider)
-	
+
 		let expand_container = createEl('div', 'expand-container')
-	
+
 		/*
 		let _tr = createEl('div', 'course-track', _course.track)
 		course.appendChild(_tr)
 		*/
 		let _i = createEl('div', 'course-instructors', '')
 		_i.innerText = _course.instructors.join(' & ')
-		expand_container.appendChild(_i)	
-	
+		expand_container.appendChild(_i)
+
 		/*
 		let _te = createEl('div', 'course-terms', '')
 		for(let term of _course.terms)
 			_te.innerText += term + ' -'
 		course.appendChild(_te)
 		*/
-	
+
 		if(_course.link != ""){
 			let _l = createEl('a', 'course-link', 'course website')
 			_l.setAttribute('href', _course.link)
 			expand_container.appendChild(_l)
 		}
-	
+
 		let _dl = createEl('div', 'course-desc-long', _course.description.long)
 		expand_container.appendChild(_dl)
-		
+
 		let _ta = createEl('div', 'course-tags', '')
 		for(let tag of _course.tags)
 			_ta.innerText += tag + " |"
 		expand_container.appendChild(_ta)
 		expand_container.expanded = "false"
-	
+
 		course.appendChild(expand_container)
 		course.setAttribute('onclick', 'expand(this)')
 
@@ -124,7 +124,7 @@ let filter = (_el, _tag) => {
 	filters[_tag] = !filters[_tag]
 
 	//button feedback
-        if(filters[_tag]){
+  if(filters[_tag]){
 		_el.style.transform = 'translateY(-'+(_el.getBoundingClientRect().height)+'px)'
 		_el.style.border = '3px solid black'
 		_el.style.borderBottom = 'none'
@@ -145,7 +145,7 @@ let filter = (_el, _tag) => {
 	let courses = document.getElementsByClassName('course-container')
 	for(let course of courses)
 		course.style.opacity = '0.2'
-	
+
 	let nofilter = true
 	for(let tag in filters){
 		if(filters[tag]){

@@ -7,7 +7,7 @@
 	z-index: 2;
 	background-color: white;
 
-	height: 5%;
+	height: 55px;
 	width: 100%;
 
 	display: flex;
@@ -67,10 +67,15 @@
     height: 100%;           /*Height fills header bar*/
     display: flex;          /*flexbox to center IM logo and arrow icon*/
     align-items: center;
-    cursor: pointer;
 
     text-align: center center;
     transition: color 0.3s linear;
+}
+
+.nav-dropdown-btn img {
+	cursor: pointer;
+	width: 25px;
+	height: 25px;
 }
 
 .nav-dropdown-btn a, .nav-dropdown-btn a:hover {
