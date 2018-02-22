@@ -31,7 +31,7 @@ function Popup(project,index){
     }else{
       html_string += '<img class="popup-window__image--main" src="' + first_img + '" />';
     };
-    html_string += '<section><p class="popup-window__description--long">' + 'Lorem ipsum' + '</p></section>';
+    html_string += '<section><p class="popup-window__description--long">' + d.description.long + '</p></section>';
     html_string += '</div>';
 
     // append popup window to the wrapper element
