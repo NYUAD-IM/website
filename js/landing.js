@@ -30,9 +30,6 @@ let descriptionToggle = (_el) => {
 		_el.style.border = '3px solid black'
 		_el.style.borderBottom = 'none'
 
-		setTimeout(() => {
-			_leftblock.style.color = 'rgba(0, 0, 0, 1)'
-		}, 300)
 		_leftblock.style.left = '3%'
 
 		description = true
@@ -41,10 +38,7 @@ let descriptionToggle = (_el) => {
 		_el.style.transform = 'translate(0px)'
 		_el.style.backgroundColor = 'white'
 
-		_leftblock.style.color = 'rgba(0, 0, 0, 0)'
-		setTimeout(() => {
 			_leftblock.style.left = _left
-		}, 300)
 
 		description = false
 	}
@@ -56,9 +50,6 @@ let participationToggle = (_el) => {
 		_el.style.border = '3px solid black'
 		_el.style.borderBottom = 'none'
 
-		setTimeout(() => {
-			_rightblock.style.color = 'rgba(0, 0, 0, 1)'
-		}, 300)
 		_rightblock.style.display = 'block'
 		_rightblock.style.right = '3%'
 
@@ -68,8 +59,7 @@ let participationToggle = (_el) => {
 		_el.style.transform = 'translate(0px)'
 		_el.style.backgroundColor = 'white'
 
-		_rightblock.style.color = 'rgba(0, 0, 0, 0)'
-		setTimeout(() => { _rightblock.style.right = _right }, 300)
+ 		_rightblock.style.right = _right
 
 		participation = false
 	}
