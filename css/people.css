@@ -22,7 +22,6 @@
 	transition: top 0.2s ease;
 }
 
-
 /* HEADSHOTS LEFT */
 
 .headshots-container {
@@ -64,10 +63,12 @@
 }
 
 .headshot-description {
-`	font-style: italic;
+	font-style: italic;
+	text-align: center;
 	position: absolute;
 	bottom: 10px;
-	width: 80%;
+	width: 100%;
+	margin-left: 0%;
 }
 
 
@@ -138,4 +139,51 @@
 
 .current-email {
 
+}
+
+@media (max-width: 500px) and (orientation: portrait){
+
+	.all-headshots-container {
+		width: 40%;
+	}
+
+	.people-role {
+		font-size: 1.3em;
+	}
+
+	.single-headshot {
+		max-width: 100%;
+		height: 250px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.headshot-image-container {
+		width: 100%;
+	}
+
+	.bio-container {
+
+		position: fixed;
+		width: 50%;
+		top: 30%;
+		right: 5%;
+
+		border: none;
+
+		font-size: 0.8em;
+	}
+
+	.current-headshot-container {
+		display: none;
+	}
+
+	.current-headshot-container, .current-name, .current-roles, .current-courses, .current-description, .current-website, .current-email{
+		border: none;
+		border-bottom: 2px solid black;
+	}
+
+	.current-roles {
+		width: 100%;
+	}
 }

@@ -18,7 +18,7 @@
   	"roles": ["Lecturer of Interactive Media","Howler Radio DJ"],
   	"current": true,
   	"description": {
-      "short":"assigns a very reasonable amount of work in 2-cred classes",
+      "short":"assigns too much work",
       "long": "une bande de brigands ravageait la campagne. Le chef des brigands dit à son fidèle second, Pedro: \"Pedro, toi qui sais si bien raconter les histoires, raconte-nous une histoire...\" Et Pedro commença en ces termes: 'Une bande de brigands ravageait la campagne...'"
     },
   	"courses": ["Communication Lab", "Politics of Code", "Alternate Realities", "Software Art: Image", "Software Art: Text"],

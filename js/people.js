@@ -48,13 +48,18 @@ let guideBio = (evt) => {
 
 let switchBio = (_el, _name) => {
 	if(previous != null && _name == previous.name) return
-	
 
-	slide('0px', 'white')
-	setTimeout(() => {
+	if(previous == null){
 		replace(_el, _name)
 		slide('400px', 'black')
-	}, 800)
+	}else{
+		slide('0px', 'white')
+		setTimeout(() => {
+			replace(_el, _name)
+			slide('400px', 'black')
+		}, 600)
+	}
+
 }
 
 let slide = (_h, _c) => {
@@ -101,7 +106,7 @@ let replace = (_el, _name) => {
 	email.innerText = current.email
 	email.setAttribute('href', 'mailto:'+current.email)
 
-	previous = current	
+	previous = current
 }
 
 let changeContent = (_id, _content) => {

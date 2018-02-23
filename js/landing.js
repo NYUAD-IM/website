@@ -1,14 +1,26 @@
-/*
-	JS lets to deal with non-p5 & non-css related interactions on main page.
-
-	Named 'script' to satisfy Pierre. Sorry, Craig.
-
-	Modified Jan 2018
-	James Hosken
-*/
-
 let participation = false
 let description = false
+
+let _leftblock, _rightblock
+let left = {
+		"desktop": "-50%",
+		"mobile": "-80%"
+}
+
+let right = {
+		"desktop": "-35%",
+		"mobile": "-80%"
+}
+
+let _left, _right
+
+$(document).ready(function(){
+	_leftblock = document.getElementById('description-left')
+	_rightblock = document.getElementById('description-right')
+
+	_left = detectmob() ? left.mobile : left.desktop
+	_right = detectmob() ? right.mobile : right.desktop
+})
 
 
 let descriptionToggle = (_el) => {
@@ -17,66 +29,61 @@ let descriptionToggle = (_el) => {
 		_el.style.transform = 'translateY(-'+_el.getBoundingClientRect().height+'px)'
 		_el.style.border = '3px solid black'
 		_el.style.borderBottom = 'none'
+
+		setTimeout(() => {
+			_leftblock.style.color = 'rgba(0, 0, 0, 1)'
+		}, 300)
+		_leftblock.style.left = '3%'
+
 		description = true
 	}else{
 		_el.style.border = '3px solid white'
 		_el.style.transform = 'translate(0px)'
 		_el.style.backgroundColor = 'white'
+
+		_leftblock.style.color = 'rgba(0, 0, 0, 0)'
+		setTimeout(() => {
+			_leftblock.style.left = _left
+		}, 300)
+
 		description = false
-	}
-	
-	if($('#description-left').css('opacity') == 1){
-		$('#description-left').css('opacity', 0)
-		setTimeout(() => {
-			$('#button-left-bg').css('left', '-80%');
-			$('#description-left').css('display', 'none');
-		}, 300)
-	}else{
-		setTimeout(() => {
-			$('#description-left').css('opacity', 1)
-		}, 300)
-		$('#description-left').css('display', 'block');
-		$('#button-left-bg').css('left', '-40%');
 	}
 }
 
 let participationToggle = (_el) => {
-
-
 	if(!participation){
 		_el.style.transform = 'translateY(-'+_el.getBoundingClientRect().height+'px)'
 		_el.style.border = '3px solid black'
 		_el.style.borderBottom = 'none'
+
+		setTimeout(() => {
+			_rightblock.style.color = 'rgba(0, 0, 0, 1)'
+		}, 300)
+		_rightblock.style.display = 'block'
+		_rightblock.style.right = '3%'
+
 		participation = true
 	}else{
 		_el.style.border = '3px solid white'
 		_el.style.transform = 'translate(0px)'
 		_el.style.backgroundColor = 'white'
+
+		_rightblock.style.color = 'rgba(0, 0, 0, 0)'
+		setTimeout(() => { _rightblock.style.right = _right }, 300)
+
 		participation = false
 	}
-	if($('#description-right').css('opacity') == 1){
-		$('#description-right').css('opacity', 0)
-		setTimeout(() => {
-			$('#button-right-bg').css('right', '-105%');
-			$('#description-right').css('display', 'none');
-		}, 500)
-	}else{
-		setTimeout(() => {
-			$('#description-right').css('opacity', 1)
-		}, 300)
-		$('#description-right').css('display', 'block');
-		$('#button-right-bg').css('right', '-67%')
-	}
+
 }
 
 let experienceToggle = () => {
-	let el = $('#description-center')
-	if(el.css('opacity') == 0){
-		document.getElementById('description-center').style.opacity = 1
+	let el = document.getElementById('description-center')
+	if(el.style.opacity == 0){
+		el.style.opacity = 1
 		setTimeout(() => {
-			window.location = '/about'
+			window.location = '/website'
 		}, 2000)
 	}else{
-		el.css('opacity', 0)
+		el.style.opacity = 0
 	}
 }
