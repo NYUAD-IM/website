@@ -3,7 +3,6 @@
 body{
     width: 100%;
     padding-top:50px;
-    font-family: 'Source Code Pro', monospace;
     font-size: 14px;
 }
 
@@ -50,11 +49,12 @@ ul li{
     z-index: 100;
 }
 
+/* TODO ----   REMOVE? */
 #content-wrapper{
-      width: 85%;
-  padding: 15px;
-    max-width: 1200px;
-    margin: auto;
+    /*width: 85%;*/
+    /*padding: 15px;*/
+    /*max-width: 1200px;*/
+    /*margin: auto;*/
 }
 
 /*---------popup---------------*/

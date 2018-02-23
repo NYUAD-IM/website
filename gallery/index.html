@@ -13,10 +13,12 @@
     <title>NYUAD IM GALLERY</title>
     <!-- Bootstrap Core CSS -->
     <!--<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">-->
-    <link href="../css/gallery/bootstrap.css" rel="stylesheet">
-    <link href="../css/gallery/thumbnail-gallery.css" rel="stylesheet">
-    <link href="../css/gallery/styles.css" rel="stylesheet">
-    <link href="../css/gallery/responsive.css" rel="stylesheet">
+    <link href="/website/css/gallery/bootstrap.css" rel="stylesheet">
+    <link href="/website/css/main.css" rel="stylesheet">
+    <link href="/website/css/header.css" rel="stylesheet">
+    <link href="/website/css/gallery/thumbnail-gallery.css" rel="stylesheet">
+    <link href="/website/css/gallery/styles.css" rel="stylesheet">
+    <link href="/website/css/gallery/responsive.css" rel="stylesheet">
 
 </head>
 
@@ -24,9 +26,14 @@
 
   <div id="popup-wrapper" style="display:none">
   </div>
-  <div id="content-wrapper">
+
+  <div class="container-fluid header-container" id="header">
+    <!-- JS Script will inject this from /html/navigation.html :) -->
+  </div>
+
+  <div id="content-wrapper" class="page-container">
     <header>
-      <div id="page-title"><a class="underline" href="http://nyuad.im" target="_blank">IM</a> PROJECTS GALLERY</div>
+      <div class="page-title">GALLERY</div>
     </header>
 
     <nav>
@@ -42,6 +49,10 @@
     </nav>
 
     <section id="gallery-container"></section>
+
+    <!-- FOOTER SECTION -->
+    <div class="container-fluid footer-container" id="footer">
+    </div>
 
   </div>
 
@@ -65,6 +76,7 @@
     <!-- <script src="js/scripts/mobileHTML.js"></script> -->
     <script src="../js/gallery/load.js"></script>
     <script src="../js/gallery/main.js"></script>
+    <script src="../js/main.js"></script>
 
 </body>
 

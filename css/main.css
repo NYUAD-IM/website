@@ -26,8 +26,6 @@ button {
 	border: none;
 }
 
-
-
 .img-fluid{
 	width: auto;
 	max-height: 5vh;
@@ -36,6 +34,7 @@ button {
 .page-container{
 	width: 80%;
 	margin: 8%;
+	margin-top: 5%;
 	display: block;
 	text-align: justify;
 	background-color: white;
