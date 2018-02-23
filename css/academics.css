@@ -28,7 +28,7 @@
 }
 
 /** BUTTONS **/
-
+/*
 .button-container{
 	position: fixed;
 	width: 100%;
@@ -80,7 +80,7 @@
 	cursor: pointer;
 
 	transform: translateY(0px);
-}
+}*/
 
 .action-button, .comp-med-btn, .pcomp-btn, .mdt-btn {
 	transition: all 0.2s ease;
@@ -92,16 +92,16 @@
 
 
 .button-container .comp-med-btn:hover{
-	border-bottom: 9px solid lightgreen;
+	border-bottom: 4px solid lightgreen;
 }
 
 
 .button-container .pcomp-btn:hover{
-	border-bottom: 9px solid pink;
+	border-bottom: 4px solid pink;
 }
 
 .button-container .mdt-btn:hover{
-	border-bottom: 9px solid lightblue;
+	border-bottom: 4px solid lightblue;
 }
 
 .button-center{

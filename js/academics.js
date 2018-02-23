@@ -126,17 +126,21 @@ let filter = (_el, _tag) => {
 	//button feedback
   if(filters[_tag]){
 		_el.style.transform = 'translateY(-'+(_el.getBoundingClientRect().height)+'px)'
-		_el.style.border = '3px solid black'
-		_el.style.borderBottom = 'none'
+		// _el.style.border = '3px solid black'
+		// _el.style.borderBottom = 'none'
+
+		_el.setAttribute('class', 'selected '+_el.getAttribute('class').replace('unselected', ''))
 
 		if(_tag == 'computational-media') _el.style.backgroundColor= 'lightgreen'
 		if(_tag == 'physical-computing') _el.style.backgroundColor= 'pink'
 		if(_tag == 'media-and-design-thinking') _el.style.backgroundColor= 'lightblue'
 
 	}else{
-		_el.style.border = '3px solid white'
+		// _el.style.border = '3px solid white'
 		_el.style.transform = 'translateY(0px)'
 		_el.style.backgroundColor = 'white'
+
+		_el.setAttribute('class', 'unselected '+_el.getAttribute('class').replace('selected', ''))
 	}
 
 

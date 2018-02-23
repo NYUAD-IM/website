@@ -2,10 +2,19 @@ body {
 	transition: color 0.2s linear;
 }
 
+.about-description {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
 .about-description p {
 	margin-left: 10%;
 	margin-right: 10%;
-	font-size: 1.3em;
+
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+	font-size: 1.5em;
 }
 
 .about-description a {
@@ -23,9 +32,11 @@ body {
 }
 
 .img-container img {
-
 	width: 50%;
 	height: auto;
 	display: block;
 	margin: auto;
+
+	border: 3px solid black;
+	padding: 10px;
 }
