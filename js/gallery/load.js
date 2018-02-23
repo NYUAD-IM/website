@@ -2,25 +2,36 @@ var my_data = {
 
   load_data_from_index: function(data_directory){
     var index_file_path = data_directory + 'index.json';
+
     $.getJSON(index_file_path,function(data){
+
         if(Array.isArray(data)){
+
+          var success_count = 0;
+          const index_length = data.length;
+
           data.forEach(function(el,id){
             var project_data_path = data_directory + 'projects/' + el.folder_name + '/data.json';
+
             (function(){
-              var create_categ_bar = id === data.length - 1 ? true : false;
               $.getJSON(project_data_path,function(d){
+                success_count++;
                 my_data.populate_category_bar(d);
                 new Thumbnail(d,el);
-                if(create_categ_bar){
+                if(success_count === data.length){
                   my_data.create_category_bar(new_categ_object);
-                  // new Popup(d);
-                };
+                  createGrid();
+                }
               })
             })();
+
           });
+
         };
+
       });
     },
+
 
     populate_category_bar: function(proj){
 
@@ -55,7 +66,7 @@ var my_data = {
     create_category_bar: function(obj){
       new CategoryBar(obj);
       new TagBar(obj);
-      createGrid();
+      // createGrid();
     }
 
 };

@@ -17,11 +17,11 @@ function Popup(project,index){
 
   function create_html_element(d){
 
-    var first_img = PROJECTS_PATH_HTML + index.folder_name + '/img/' + index.img[0];
+    var first_img = DATA_PATH_HTML + '/projects/' + index.folder_name + '/img/' + index.img[0];
 
     var html_string = '';
     html_string += '<div class="popup-window">';
-    html_string += '<img class="popup-window__exit-button" src="' + IMG_PATH_HTML + 'x-icon-white.png" />';
+    html_string += '<img class="popup-window__exit-button" src="' + IMG_PATH_HTML + 'x-icon-black.png" />';
     html_string += '<section><h1 class="popup-window__title">' + d.title+ '</h1>';
     html_string += '<p class="popup-window__description--short">' + d.description.short + '</p></section>';
     // if there is a video show video first otherwise show image
@@ -31,7 +31,7 @@ function Popup(project,index){
     }else{
       html_string += '<img class="popup-window__image--main" src="' + first_img + '" />';
     };
-    html_string += '<section><p class="popup-window__description--long">' + 'Lorem ipsum' + '</p></section>';
+    html_string += '<section><p class="popup-window__description--long">' + d.description.long + '</p></section>';
     html_string += '</div>';
 
     // append popup window to the wrapper element
