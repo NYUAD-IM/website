@@ -61,6 +61,7 @@ hr {
 	height: 3px;
 	border: none;
 	background-color: black;
+	/*float: left;*/
 }
 
 .not-offered {
@@ -166,4 +167,44 @@ hr {
 
 .media-and-design-thinking .course-number{
 	background-color: lightblue;
+}
+
+
+@media (max-width: 500px) and (orientation: portrait){
+	.left-align, .right-align{
+		width: 100%;
+		float: left;
+		text-align: left;
+		padding: 0;
+	}
+
+	.right-align .course-number , .right-align .course-link{
+		float: right;
+		text-align: right;
+	}
+
+	.right-align .course-title, .right-align .course-instructors {
+		float: left;
+	}
+
+	.course-title {
+		width: 50%;
+	}
+
+	.course-number, .course-program {
+		float: right;
+		text-align: right;
+		width: 30%;
+	}
+
+	.course-desc-short {
+		float: left;
+		padding-top: 20px;
+		width: 100%;
+	}
+
+	.expand-container, hr {
+		float: left;
+		width: 100%;
+	}
 }

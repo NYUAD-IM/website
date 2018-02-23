@@ -14,14 +14,19 @@ let populate = (d) => {
 
   let index = 0
   let pitch = 0
-  while(index < CONTENT.length){
-	  if(Math.random() > 0.4){
-		  createNote(pitch)
-		  pitch++
-	  }else{
-		  createActivity(CONTENT[index], positions[index%3])
-		  index++
-	  }
+  if(detectmob()){
+    for(let act of CONTENT)
+      createActivity(act)
+  }else{
+    while(index < CONTENT.length){
+  	  if(Math.random() > 0.4){
+  		  createNote(pitch)
+  		  pitch++
+  	  }else{
+  		  createActivity(CONTENT[index], positions[index%3])
+  		  index++
+  	  }
+    }
   }
 }
 
@@ -31,11 +36,11 @@ let createNote = (pitch) => {
 
 	let notation = document.createElement('div')
 	notation.setAttribute('class', 'note-display')
-	
+
 	let note = document.createElement('audio')
 	note.setAttribute('src', '')
 	note.setAttribute('visibility', 'hidden')
-	
+
 	notation.appendChild(note)
 	cont.appendChild(notation)
 	container.appendChild(cont)

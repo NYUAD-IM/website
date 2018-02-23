@@ -185,6 +185,31 @@ button {
 	body {
 	}
 
+	.page-container {
+		margin: 2%;
+		margin-top: 70px;
+		width: 96%;
+		margin-bottom: 50px;
+	}
+
+	.page-title {
+		font-size: 2em;
+	}
+
+
+	/* BUTTONS */
+	.action-button {
+
+		min-width: 0px;
+		width: 30%;
+		margin-left: 10%;
+		font-size: 1em;
+	}
+
+	.button-container button {
+		width: 100%;
+	}
+
 	.img-fluid{
 		width: auto;
 		max-height: 5vh;
