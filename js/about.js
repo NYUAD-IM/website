@@ -1,5 +1,20 @@
+let max_height = {
+	"desktop": '600px',
+	"mobile": '250px'
+}
+
+let min_height = {
+	"desktop": '100px',
+	"mobile": '30px'
+}
+
+let _expand, _retract
+
 $(document).ready(() => {
 	attachListener()
+
+	_expand =  detectmob() ? max_height.mobile : max_height.desktop
+	_retract =  detectmob() ? min_height.mobile : min_height.desktop
 })
 
 let attachListener = () => {
@@ -15,10 +30,10 @@ let attachListener = () => {
 }
 
 let expand = (el) => {
-	if(el.style.height == '600px')
-		el.style.height = '100px'
+	if(el.style.height == _expand)
+		el.style.height = _retract
 	else
-		el.style.height = '600px'
+		el.style.height = _expand
 }
 
 let colorize = (color) => {

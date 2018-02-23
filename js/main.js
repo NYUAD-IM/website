@@ -8,7 +8,7 @@ $(document).ready(function(){
     	$('#footer').load('/website/html/footer.html');
 
 
-	dropdown_height = detectmob() ? '120px' : '40px'
+	dropdown_height = detectmob() ? '280px' : '40px'
 });
 
 

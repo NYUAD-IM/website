@@ -2,6 +2,11 @@ let container
 let opportunities
 let opportunity, title, category, loc, link, deadline, description
 
+let height = {
+	"desktop": '200px',
+	"mobile": '400px'
+}
+
 $(document).ready(() => {
 	fetch()
 	container = document.getElementById('opportunities')
@@ -64,7 +69,7 @@ let retract = () => {
 }
 
 let expand = (_el, _title) => {
-	opportunity.style.height = '200px'
+	opportunity.style.height = detectmob() ? height.mobile : height.desktop
 	opportunity.style.color = 'black'
 	opportunity.style.borderColor = 'black'
 

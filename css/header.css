@@ -151,10 +151,12 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		padding-left: 5px;
+		padding-right: 5px;
 	}
 
 	.im-logo {
-		font-size: 1em;
+		font-size: 1.4em;
 		padding-left: 5px;
 	}
 
@@ -162,21 +164,38 @@
 		padding: 0;
 	}
 
-    .nav-dropdown-container{
+	.nav-dropdown-btn img{
+		padding: 0;
+		width: 25px;
+		height: 30px;
+	}
 
-            width: auto;
-            height: 100%;
+	.nav-nyuad {
+		width: 30%;
+	}
 
-            display: flex;
-            align-items: center;
+	.nyuad-logo {
+		min-height: auto;
+		min-width: auto;
+		height: 40px;
+	}
 
-    }
+  .nav-dropdown-container{
+    width: 70%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+  }
 
     .nav-dropdown-list {
-	font-size: 0.9em;
+			font-size: 1em;
+			width: 50%;
     }
 
-    .nav-dropdown-list li {
-	padding: 2px 3px;
-    }
+		.nav-dropdown-mobile{
+			width: 100%;
+			text-align: left;
+			padding: 2px 3px;
+		}
 }

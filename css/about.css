@@ -49,4 +49,12 @@ body {
 		font-size: 1em;
 	}
 
+	.img-container {
+		height: 30px;
+	}
+
+	.img-container img {
+		width: 90%;
+	}
+
 }
