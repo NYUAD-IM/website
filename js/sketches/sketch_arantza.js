@@ -1,5 +1,5 @@
 function setup(){
-	createCanvas(windowWidth, windowHeight);
+	createCanvas(windowWidth, windowHeight)
 	background(255)
 }
 
@@ -9,7 +9,6 @@ function draw(){
 }
 
 function drawBackground() {
-
 	strokeWeight(55)
 	for(var x = 0; x < width*1.2; x += 60){
 		for(var y = 0; y < height*1.2; y += 60){
