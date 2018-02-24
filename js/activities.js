@@ -8,22 +8,20 @@ $(document).ready(() => {
 
 
 let populate = (d) => {
-  const CONTENT = d
-
-  console.log(CONTENT);
+  const ACTIVITIES = d
 
   let index = 0
   let pitch = 0
   if(detectmob()){
-    for(let act of CONTENT)
+    for(let act of ACTIVITIES)
       createActivity(act)
   }else{
-    while(index < CONTENT.length){
+    while(index < ACTIVITIES.length){
   	  if(Math.random() > 0.4){
   		  createNote(pitch)
   		  pitch++
   	  }else{
-  		  createActivity(CONTENT[index], positions[index%3])
+  		  createActivity(ACTIVITIES[index], positions[index%3])
   		  index++
   	  }
     }
@@ -31,19 +29,47 @@ let populate = (d) => {
 }
 
 let createNote = (pitch) => {
+  let type = Math.floor(Math.random()*3)
+
 	let cont = document.createElement('div')
 	cont.setAttribute('class', 'note-container')
 
 	let notation = document.createElement('div')
-	notation.setAttribute('class', 'note-display')
+  notation.setAttribute('onmouseenter', 'play(this)')
+  notation.setAttribute('rotation', 45)
+
+  switch (type) {
+    case 0:
+      notation.setAttribute('class', 'note-display pink')
+      break;
+    case 1:
+      notation.setAttribute('class', 'note-display lightgreen')
+      break;
+    case 2:
+      notation.setAttribute('class', 'note-display lightblue')
+      break;
+    default:
+
+  }
 
 	let note = document.createElement('audio')
-	note.setAttribute('src', '')
+	note.setAttribute('src', '/website/media/audio/'+type+'.wav')
 	note.setAttribute('visibility', 'hidden')
+  note.setAttribute('volume', '0.5')
+
 
 	notation.appendChild(note)
 	cont.appendChild(notation)
 	container.appendChild(cont)
+}
+
+let play = (_el) => {
+  // console.log(_el);
+  _el.children[0].currentTime = 0
+  _el.children[0].play()
+  let rot = parseInt(_el.getAttribute('rotation')) + 45
+  _el.style.transform = 'rotate('+rot+'deg)'
+  _el.setAttribute('rotation', rot)
 }
 
 let createActivity = (act, pos) => {

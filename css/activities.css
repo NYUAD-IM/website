@@ -5,9 +5,9 @@
 }
 
 .activity-container, .note-container {
-	width: 18%;
-	height: 300px;
-	margin: 3%;
+	width: 20%;
+	height: 250px;
+	margin: 2%;
 
 	float: left;
 }
@@ -38,11 +38,11 @@
 }
 
 .activity-blurb{
-	top: 50%;
+	top: 40%;
 	padding-left: 10px;
 	padding-right: 10px;
-	color: white;
-	background-color: rgba(0, 0, 0, 0.5);
+	color: black;
+	background-color: rgba(255, 255, 255, 0.7);
 }
 
 .activity-link{
@@ -71,7 +71,7 @@
 }
 
 .activity-title {
-	font-size: 1.6em;
+	font-size: 1.4em;
 	font-weight: bold;
 	text-align: center;
 	width: 80%;
@@ -96,11 +96,23 @@
 	margin-left: 40%;
 	width: 40px;
 	height: 40px;
-	background-color: white;
 	border: 3px solid black;
 
 	transform: rotate(45deg);
 
+	transition: all 0.3s ease;
+}
+
+.pink {
+	background-color: pink;
+}
+
+.lightblue {
+	background-color: lightblue;
+}
+
+.lightgreen {
+	background-color: lightgreen;
 }
 
 

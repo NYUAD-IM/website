@@ -62,13 +62,20 @@
 	float: left;
 	font-size: 2em;
 	font-weight: bold;
+	width: 100%;
 }
 
 .opportunity-location, .opportunity-deadline{
 	float: right;
-	width: 40%;
+	width: 45%;
 	text-align: right;
 	font-size: 1.3em;
+	font-style: italic;
+}
+
+.opportunity-location {
+	text-align: left;
+	float: left;
 }
 
 .opportunity-description {

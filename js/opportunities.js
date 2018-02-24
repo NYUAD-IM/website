@@ -3,7 +3,7 @@ let opportunities
 let opportunity, title, category, loc, link, deadline, description
 
 let height = {
-	"desktop": '200px',
+	"desktop": '250px',
 	"mobile": '400px'
 }
 
