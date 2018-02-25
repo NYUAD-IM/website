@@ -1,6 +1,6 @@
 function setup() {
 
-	var canvas = createCanvas(window.width * 1.0, window.innerHeight * 1.0);
+	var canvas = createCanvas(window.innerWidth * 1.0, window.innerHeight * 1.0);
 
 	// Move the canvas so it's inside our <div id="canvas-container">.
 	canvas.parent('canvas-container');

@@ -26,6 +26,7 @@ body {
 
 #canvas-container{
 	position: absolute;
+	z-index: -1;
 	left: 0;
 	top: 0;
 	height: 100%;
@@ -104,6 +105,7 @@ canvas{
 	.description-left, .description-right {
 		font-size: 1.1em;
 		line-height: 1.15em;
+		top: 70px;
 		width: 80%;
 		padding: 10px;
 	}
