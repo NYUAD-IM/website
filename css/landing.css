@@ -61,7 +61,8 @@ canvas{
 	z-index: 3;
 
 	height: auto;
-	top: 10%;
+	top: 125px;
+	width: 40%;
 
 	font-size: 1.25em;
 	background-color: none;
@@ -77,12 +78,10 @@ canvas{
 
 .description-left{
 	left: -50%;
-	width: 30%;
 }
 
 .description-right{
-	right: -35%;
-	width: 30%;
+	right: -45%;
 }
 
 

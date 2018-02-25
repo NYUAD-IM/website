@@ -8,7 +8,7 @@ let left = {
 }
 
 let right = {
-		"desktop": "-35%",
+		"desktop": "-45%",
 		"mobile": "-80%"
 }
 

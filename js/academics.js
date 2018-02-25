@@ -1,11 +1,9 @@
-let container;
-let addTextRequired = " [Required]";
-// _course.title += addTextRequired
+let container
 
 $(document).ready(() => {
-	fetch();
+	fetch()
 	container = document.getElementById('page-container')
-});
+})
 
 let populate = (d) => {
 	const CONTENT = d
@@ -23,25 +21,26 @@ let addElement = (_course) => {
 
 		let course = document.createElement('div')
 
-		let track = ""
-		let offered = ""
+		let track = ''
+		let offered = ''
 		let _track = _course.track
-		if(_track == "Foundation" || _track == "Computational Media" || _track == "Physical Computing"|| _track == "Media & Design Thinking"){
+		if(_track == 'Foundation' || _track == 'Computational Media' || _track == 'Physical Computing'|| _track == 'Media & Design Thinking'){
 			track = _course.track.toLowerCase().split(' ').join('-')
 			track = track.replace('&', 'and')
 	  	}
 
 		if(!_course.currently_offered)
-			offered = "not-offered"
+			offered = 'not-offered'
 
-		let cluster = "" //whether requirement, elective, or none
-		if(_course.title == "Introduction to Interactive Media" || _course.title == "Communications Lab" || _course.title == "Communication & Technology" || _course.title == "Capstone Seminar" || _course.title == "Capstone Project")
-			 
-		cluster = "requirements";
-		else if(track != "") //if track is either CompMed, PComp or MDT:
-			cluster = "electives";
-		else
-			cluster = "crosslisted";
+		let cluster = '' //whether requirement, elective, or none
+		if(_course.title == 'Introduction to Interactive Media' || _course.title == 'Communications Lab' || _course.title == 'Communication & Technology' || _course.title == 'Capstone Seminar' || _course.title == 'Capstone Project'){
+			cluster = 'requirements'
+			let _req = createEl('div','req-course', '[Required]')
+		}else if(track != ''){ //if track is either CompMed, PComp or MDT:
+			cluster = 'electives'
+		}else{
+			cluster = 'crosslisted'
+		}
 
 		course.setAttribute('class', ['course-container ', track, cluster, offered].join(' '))
 		course.setAttribute('track', track)
@@ -53,10 +52,10 @@ let addElement = (_course) => {
 		let _n = createEl('div', 'course-number', _course.number)
 		course.appendChild(_n)
 
-		if (_course.title == "Introduction to Interactive Media" || _course.title == "Communications Lab" || _course.title == "Communication & Technology" || _course.title == "Capstone Seminar" || _course.title == "Capstone Project") {
+		if (_course.title == 'Introduction to Interactive Media' || _course.title == 'Communications Lab' || _course.title == 'Communication & Technology' || _course.title == 'Capstone Seminar' || _course.title == 'Capstone Project') {
 
-		let _x = createEl('div','req-course',addTextRequired)
-		course.appendChild(_x), cluster = "requirements";;			
+
+		course.appendChild(_req), cluster = 'requirements';;
 		}
 
 
@@ -87,7 +86,7 @@ let addElement = (_course) => {
 		course.appendChild(_te)
 		*/
 
-		if(_course.link != ""){
+		if(_course.link != ''){
 			let _l = createEl('a', 'course-link', 'course website')
 			_l.setAttribute('href', _course.link)
 			expand_container.appendChild(_l)
@@ -98,9 +97,9 @@ let addElement = (_course) => {
 
 		let _ta = createEl('div', 'course-tags', '')
 		for(let tag of _course.tags)
-			_ta.innerText += tag + " |"
+			_ta.innerText += tag + ' |'
 		expand_container.appendChild(_ta)
-		expand_container.expanded = "false"
+		expand_container.expanded = 'false'
 
 		course.appendChild(expand_container)
 		course.setAttribute('onclick', 'expand(this)')
@@ -123,9 +122,9 @@ let expand = (el) => {
 }
 
 let filters = {
-	"computational-media": false,
-	"physical-computing": false,
-	"media-and-design-thinking": false
+	'computational-media': false,
+	'physical-computing': false,
+	'media-and-design-thinking': false
 }
 
 let filter = (_el, _tag) => {
