@@ -76,6 +76,7 @@
 	cursor: pointer;
 	width: 25px;
 	height: 25px;
+	margin-right: 20px;
 }
 
 .nav-dropdown-btn a, .nav-dropdown-btn a:hover {
@@ -93,7 +94,7 @@
   font-size: 2.5em;
   font-weight: bold;
 
-  padding-left: 20px;
+  /*padding-left: 20px;*/
 
   transition: color 0.2s linear;
 }
