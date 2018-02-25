@@ -33,9 +33,10 @@ let addElement = (_course) => {
 			offered = 'not-offered'
 
 		let cluster = '' //whether requirement, elective, or none
+		let _req = null
 		if(_course.title == 'Introduction to Interactive Media' || _course.title == 'Communications Lab' || _course.title == 'Communication & Technology' || _course.title == 'Capstone Seminar' || _course.title == 'Capstone Project'){
 			cluster = 'requirements'
-			let _req = createEl('div','req-course', '[Required]')
+			_req = createEl('div','req-course', '[Required]')
 		}else if(track != ''){ //if track is either CompMed, PComp or MDT:
 			cluster = 'electives'
 		}else{
@@ -52,11 +53,8 @@ let addElement = (_course) => {
 		let _n = createEl('div', 'course-number', _course.number)
 		course.appendChild(_n)
 
-		if (_course.title == 'Introduction to Interactive Media' || _course.title == 'Communications Lab' || _course.title == 'Communication & Technology' || _course.title == 'Capstone Seminar' || _course.title == 'Capstone Project') {
-
-
-		course.appendChild(_req), cluster = 'requirements';;
-		}
+		if (_req !=null)
+			course.appendChild(_req), cluster = 'requirements';;
 
 
 
