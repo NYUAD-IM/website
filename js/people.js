@@ -24,6 +24,7 @@ let createHeadshots = (_people) => {
 	let _ih = createEl('div', 'headshot-image-container')
 	let _i = createEl('img', 'headshot-image')
 	_i.setAttribute('src', '/website/media/img/people/'+_people.img)
+	_i.setAttribute('alt',_people.alt)
 	_ih.appendChild(_i)
 	cont.appendChild(_ih)
 

@@ -84,6 +84,7 @@ let createActivity = (act, pos) => {
 	let _i = document.createElement('img')
 	_i.setAttribute('src', '/website/media/img/'+act.image)
 	_i.setAttribute('class', 'activity-image')
+  _i.setAttribute('alt',act.alt)
 	img.appendChild(_i)
 	cont.appendChild(img)
 
