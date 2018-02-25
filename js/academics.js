@@ -1,19 +1,21 @@
-let container
+let container;
+let addTextRequired = " [Required]";
+// _course.title += addTextRequired
 
 $(document).ready(() => {
-	fetch()
+	fetch();
 	container = document.getElementById('page-container')
-})
+});
 
 let populate = (d) => {
 	const CONTENT = d
 
-	console.log(CONTENT)
+	console.log(CONTENT);
 
 	for(let course of CONTENT)
-		addElement(course)
+		addElement(course);
 
-}
+};
 
 let addElement = (_course) => {
 
@@ -24,10 +26,7 @@ let addElement = (_course) => {
 		let track = ""
 		let offered = ""
 		let _track = _course.track
-		if(_track == "Foundation"
-	  	|| _track == "Computational Media"
-	  	|| _track == "Physical Computing"
-	  	|| _track == "Media & Design Thinking"){
+		if(_track == "Foundation" || _track == "Computational Media" || _track == "Physical Computing"|| _track == "Media & Design Thinking"){
 			track = _course.track.toLowerCase().split(' ').join('-')
 			track = track.replace('&', 'and')
 	  	}
@@ -37,20 +36,30 @@ let addElement = (_course) => {
 
 		let cluster = "" //whether requirement, elective, or none
 		if(_course.title == "Introduction to Interactive Media" || _course.title == "Communications Lab" || _course.title == "Communication & Technology" || _course.title == "Capstone Seminar" || _course.title == "Capstone Project")
-			cluster = "requirements"
+			 
+		cluster = "requirements";
 		else if(track != "") //if track is either CompMed, PComp or MDT:
-			cluster = "electives"
+			cluster = "electives";
 		else
-			cluster = "crosslisted"
+			cluster = "crosslisted";
 
 		course.setAttribute('class', ['course-container ', track, cluster, offered].join(' '))
 		course.setAttribute('track', track)
+
 
 		let _t = createEl('div', 'course-title', _course.title)
 		course.appendChild(_t)
 
 		let _n = createEl('div', 'course-number', _course.number)
 		course.appendChild(_n)
+
+		if (_course.title == "Introduction to Interactive Media" || _course.title == "Communications Lab" || _course.title == "Communication & Technology" || _course.title == "Capstone Seminar" || _course.title == "Capstone Project") {
+
+		let _x = createEl('div','req-course',addTextRequired)
+		course.appendChild(_x), cluster = "requirements";;			
+		}
+
+
 
 		let _p = createEl('div', 'course-program', _course.program)
 		course.appendChild(_p)
