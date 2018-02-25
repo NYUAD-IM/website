@@ -10,7 +10,6 @@ let img_path_prefix = '/website/media/img/people/'
 
 let populate = (d) => {
 	everybody = d
-
 	console.log(everybody)
 
 	for(let one of everybody)
@@ -91,7 +90,7 @@ let replace = (_el, _name) => {
 	let courses = document.getElementById('courses')
 	if(current.courses.length > 0){
 		courses.style.visibility = 'visible'
-		courses.innerText = current.courses.join(', ')
+		courses.innerHTML = "<b>Courses: </b>" + current.courses.join(', ')
 	}else{
 		courses.style.visibility = 'hidden'
 		courses.innerText = ''
