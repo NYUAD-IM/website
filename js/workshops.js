@@ -10,7 +10,7 @@ function datePassed(date){
   var currentdd = currentDate.getDate();
   var currenthh = currentDate.getHours();
   var currentmm = currentDate.getMinutes();
-  
+
   if (workshopyy == currentyy && workshopMM == currentMM && workshopdd == currentdd) {
     if (workshophh < currenthh) {
       return true;
@@ -37,10 +37,13 @@ function datePassed(date){
 }
 
 let container
+let upcoming
+let past
 let workshops
 let colors = ['pink', 'lightblue', 'lightgreen']
 
 $(document).ready(() => {
+  createPastUpcoming();
 	fetch()
 	container = document.getElementById('workshops-container')
 	console.log(container);
@@ -53,12 +56,27 @@ let populate = (d) => {
 		createWorkshop(workshops[index], index)
 }
 
+let createPastUpcoming = () => {
+  let c = document.getElementById('workshops-container')
+
+  upcoming = createEl('div', 'workshops-upcoming')
+  c.appendChild(upcoming)
+  let uTitle = createEl('div', 'workshops-title bg-lightgreen', 'UPCOMING');
+  upcoming.appendChild(uTitle);
+
+  past = createEl('div', 'workshops-past')
+  c.appendChild(past)
+  let pTitle = createEl('div', 'workshops-title bg-lightblue', 'PAST');
+  past.appendChild(pTitle);
+}
+
 let createWorkshop = (_ws, _i) => {
 	let side = _i % 2 == 0 ? 'left' : 'right'
+  let hasPassed = datePassed(_ws.date.human);
 
 	let cont = createEl('div', ['workshop-container', 'container-'+side].join(' '))
 
-	let t = createEl('div', ['workshop-title', 'bg-'+colors[_i%3]].join(' '), _ws.title)
+	let t = createEl('div', ['workshop-title', 'bg-'+colors[_i%3], hasPassed ? 'workshop-past' : 'workshop-upcoming'].join(' '), _ws.title)
 	t.setAttribute('onclick', 'expand(this, "'+colors[_i%3]+'")')
 	cont.appendChild(t)
 
@@ -67,8 +85,11 @@ let createWorkshop = (_ws, _i) => {
 
 	let instructor = createEl('div', 'workshop-instructor', _ws.instructor)
 	sub_cont.appendChild(instructor)
-	let date = createEl('div', 'workshop-date', _ws.date.human)
-	sub_cont.appendChild(date)
+
+
+	let date = createEl('div', 'workshop-date', _ws.date.human);
+	sub_cont.appendChild(date);
+
 
 	let loc = createEl('div', 'workshop-location', _ws.location)
 	sub_cont.appendChild(loc)
@@ -90,7 +111,8 @@ let createWorkshop = (_ws, _i) => {
 
 	cont.appendChild(sub_cont)
 
-	container.appendChild(cont)
+  let par = hasPassed ? past : upcoming;
+  par.appendChild(cont)
 
 }
 
@@ -102,7 +124,7 @@ let expand = (_el, _col) => {
 		subcont.style.color = 'white'
 	}else{
 		subcont.style.width = '800px'
-		subcont.style.color = 'black' 
+		subcont.style.color = 'black'
 	}
 
 	document.body.style.backgroundColor = _col

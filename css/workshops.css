@@ -13,6 +13,27 @@ body {
 	overflow: auto;
 }
 
+.workshops-container .workshops-title {
+	width: 100%;
+	text-align: center;
+	border-width: 3px 0;
+	border-color: black;
+	border-style: solid;
+	margin-bottom: 5%;
+	font-weight: bold;
+	font-size: 26px;
+}
+
+.workshops-past {
+	overflow: auto;
+	width: 100%;
+}
+
+.workshops-upcoming {
+	overflow: auto;
+	width: 100%;
+}
+
 /* INDIVIDUAL WORKSHOPS */
 
 .bg-lightgreen {
@@ -45,6 +66,10 @@ body {
 	cursor: pointer;
 
 	text-align: center;
+}
+
+.workshop-title.workshop-past {
+	/* Nothing here, use me or delete me as you see fit! */
 }
 
 .workshop-instructor {
