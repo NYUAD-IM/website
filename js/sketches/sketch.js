@@ -16,7 +16,6 @@ function setup() {
 function windowResized() {
 	resize();
 	createBackground();
-	loadIM();
 }
 
 
