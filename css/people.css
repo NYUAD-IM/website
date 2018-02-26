@@ -7,7 +7,7 @@
 	width: 48%;
 	float: left;
 	overflow: hidden;
-	margin-top: 5%;
+	margin-top: 3%;
 }
 
 /* HEADSHOTS LEFT */
@@ -78,7 +78,7 @@
 	position: fixed;
 	top: 35%;
 	right: 10%;
-	width: 45%;
+	width: 43%;
 	border-left: 3px solid black;
 	float: right;
 	overflow: hidden;
@@ -106,8 +106,8 @@
 	transition: all 0.5s ease-in-out;
 }
 .current-headshot-container {
-	width: 150px;
-	height: 150px;
+	height: 200px;
+	width: 200px;
 	overflow: hidden;
 }
 

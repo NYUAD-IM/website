@@ -228,3 +228,16 @@ button {
 	}
 
 }
+
+@media (max-height: 876px) {
+
+	.description-left, .description-right {
+		font-size: 1em;
+	}
+
+	.about-website {
+		left: 5%;
+		font-size: 0.9em;
+		padding: 3%;
+	}
+ }
