@@ -19,13 +19,13 @@ let populate = (d) => {
 let createHeadshots = (_people) => {
 	let cont =  createEl('div', 'single-headshot')
 	cont.setAttribute('onclick', 'switchBio(this,"'+_people.name+'")')
-	cont.setAttribute('onmouseover', 'guideBio(event)')
+	// cont.setAttribute('onmouseover', 'guideBio(event)')
 
 	let _ih = createEl('div', 'headshot-image-container')
 	let _i = createEl('img', 'headshot-image')
-	_i.setAttribute('src', '/website/media/img/people/'+_people.img)
+	_i.setAttribute('src', img_path_prefix+_people.img)
 	_i.setAttribute('alt',_people.name)
-  
+
 	_ih.appendChild(_i)
 	cont.appendChild(_ih)
 
@@ -43,7 +43,6 @@ let createHeadshots = (_people) => {
 }
 
 let guideBio = (evt) => {
-	console.log(evt);
 	document.getElementById('bio').style.top = (evt.pageY-offset)+'px'
 }
 

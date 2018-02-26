@@ -119,8 +119,13 @@ canvas{
 	}
 }
 
-/*// Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { ... }
+
+@media (max-height: 876px) {
+
+	.description-left, .description-right {
+		font-size: 1em;
+	}
+ }
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {

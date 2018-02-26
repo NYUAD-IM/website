@@ -19,6 +19,10 @@
 	border: 2px solid black;
 }
 
+.img-container {
+	width: 100%;
+}
+
 .act-left{
 	float: left;
 }
@@ -38,11 +42,12 @@
 }
 
 .activity-blurb{
-	top: 40%;
+	top: 30%;
 	padding-left: 10px;
 	padding-right: 10px;
 	color: black;
 	background-color: rgba(255, 255, 255, 0.7);
+	overflow-y: scroll;
 }
 
 .activity-link{
@@ -67,6 +72,7 @@
 	z-index: 1;
 	top: 0;
 	left: 0;
+	width: 100%;
 	height: 100%;
 }
 
