@@ -143,11 +143,11 @@
 }
 
 .current-website {
-
+	float: left;
 }
 
 .current-email {
-
+	float: right;
 }
 
 @media (max-width: 500px) and (orientation: portrait){
