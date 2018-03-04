@@ -1,3 +1,16 @@
+/* ---------------- POPULATING ANNOUNCEMENTS -------------- */
+
+let populate = (_data) => {
+	console.log(_data)
+}
+
+
+
+
+
+
+/* ---------------- MOVING INTERFACE -------------- */
+
 let participation = false
 let description = false
 
