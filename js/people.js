@@ -23,7 +23,7 @@ let createHeadshots = (_people) => {
 
 	let _ih = createEl('div', 'headshot-image-container')
 	let _i = createEl('img', 'headshot-image')
-	_i.setAttribute('src', img_path_prefix+_people.img)
+	_i.setAttribute('src', img_path_prefix+_people.image)
 	_i.setAttribute('alt',_people.name)
 
 	_ih.appendChild(_i)
@@ -82,7 +82,7 @@ let replace = (_el, _name) => {
 	if(current == null || current == previous) return
 
 	let img = document.getElementById('headshot')
-	img.setAttribute('src', img_path_prefix + current.img)
+	img.setAttribute('src', img_path_prefix + current.image)
 
 	changeContent('name', current.name)
 	changeContent('roles', current.roles.join('\n'))
