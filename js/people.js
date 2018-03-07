@@ -89,7 +89,7 @@ let replace = (_el, _name) => {
 	changeContent('description', current.description.long)
 
 	let courses = document.getElementById('courses')
-	if(current.courses.length > 0){
+	if(current.courses.length > 0 && current.courses[0] != ""){
 		courses.style.visibility = 'visible'
 		courses.innerHTML = "<b>Courses: </b>" + current.courses.join(', ')
 	}else{
