@@ -35,7 +35,7 @@ let createHeadshots = (_people) => {
 	let _d = createEl('div', 'headshot-description', _people.description.short)
 	cont.appendChild(_d)
 
-	if(_people.roles[0] == "Lab Monitor")
+	if(_people.roles[0].indexOf("Monitor") > -1)
 		document.getElementById('monitors').appendChild(cont)
 	else
 		document.getElementById('instructors').appendChild(cont)
