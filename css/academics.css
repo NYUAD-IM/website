@@ -81,6 +81,17 @@ hr {
 	transition: opacity 0.2s linear;
 }
 
+.load-container{
+	z-index: 1;
+	height: 200px;
+    position: relative;
+	width: 100%;
+	border: 3px-solid-black;
+	margin-bottom: 30px;
+	padding: 10px;
+	background-color: #A9A9A9;
+	transition: opacity 0.2s linear;
+}
 
 .course-title {
 	font-size: 1.3em;
