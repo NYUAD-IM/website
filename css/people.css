@@ -144,8 +144,8 @@
 	font-style: italic;
 }
 
-.current-descriptions {
-
+.current-description {
+	width: 100%;
 }
 
 .current-website {
