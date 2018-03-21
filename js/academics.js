@@ -29,7 +29,7 @@ let addElement = (_course) => {
 			track = track.replace('&', 'and')
 	  	}
 
-		if(!_course.currently_offered)
+		if(_course.current != 'yes')
 			offered = 'not-offered'
 
 		let cluster = '' //whether requirement, elective, or none
