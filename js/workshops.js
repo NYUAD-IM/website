@@ -98,14 +98,11 @@ let createWorkshop = (_ws, _i) => {
 	sub_cont.appendChild(desc)
 
 	let tags = createEl('div', 'workshop-tags', _ws.tags.join(' - '))
-//	sub_cont.appendChild(tags)
 
 	let links = createEl('div', 'workshop-links')
-	for(let l of _ws.links){
-		let link = createEl('a', 'workshop-link', l.text)
-		link.setAttribute('href', l.url)
-		links.appendChild(link)
-	}
+	let link = createEl('a', 'workshop-link', _ws.links.text)
+	link.setAttribute('href', _ws.links.url)
+	links.appendChild(link)
 
 	sub_cont.appendChild(links)
 
