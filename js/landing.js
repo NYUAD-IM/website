@@ -1,11 +1,29 @@
 /* ---------------- POPULATING ANNOUNCEMENTS -------------- */
 
+$(document).ready(() => {
+	fetch()
+})
+
 let populate = (_data) => {
-	console.log(_data)
+	if(_data[0].isCurrent) return
+
+	document.getElementById("announcement").style.display = 'block';
+	document.getElementById("announcement").style.opacity = 1;
+
+	document.getElementById('a-title').innerText = _data[0].title
+	document.getElementById('a-description').innerText = _data[0].description
+	document.getElementById('a-location').innerText = _data[0].location
+	document.getElementById('a-date').innerText = _data[0].date
+	document.getElementById('a-link').innerText = _data[0].link.text
+	document.getElementById('a-link').setAttribute('href', _data[0].link.url)
 }
 
 
+let closeAnnouncement = () => {
+	document.getElementById("announcement").style.opacity = 0;
 
+	setTimeout(() => {document.getElementById("announcement").style.display = 'none';}, 200)
+}
 
 
 
