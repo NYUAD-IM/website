@@ -54,7 +54,7 @@ let addElement = (_course) => {
 		course.appendChild(_n)
 
 		if (_req !=null)
-			course.appendChild(_req), cluster = 'requirements';;
+			course.appendChild(_req), cluster = 'requirements';
 
 
 
