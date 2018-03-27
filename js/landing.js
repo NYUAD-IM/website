@@ -5,7 +5,7 @@ $(document).ready(() => {
 })
 
 let populate = (_data) => {
-	if(_data[0].isCurrent) return
+	if(!_data[0].isCurrent) return
 
 	document.getElementById("announcement").style.display = 'block';
 	document.getElementById("announcement").style.opacity = 1;
