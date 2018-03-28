@@ -49,6 +49,49 @@ button {
 	background-color: white;
 }
 
+/*--------------------------------------*/
+/*------------LOADER ANIMATION----------*/
+/*--------------------------------------*/
+
+.loader-bg, .loader-anim{
+	transition: opacity 0.4s linear;
+}
+
+.loader-background{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background: white;
+	opacity: 0.8;
+}
+
+.loader-anim {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  margin: -75px 0 0 -75px;
+  border: 15px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 15px solid pink;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
 
 /*--------------------------------------*/
 /*------------ACTION BUTTONS------------*/
@@ -108,7 +151,7 @@ button {
 
 	width: 80%;
 	margin-left: 10%;
-	font-size: 1.6em;
+	font-size: 1.5em;
 
 	min-height: 50px;
 	min-width: 175px;

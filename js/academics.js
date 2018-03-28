@@ -29,7 +29,7 @@ let addElement = (_course) => {
 			track = track.replace('&', 'and')
 	  	}
 
-		if(!_course.currently_offered)
+		if(_course.current != 'yes')
 			offered = 'not-offered'
 
 		let cluster = '' //whether requirement, elective, or none
@@ -54,7 +54,7 @@ let addElement = (_course) => {
 		course.appendChild(_n)
 
 		if (_req !=null)
-			course.appendChild(_req), cluster = 'requirements';;
+			course.appendChild(_req), cluster = 'requirements';
 
 
 
