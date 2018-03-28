@@ -11,6 +11,7 @@ let fetch = () => {
 }
 
 function fadeOutLoader() {
+  if(document.getElementById('load-bg') == null) return
   //-- first fade out
   document.getElementById("load-bg").style.opacity = 0;
   document.getElementById("load-anim").style.opacity = 0;
