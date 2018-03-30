@@ -245,8 +245,9 @@ button {
 	.action-button {
 
 		min-width: 0px;
-		width: 30%;
-		margin-left: 10%;
+		width: 32%;
+		min-height: 80px;
+		margin-left: 0;
 		font-size: 1em;
 	}
 
