@@ -126,14 +126,18 @@ let filters = {
 }
 
 let filter = (_el, _tag) => {
+	let max_height = -1
+	for(let e of document.getElementsByClassName('action-button'))
+		if(e.getBoundingClientRect().height > max_height)
+			max_height = e.getBoundingClientRect().height
+
+	max_height = _el.getBoundingClientRect().height > 80 ? _el.getBoundingClientRect().height : 80
 
 	filters[_tag] = !filters[_tag]
 
 	//button feedback
   if(filters[_tag]){
-		_el.style.transform = 'translateY(-'+(_el.getBoundingClientRect().height)+'px)'
-		// _el.style.border = '3px solid black'
-		// _el.style.borderBottom = 'none'
+		_el.style.transform = 'translateY(-'+(max_height)+'px)'
 
 		_el.setAttribute('class', 'selected '+_el.getAttribute('class').replace('unselected', ''))
 

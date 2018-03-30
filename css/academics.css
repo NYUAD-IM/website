@@ -177,6 +177,10 @@ hr {
 		padding: 0;
 	}
 
+	.button-center{
+		width: 34%;
+	}
+
 	.right-align .course-number , .right-align .course-link{
 		float: right;
 		text-align: right;
