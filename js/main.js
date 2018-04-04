@@ -2,12 +2,11 @@ let dropdown_height
 let nav_shown = false
 
 $(document).ready(function(){
-	console.log("Welcome to IM!");
+	console.log("Welcome to the IM website!");
 
-    	//Inject resusable HTML
-    	$('#header').load('/website/html/header.html');
-    	$('#footer').load('/website/html/footer.html');
-
+  //Inject resusable HTML
+  $('#header').load('/website/html/header.html');
+  $('#footer').load('/website/html/footer.html');
 
 	dropdown_height = detectmob() ? '280px' : '40px'
 });
@@ -46,7 +45,6 @@ let createEl = (_type, _class, _content) => {
 
 let about = () => {
 	let ab = document.getElementById('about')
-	console.log(ab);
 	if(ab.style.top == '200px'){
 		ab.style.top = '1400px'
 	}else{
