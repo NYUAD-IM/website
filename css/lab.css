@@ -11,8 +11,15 @@
   width: 42%;
   margin: 4%;
 
-  font-size: 1.8em;
+  font-size: 1.4em;
 
+  border-bottom: 3px solid black;
+}
+
+.lab-description{
+  margin: 5% 3% 3% 3%;
+  padding: 2% 1% 2% 1%;
+  border-top: 3px solid black;
   border-bottom: 3px solid black;
 }
 

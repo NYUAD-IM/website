@@ -24,7 +24,7 @@ let addElement = (_course) => {
 		let track = ''
 		let offered = ''
 		let _track = _course.track
-		if(_track == 'Foundation' || _track == 'Computational Media' || _track == 'Physical Computing'|| _track == 'Media & Design Thinking'){
+		if(_track == 'Foundations' || _track == 'Computational Media' || _track == 'Physical Computing'|| _track == 'Media & Design Thinking'){
 			track = _course.track.toLowerCase().split(' ').join('-')
 			track = track.replace('&', 'and')
 	  	}
@@ -35,31 +35,28 @@ let addElement = (_course) => {
 		let cluster = '' //whether requirement, elective, or none
 		let _req = null
 		if(_course.title == 'Introduction to Interactive Media' || _course.title == 'Communications Lab' || _course.title == 'Communication & Technology' || _course.title == 'Capstone Seminar' || _course.title == 'Capstone Project'){
-			cluster = 'requirements'
-			_req = createEl('div','req-course', '[Required]')
+			cluster = 'foundations'
 		}else if(track != ''){ //if track is either CompMed, PComp or MDT:
 			cluster = 'electives'
 		}else{
 			cluster = 'crosslisted'
 		}
 
-		course.setAttribute('class', ['course-container ', track, cluster, offered].join(' '))
+		course.setAttribute('class', ['course-container', cluster, offered].join(' '))
 		course.setAttribute('track', track)
 
 
 		let _t = createEl('div', 'course-title', _course.title)
 		course.appendChild(_t)
 
-		let _n = createEl('div', 'course-number', _course.number)
+		let _n = createEl('div', 'course-number '+track, _course.number)
 		course.appendChild(_n)
 
-		if (_req !=null)
-			course.appendChild(_req), cluster = 'requirements';
-
-
-
-		let _p = createEl('div', 'course-program', _course.program)
-		course.appendChild(_p)
+		// this is unnecessary because it should be explicit in the course number
+		// let _p = createEl('div', 'course-program', _course.program)
+		// course.appendChild(_p)
+		// if (_req !=null)
+		// 	course.appendChild(_req), cluster = 'requirements';
 
 		let _ds = createEl('div', 'course-desc-short', _course.description.short)
 		course.appendChild(_ds)
@@ -103,13 +100,14 @@ let addElement = (_course) => {
 		course.setAttribute('onclick', 'expand(this)')
 
 		//concat the track+semester to add the class(foundation, elective, cross-listed) + (fall, spring, etc)
+		console.log(term.toLowerCase()+'-'+cluster);
 			document.getElementById(term.toLowerCase()+'-'+cluster).appendChild(course)
 	}
 }
 
 
 let expand = (el) => {
-	let ex = el.children[5]
+	let ex = el.children[4]
 	if(ex.style.height == '200px'){
 		ex.style.height = '0px';
 		ex.style.overflow = 'hidden'

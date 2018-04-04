@@ -54,6 +54,14 @@
 	height: auto;
 }
 
+/** ACADEMICS DESCRIPTION **/
+
+.academics-description{
+  margin: 5% 3% 3% 3%;
+  padding: 2% 1% 2% 1%;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
 
 /** COURSES STYLING **/
 
@@ -72,7 +80,7 @@ hr {
 	height: auto;
 	overflow: hidden;
 	width: 100%;
-	border: 3px-solid-black;
+	border: 3px solid black;
 	margin-bottom: 30px;
 	padding: 10px;
 
@@ -97,6 +105,7 @@ hr {
 
 .expand-container {
 	height: 0;
+	width: 100%;
 	overflow: hidden;
 	transition: height 0.2s ease-in-out;
 }
@@ -116,7 +125,12 @@ hr {
 	font-style: italic;
 }
 
-.left-align .course-title, .left-align .course-instructors {
+hr {
+	float: left;
+	width: 100%;
+}
+
+.left-align .course-title, .left-align .course-desc-short, .left-align .course-instructors {
 	float: left;
 }
 
@@ -130,43 +144,34 @@ hr {
 	text-align: left;
 }
 
-.right-align .course-title, .right-align .course-instructors {
+.right-align .course-title, .right-align .course-desc-short, .right-align .course-instructors {
 	float: right;
 }
 
 /** TRACKS STYLING **/
-
 .requirements {
-	border: 3px solid black;
-}
-
-.requirements .course-number {
 	background-color: orange;
 }
 
-.computational-media {
-	border: 3px solid black;
+.foundations{
+	font-weight: bold;
 }
 
-.computational-media .course-number {
+.computational-media {
 	background-color: lightgreen;
 }
 
 .physical-computing {
-	border: 3px solid black;
-}
-
-.physical-computing .course-number {
 	background-color: pink;
 }
 
 .media-and-design-thinking {
-	border: 3px solid black;
-}
-
-.media-and-design-thinking .course-number{
 	background-color: lightblue;
 }
+
+/* .course-number{
+	border: 3px solid black;
+} */
 
 
 @media (max-width: 500px) and (orientation: portrait){
