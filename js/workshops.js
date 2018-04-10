@@ -72,7 +72,7 @@ let createPastUpcoming = () => {
 
 let createWorkshop = (_ws, _i) => {
 	let side = _i % 2 == 0 ? 'left' : 'right'
-  let hasPassed = datePassed(_ws.date.human);
+  let hasPassed = datePassed(_ws.date.machine);
 
 	let cont = createEl('div', ['workshop-container', 'container-'+side].join(' '))
 
