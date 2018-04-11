@@ -9,9 +9,9 @@
 }
 
 .activity-container, .note-container {
-	width: 22%;
-	height: 250px;
-	margin: 1%;
+	width: 29%;
+	height: 300px;
+	margin: 2%;
 
 	float: left;
 }
@@ -47,11 +47,12 @@
 
 .activity-blurb{
 	top: 30%;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
 	color: black;
-	background-color: rgba(255, 255, 255, 0.7);
+	background-color: rgba(255, 255, 255, 0.8);
 	overflow-y: scroll;
+	font-size: 1.2em;
 }
 
 .activity-link{
@@ -69,6 +70,8 @@
 	padding: 2px;
 	border: 2px solid black;
 	border-bottom: 2px solid white;
+
+	font-size: 1.2em;
 }
 
 .activity-image {
@@ -81,7 +84,7 @@
 }
 
 .activity-title {
-	font-size: 1.4em;
+	font-size: 1.5em;
 	font-weight: bold;
 	text-align: center;
 	width: 80%;

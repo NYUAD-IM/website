@@ -102,6 +102,7 @@ let createWorkshop = (_ws, _i) => {
 	let links = createEl('div', 'workshop-links')
 	let link = createEl('a', 'workshop-link', _ws.links.text)
 	link.setAttribute('href', _ws.links.url)
+  link.setAttribute('target', '_blank')
 	links.appendChild(link)
 
 	sub_cont.appendChild(links)
