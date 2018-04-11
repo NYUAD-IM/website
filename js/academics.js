@@ -29,8 +29,8 @@ let addElement = (_course) => {
 			track = track.replace('&', 'and')
 	  	}
 
-		if(_course.current != 'yes')
-			offered = 'not-offered'
+		// if(_course.current != 'yes')
+		// 	offered = 'not-offered'
 
 		let cluster = '' //whether requirement, elective, or none
 		let _req = null
@@ -42,7 +42,7 @@ let addElement = (_course) => {
 			cluster = 'crosslisted'
 		}
 
-		course.setAttribute('class', ['course-container', cluster, offered].join(' '))
+		course.setAttribute('class', ['course-container', cluster].join(' '))
 		course.setAttribute('track', track)
 
 
@@ -52,11 +52,9 @@ let addElement = (_course) => {
 		let _n = createEl('div', 'course-number '+track, _course.number)
 		course.appendChild(_n)
 
-		// this is unnecessary because it should be explicit in the course number
-		// let _p = createEl('div', 'course-program', _course.program)
-		// course.appendChild(_p)
-		// if (_req !=null)
-		// 	course.appendChild(_req), cluster = 'requirements';
+		let off = _course.current ? 'currently offered' : ''
+		let _offered = createEl('div', 'course-offered', off)
+		course.append(_offered)
 
 		let _ds = createEl('div', 'course-desc-short', _course.description.short)
 		course.appendChild(_ds)
@@ -100,8 +98,7 @@ let addElement = (_course) => {
 		course.setAttribute('onclick', 'expand(this)')
 
 		//concat the track+semester to add the class(foundation, elective, cross-listed) + (fall, spring, etc)
-		console.log(term.toLowerCase()+'-'+cluster);
-			document.getElementById(term.toLowerCase()+'-'+cluster).appendChild(course)
+		document.getElementById(term.toLowerCase()+'-'+cluster).appendChild(course)
 	}
 }
 
@@ -123,13 +120,14 @@ let filters = {
 	'media-and-design-thinking': false
 }
 
-let filter = (_el, _tag) => {
+let filter = (_el_tag, _tag) => {
+	let _el = document.getElementsByClassName(_el_tag)[0]
+
+	//find highest height
 	let max_height = -1
 	for(let e of document.getElementsByClassName('action-button'))
 		if(e.getBoundingClientRect().height > max_height)
 			max_height = e.getBoundingClientRect().height
-
-	max_height = _el.getBoundingClientRect().height > 80 ? _el.getBoundingClientRect().height : 80
 
 	filters[_tag] = !filters[_tag]
 
