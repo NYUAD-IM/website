@@ -24,7 +24,7 @@ body {
 
 .img-container{
 	width: 100%;
-	height: 100px;
+	height: auto;
 	overflow: hidden;
 	cursor: pointer;
 

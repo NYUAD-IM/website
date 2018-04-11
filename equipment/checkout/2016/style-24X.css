@@ -1,0 +1,211 @@
+body{
+	font-family: 'Hammersmith One', sans-serif;
+}
+
+#page-title-24X{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 2.5em;
+	margin-bottom: 15px;
+}
+
+.post-title-24X{
+	font-size: 1.8em;
+	padding: 6px 10px;
+	background-color: rgb(160,160,160);
+	color: white;
+}
+
+.post-container{
+	margin-top: 10px;
+}
+
+.post-description-24X{
+	font-size: 1.4em;
+}
+
+.block-24X{
+	margin: 40px 0 24px;
+	font-size: 2em;
+/*	border-bottom: solid 2px black;*/
+}
+.block-mentors-24X{
+	margin: -20px 0 25px;
+	font-size: 2em;
+/*	border-bottom: solid 2px black;*/
+}
+
+/*.logo-description{
+	text-align: center;
+}*/
+
+.logo-24X{
+	display: block;
+	width: 90%;
+	margin: -40px auto;
+}
+
+.inline-24X{
+	font-weight: bolder;
+}
+
+.link-24X{
+	color: #AFAFAF;
+	border-bottom-style: solid;
+	border-bottom-color: #AFAFAF;
+}
+.link-24X:hover{
+	color: white;
+	background: #AFAFAF;
+}
+
+a:visited{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+a:active{
+	text-decoration: none;
+}
+
+.extra-space{
+/*	padding-top: 10px;*/
+	color: white;
+}
+
+/*----------Participants----------*/
+
+.participant-container{
+	background-color: rgb(230,230,230);
+}
+
+.x{
+	font-family: Arial;
+	float: left;
+	width: 2%;
+	margin-top: 45px;
+	font-size: 3em;
+}
+
+.student{
+	float: left;
+	text-align: center;
+	width: 47%;
+	padding-bottom: 30px;
+	margin: 10px 1%;
+/*	background-color: blue;*/
+}
+
+.student:hover{
+/*	background-color: red;*/
+}
+
+
+.student-name{
+	margin-top: 25px;
+	font-size: 1.6em;
+	text-align: center;
+}
+
+.student-year{
+	font-size: 0.85em;
+	margin-bottom: 10px;	
+}
+
+.student-details{
+	font-size: 0.65em;
+}
+
+.dividing-line{
+	clear: left;
+	width: 100%;
+	height: 1px;
+	background-color: black;
+}
+
+
+/*----------Mentors----------*/
+
+.mentor-group-container{
+	margin-bottom: 100px;
+}
+
+.mentor-container{
+	float: left;
+	margin: 10px 0;
+	width: 33%;
+	height: 80px;
+	text-align: center;
+}
+.mentor-last{
+	margin-bottom: 60px;
+}
+
+.mentor-name{
+	font-size: 1.1em;
+}
+.mentor-details{
+	font-size: 0.75em;
+}
+
+.org-container{
+	font-size: 0.9em;
+	text-align: center;
+	font-style: italic;
+	clear: left;
+}
+.org-name{
+	font-size: 1.2em;
+}
+
+
+@media (max-width: 1050px){
+	.student-name{
+		font-size: 1.25em;
+	}	
+}
+
+
+@media (max-width: 960px){
+	.logo-24X{
+		display: block;
+		margin: -40px auto;
+	}	
+}
+
+@media (max-width: 900px){
+	.student, .x{
+		text-align: center;
+		width: 100%;
+		clear: left;
+	}
+	.student{
+		padding-bottom: 0;
+		margin: 5px auto;
+	}
+	.student-name{
+		font-size: 1.6em;
+	}	
+	.x{
+		margin-top: 5px;
+		margin-bottom: -5px;
+	}
+	.bottom{
+		margin-bottom: 35px;
+	}
+	.mentor-container{
+		width: 50%;
+	}
+}
+
+@media (max-width: 470px){
+	.logo-24X{
+		display: block;
+		margin: -20px auto;
+	}	
+	.mentor-container{
+		width: 100%;
+		margin: 0;
+	}
+}

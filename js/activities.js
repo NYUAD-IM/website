@@ -102,6 +102,7 @@ let createActivity = (act, pos) => {
 	link.setAttribute('class', 'activity-link')
 	let _l = document.createElement('a')
 	_l.setAttribute('href', act.link)
+  _l.setAttribute('target', '_blank')
 	_l.innerText = 'Learn more!'
 	link.appendChild(_l)
 	cont.appendChild(link)

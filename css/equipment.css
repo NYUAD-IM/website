@@ -1,0 +1,12 @@
+.table-pagination{
+  font-size: 1.5em;
+}
+
+.pagination-pre-siteTable, .pagination-next-siteTable{
+  font-weight: bold;
+}
+
+.page-subtitle{
+  text-align: center;
+  font-size: 1.8em;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>nyuad im | equipment</title>
+
+	<script> var currentPage = 'equipment';</script>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width initial-scale=1.0, user-scalable=yes">
+	<meta name="description" content="NYUAD Interactive Media Program">
+
+	<link rel="stylesheet" type="text/css" href="/website/css/bootstrap.min.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="/website/css/main.css">
+	<link rel="stylesheet" type="text/css" href="/website/css/equipment.css">
+	<link rel="stylesheet" type="text/css" href="/website/css/header.css">
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="/website/js/lib/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="/website/js/lib/popper.min.js"></script>
+	<script type="text/javascript" src="/website/js/lib/bootstrap.min.js"></script>
+
+	<!-- Main scripts -->
+	<script src="../js/scripts.js"></script>
+	<!-- Custom JS -->
+	<!-- <script> const TARGET_URL = 'https://imheroku.herokuapp.com/api/academics' </script> -->
+	<script type="text/javascript" src="/website/js/main.js"></script>
+	<!-- <script type="text/javascript" src="/website/js/fetch.js"></script> -->
+	<script type="text/javascript" src="/website/js/equipment.js"></script>
+
+	<!-- Equipment table scripts -->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+	<script type="text/javascript" charset="UTF-8" src="sheetsee.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class="container-fluid header-container" id="header">
+		<!-- JS Script will inject this from /html/navigation.html :) -->
+	</div>
+
+		<div class="page-container">
+			<h1 class="page-title">IM EQUIPMENT</h1>
+
+			<div class="post-container">
+			<div class="post-description">
+
+				<!-- POLICY INFO -->
+				<div class="page-subtitle">Equipment Policy</div>
+				<p>Please find the full policy <b><a target="_blank" href="https://docs.google.com/a/nyu.edu/document/d/1QZPFa5VgqCGV7TVyHP6WNk_iQWvo3pCD-5ylRrv85WM/edit?usp=sharing">
+					here</a></b>.</p>
+				<p>This policy covers:<ul>
+					<li>Short term laptop loans</li>
+					<li>Extended Laptop Loans</li>
+					<li>All large item loans</li>
+					<li>All electronic component loans</li>
+				</ul></p>
+				<p>Email <b><a href="mailto:ume.hussain@nyu.edu">ume.hussain@nyu.edu</a></b> with any concerns or requests.</p>
+
+
+			</div>
+
+			<!-- EQUIPMENT STOCK -->
+			<!-- Including sheetsee/tabletop inventory table. -->
+
+			<div class="page-subtitle">Equipment Stock</div>
+			<div class="post-description">
+				<p>Below is a list of all available items. </p>
+				<p><div id="inputHolder">
+					<input id="siteTableFilter" type="text" placeholder="filter/search"></input>
+				</div>
+			</p>
+			<p>
+				<div id="siteTable"></div>
+			</p>
+
+		</div>
+
+
+	</div>
+
+
+	<!-- Template categories for Tabletop js -->
+	<script id="siteTable_template" type="text/html">
+		<table>
+			<tr>
+				<th class="tHeader">Category</th>
+				<th class="tHeader">Name of Item</th>
+				<th class="tHeader">Quantity</th>
+				<!-- <th class="tHeader">Checkout Tier</th> -->
+				<!-- <th class="tHeader">Status</th> -->
+			</tr>
+			{{#rows}}
+			<tr>
+				<td>{{Category}}</td>
+				<td>{{Name of Item}}</td>
+				<td>{{Quantity}}</td>
+				<!-- <td>{{Checkout Tier}}</td> -->
+				<!-- <td>{{Status}}</td> -->
+			</tr>
+			{{/rows}}
+		</table>
+	</script>
+</div>
+
+
+		<div class="container-fluid footer-container" id="footer">
+		</div>
+</body>
+</html>
