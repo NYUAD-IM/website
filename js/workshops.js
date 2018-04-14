@@ -72,7 +72,7 @@ let createPastUpcoming = () => {
 
 let createWorkshop = (_ws, _i) => {
 	let side = _i % 2 == 0 ? 'left' : 'right'
-  let hasPassed = datePassed(_ws.date.human);
+  let hasPassed = datePassed(_ws.date.machine);
 
 	let cont = createEl('div', ['workshop-container', 'container-'+side].join(' '))
 
@@ -102,6 +102,7 @@ let createWorkshop = (_ws, _i) => {
 	let links = createEl('div', 'workshop-links')
 	let link = createEl('a', 'workshop-link', _ws.links.text)
 	link.setAttribute('href', _ws.links.url)
+  link.setAttribute('target', '_blank')
 	links.appendChild(link)
 
 	sub_cont.appendChild(links)

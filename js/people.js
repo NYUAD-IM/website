@@ -101,10 +101,12 @@ let replace = (_el, _name) => {
 	let website = document.getElementById('website')
 	website.innerText = current.website
 	website.setAttribute('href', current.website)
+	website.setAttribute('target', '_blank')
 
 	let email = document.getElementById('email')
 	email.innerText = current.email
 	email.setAttribute('href', 'mailto:'+current.email)
+	email.setAttribute('target', '_blank')
 
 	previous = current
 }

@@ -16,8 +16,12 @@ let populate = (d) => {
     for(let act of ACTIVITIES)
       createActivity(act)
   }else{
+    //make sure we always have an activity first
+    createActivity(ACTIVITIES[index], positions[index%3])
+    index++
+    
     while(index < ACTIVITIES.length){
-  	  if(Math.random() > 0.4){
+  	  if(Math.random() > 0.5){
   		  createNote(pitch)
   		  pitch++
   	  }else{
@@ -102,6 +106,7 @@ let createActivity = (act, pos) => {
 	link.setAttribute('class', 'activity-link')
 	let _l = document.createElement('a')
 	_l.setAttribute('href', act.link)
+  _l.setAttribute('target', '_blank')
 	_l.innerText = 'Learn more!'
 	link.appendChild(_l)
 	cont.appendChild(link)
