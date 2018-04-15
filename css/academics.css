@@ -95,7 +95,7 @@ hr {
 	width: 75%;
 }
 
-.course-number {
+.course-number, .course-offered {
 	width: 25%;
 }
 
@@ -134,14 +134,18 @@ hr {
 	float: left;
 }
 
-.left-align .course-number, .left-align .course-link {
+.left-align .course-number, .left-align .course-link, .left-align .course-offered {
 	float: right;
-	text-align: right;
+	/* text-align: right; */
 }
 
-.right-align .course-number , .right-align .course-link{
+.right-align .course-number, .right-align .course-link, .right-align .course-offered{
 	float: left;
-	text-align: left;
+	/* text-align: left; */
+}
+
+.course-number{
+	text-align: center;
 }
 
 .right-align .course-title, .right-align .course-desc-short, .right-align .course-instructors {

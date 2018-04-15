@@ -19,7 +19,7 @@ let populate = (d) => {
     //make sure we always have an activity first
     createActivity(ACTIVITIES[index], positions[index%3])
     index++
-    
+
     while(index < ACTIVITIES.length){
   	  if(Math.random() > 0.5){
   		  createNote(pitch)
@@ -57,7 +57,7 @@ let createNote = (pitch) => {
   }
 
 	let note = document.createElement('audio')
-	note.setAttribute('src', '/website/media/audio/'+type+'.wav')
+	note.setAttribute('src', '/media/audio/'+type+'.wav')
 	note.setAttribute('visibility', 'hidden')
   note.setAttribute('volume', '0.5')
 
@@ -68,7 +68,6 @@ let createNote = (pitch) => {
 }
 
 let play = (_el) => {
-  // console.log(_el);
   _el.children[0].currentTime = 0
   _el.children[0].play()
   let rot = parseInt(_el.getAttribute('rotation')) + 45
@@ -86,7 +85,7 @@ let createActivity = (act, pos) => {
 	let img = document.createElement('div')
 	img.setAttribute('class', 'img-container')
 	let _i = document.createElement('img')
-	_i.setAttribute('src', '/website/media/img/'+act.image)
+	_i.setAttribute('src', '/media/img/'+act.image)
 	_i.setAttribute('class', 'activity-image')
   _i.setAttribute('alt',act.alt)
 	img.appendChild(_i)
@@ -111,7 +110,5 @@ let createActivity = (act, pos) => {
 	link.appendChild(_l)
 	cont.appendChild(link)
 
-
-	//row.appendChild(cont)
 	container.appendChild(cont)
 }
