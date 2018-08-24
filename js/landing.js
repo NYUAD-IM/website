@@ -1,7 +1,7 @@
 /* ---------------- POPULATING ANNOUNCEMENTS -------------- */
 
 $(document).ready(() => {
-	fetch()
+	// fetch() //TODO uncomment this if you want to tinker with the announcement system
 })
 
 let populate = (_data) => {
