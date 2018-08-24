@@ -53,7 +53,7 @@ let addElement = (_course) => {
 		let _n = createEl('div', 'course-number '+track, _course.number)
 		course.appendChild(_n)
 
-		let off = _course.current ? 'currently offered' : ''
+		let off = _course.current ? 'offered' : ''
 		let _offered = createEl('div', 'course-offered', off)
 		course.append(_offered)
 
@@ -105,7 +105,8 @@ let addElement = (_course) => {
 
 
 let expand = (el) => {
-	let ex = el.children[4]
+	let ex = el.children[5]
+	console.log(ex);
 	if(ex.style.height == '200px'){
 		ex.style.height = '0px';
 		ex.style.overflow = 'hidden'

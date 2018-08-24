@@ -6,7 +6,7 @@ $(document).ready(() => {
 })
 
 let everybody
-let img_path_prefix = '/website/media/img/people/'
+let img_path_prefix = '/media/img/people/'
 
 let populate = (d) => {
 	everybody = d
