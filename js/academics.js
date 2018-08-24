@@ -21,6 +21,7 @@ let addElement = (_course) => {
 
 		let course = document.createElement('div')
 
+		// the course tracks are the three clusters. TODO rename all to cluster?
 		let track = ''
 		let offered = ''
 		let _track = _course.track
@@ -29,10 +30,10 @@ let addElement = (_course) => {
 			track = track.replace('&', 'and')
 	  	}
 
-		// if(_course.current != 'yes')
-		// 	offered = 'not-offered'
+		if(_course.current != 'yes')
+			offered = 'not-offered'
 
-		let cluster = '' //whether requirement, elective, or none
+		let cluster = '' //whether requirement, elective, or none. TODO this should be named differently
 		let _req = null
 		if(_course.title == 'Introduction to Interactive Media' || _course.title == 'Communications Lab' || _course.title == 'Communication & Technology' || _course.title == 'Capstone Seminar' || _course.title == 'Capstone Project'){
 			cluster = 'foundations'
@@ -42,7 +43,7 @@ let addElement = (_course) => {
 			cluster = 'crosslisted'
 		}
 
-		course.setAttribute('class', ['course-container', cluster].join(' '))
+		course.setAttribute('class', [offered, 'course-container', cluster].join(' '))
 		course.setAttribute('track', track)
 
 
