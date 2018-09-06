@@ -153,10 +153,27 @@
       ""
     ],
     "name":"James Hosken",
-    "current":"true",
+    "current":"false",
     "website":"http://jameshosken.com/",
     "email":"james.hosken@nyu.edu",
     "image":"jameshosken.jpg"
+  },
+  {
+    "roles":[
+      "Instructor of the Arts"
+    ],
+    "description":{
+      "short":"making art with robots",
+      "long":"Jack gratudated from NYU Shanghai with a degree in Computer Science, but when he studied away at NYU Abu Dhabi in his senior year, he took four Visual Art classes. He built Minus E, a robot that creates large scale drawings."
+    },
+    "courses":[
+      ""
+    ],
+    "name":"Jack B. Du",
+    "current":"true",
+    "website":"https://jackbdu.com/",
+    "email":"jackbdu@nyu.edu",
+    "image":"jackbdu.jpg"
   },
   {
     "roles":[
@@ -170,7 +187,7 @@
       ""
     ],
     "name":"Arantza Rodriguez",
-    "current":"true",
+    "current":"false",
     "website":"https://arantza-rodriguez.net/",
     "email":"air258@nyu.edu",
     "image":"arantzarodriguez.jpg"
@@ -187,7 +204,7 @@
       ""
     ],
     "name":"Adham Chakohi",
-    "current":"true",
+    "current":"false",
     "website":"https://adhamchakohi.net/",
     "email":"amc1150@nyu.edu",
     "image":"adhamchakohi.jpg"
@@ -204,7 +221,7 @@
       ""
     ],
     "name":"Miha Klasinc",
-    "current":"true",
+    "current":"false",
     "website":"https://miha.net/",
     "email":"mk4908@nyu.edu",
     "image":"mihaklasinc.jpg"
@@ -221,7 +238,7 @@
       ""
     ],
     "name":"Adam Nagy",
-    "current":"true",
+    "current":"false",
     "website":"https://adamnagy.net/",
     "email":"an2208@nyu.edu",
     "image":"adamnagy.jpg"
@@ -238,7 +255,7 @@
       ""
     ],
     "name":"Davis Teague",
-    "current":"true",
+    "current":"false",
     "website":"https://davis-teague.net/",
     "email":"dqt206@nyu.edu",
     "image":"davisteague.jpg"
@@ -255,7 +272,7 @@
       ""
     ],
     "name":"Lateefa Almazroeei",
-    "current":"true",
+    "current":"false",
     "website":"https://lateefa-almazroeei.net/",
     "email":"la1475@nyu.edu",
     "image":"lateefaalmazroeei.jpg"
@@ -272,7 +289,7 @@
       ""
     ],
     "name":"Yuxin Zhou",
-    "current":"true",
+    "current":"false",
     "website":"https://yuxinzhou.net/",
     "email":"yz2812@nyu.edu",
     "image":"yuxinzhou.jpg"
@@ -289,7 +306,7 @@
       ""
     ],
     "name":"Ming Hu",
-    "current":"true",
+    "current":"false",
     "website":"https://github.com/mingwho",
     "email":"ming.hu@nyu.edu",
     "image":"minghu.jpg"
@@ -306,7 +323,7 @@
       ""
     ],
     "name":"Nick White",
-    "current":"true",
+    "current":"false",
     "website":"https://github.com/njw275",
     "email":"njw275@nyu.edu",
     "image":"nickwhite.jpg"
