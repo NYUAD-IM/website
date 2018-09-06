@@ -1,81 +1,368 @@
 [
   {
+    "title": "Build a Pizza AI and learn Data Science",
+    "instructor": "Gabor Csapo and Jihyun Kim",
+    "date": {
+      "human": "April 15th 6:00pm-8:00pm",
+      "machine":"180415-1800"
+    },
+    "location": "Arts Center - C3-029",
+    "description": "Go from \"hello world\" to Bayes classifiers with Python, Jupyter and Pandas. We'll analyze the Random Acts of Pizza dataset to create a simple classifier that will hopefully clear up why the big fuss around machine learning and what your responsibility is in designing a better future.",
+    "tags":["python", "anaconda", "data science"],
+    "links": {
+      "url":"https://www.anaconda.com/",
+      "text":"resource"
+    }
+  },
+  {
+    "title": "Networked Virtual Reality!",
+    "instructor": "Ming Hu and Nick White",
+    "date": {
+      "human": "March 25th 6:00pm-8:00pm",
+      "machine":"180325-1800"
+    },
+    "location": "Arts Center - C3-029",
+    "description": "Come see what VR Lab Monitors Ming and Nick have been working on! A platform to have networked virtual reality experiences so that it's no longer you and a headset! Learn about the HTC Vive, Unity, and PUN networking.",
+    "tags":["unity", "vr", "multiplayer"],
+    "links": {
+      "url":"https://github.com/nyuad-im/alternate-platform",
+      "text":"repo"
+    }
+  },
+
+  {
   	"title": "Writing Sounds with ToneJS",
   	"instructor": "Pierre Depaz",
   	"date": {
       "human": "Feb. 5th 6:00pm-8:00pm",
-      "machine":"180212"
+      "machine":"180205-1800"
     },
-  	"location": "Arts Center - C3-006",
-  	"description": "To kick-off the Spring IM workshops, Prof. Pierre Depaz will lead us through the possibilities of writing, playing, manipulating and creating sounds with your computer. Using the ToneJS library, you will learn how to sample your favorite tunes and synthesize endless possibilities of digital sound. No prior programming experience required. Please bring your laptop and some headphones!",
+    "location": "Arts Center - C3-006",
+    "description": "To kick-off the Spring IM workshops, Prof. Pierre Depaz will lead us through the possibilities of writing, playing, manipulating and creating sounds with your computer. Using the ToneJS library, you will learn how to sample your favorite tunes and synthesize endless possibilities of digital sound. No prior programming experience required. Please bring your laptop and some headphones!",
     "tags":["generative", "javascript", "steve reich"],
-    "links": [{
+    "links": {
       "url":"https://github.com/periode",
       "text":"repo"
-    }]
+    }
   },
 
   {
     "title": "Intro To Contact Improvisation",
-  	"instructor": "Kiori Kawai",
-  	"date": {
+    "instructor": "Kiori Kawai",
+    "date": {
       "human": "Feb. 12th 6:00pm-8:00pm",
-      "machine":"180212"
+      "machine":"180212-1800"
     },
-  	"location": "Arts Center - C3-006",
-  	"description": "Kiori Kawai is a dancer, performance artist, and yogi whose work focuses on human interaction with contemporary technologies. In this workshop she will: Explore how physical contact affects our bodies and minds. Use kinesthetic awareness as a conversation to explore connection with others. Observe your conscious and unconscious choices. Integrate physical partnering with exchanging ideas. Athletic wear is encouraged as we will be moving about. This event will be held in Rm.144 in the Arts Center. Kiori will also be running a second workshop later this semester on 'Improvisational Performance with Technology'. Stay tuned for that as well!",
+    "location": "Arts Center - C3-006",
+    "description": "Kiori Kawai is a dancer, performance artist, and yogi whose work focuses on human interaction with contemporary technologies. In this workshop she will: Explore how physical contact affects our bodies and minds. Use kinesthetic awareness as a conversation to explore connection with others. Observe your conscious and unconscious choices. Integrate physical partnering with exchanging ideas. Athletic wear is encouraged as we will be moving about. This event will be held in Rm.144 in the Arts Center. Kiori will also be running a second workshop later this semester on 'Improvisational Performance with Technology'. Stay tuned for that as well!",
     "tags":["generative", "javascript", "steve reich"],
-    "links": [{
+    "links": {
       "url":"https://github.com/periode",
       "text":"repo"
-    }]
+    }
   },
 
   {
-  	"title": "Nothing to Something - An Intro to Rapid Prototyping",
-  	"instructor": "Felix Beck",
-  	"date": {
+    "title": "Nothing to Something - An Intro to Rapid Prototyping",
+    "instructor": "Felix Beck",
+    "date": {
       "human": "Feb. 19th 6:00pm-8:00pm",
-      "machine":"180212"
+      "machine":"180219-1800"
     },
-  	"location": "Arts Center - C3-006",
-  	"description": "Prof. Felix Beck will introduce us to the wonderful world of rapid prototyping. By utilizing a variety of low-tech methods and processes, you can take any idea and bring it to life. This session will empower you with the mindset and tools to go from nothing to something.",
+    "location": "Arts Center - C3-006",
+    "description": "Prof. Felix Beck will introduce us to the wonderful world of rapid prototyping. By utilizing a variety of low-tech methods and processes, you can take any idea and bring it to life. This session will empower you with the mindset and tools to go from nothing to something.",
     "tags":["generative", "javascript", "steve reich"],
-    "links": [{
+    "links": {
       "url":"https://github.com/periode",
       "text":"repo"
-    }]
+    }
   },
 
   {
-  	"title": "Special Event: 24X",
-  	"instructor": "???",
-  	"date": {
+    "title": "Special Event: 24X",
+    "instructor": "???",
+    "date": {
       "human": "Feb. 24th 3:00pm - Feb. 25th 3:00pm",
-      "machine":"180212"
+      "machine":"180224-1500"
     },
-  	"location": "Arts Center - C3-029 (IM Lab)",
-  	"description": "In the spirit of Rhizome’s Seven on Seven and Experiments in Art and Technology’s “9 Evenings”, NYUAD Interactive Media presents The 2nd Annual 24X. 24X is an event where 10 students from diverse disciplines come together for 24 hours to create something new. Public presentations of the experience will happen Saturday Feb. 25th from 4pm - 6:30pm. All are invited. And then we eat!",
+    "location": "Arts Center - C3-029 (IM Lab)",
+    "description": "In the spirit of Rhizome’s Seven on Seven and Experiments in Art and Technology’s “9 Evenings”, NYUAD Interactive Media presents The 2nd Annual 24X. 24X is an event where 10 students from diverse disciplines come together for 24 hours to create something new. Public presentations of the experience will happen Saturday Feb. 25th from 4pm - 6:30pm. All are invited. And then we eat!",
     "tags":["generative", "javascript", "steve reich"],
-    "links": [{
+    "links": {
       "url":"https://github.com/periode",
       "text":"repo"
-    }]
+    }
   },
 
   {
-  	"title": "Exploring Arduino",
-  	"instructor": "Michael Shiloh",
-  	"date": {
+    "title": "Exploring Arduino",
+    "instructor": "Michael Shiloh",
+    "date": {
       "human": "Feb. 26th 6:00pm-8:00pm",
-      "machine":"180212"
+      "machine":"180226-1800"
     },
-  	"location": "Arts Center - C3-006",
-  	"description": "Special Guest Michael Shiloh, lifelong tinkerer and maker, will take us through a creative exploration of an Interactive Media staple, the Arduino platform. Whether you are brand new to physical computing or have been working with micro-controllers, circuits and sensors for years, this workshop is not to be missed!",
+    "location": "Arts Center - C3-006",
+    "description": "Special Guest Michael Shiloh, lifelong tinkerer and maker, will take us through a creative exploration of an Interactive Media staple, the Arduino platform. Whether you are brand new to physical computing or have been working with micro-controllers, circuits and sensors for years, this workshop is not to be missed!",
     "tags":["generative", "javascript", "steve reich"],
-    "links": [{
+    "links": {
       "url":"https://github.com/periode",
       "text":"repo"
-    }]
+    }
+  },
+
+  {
+    "title": "Paper Prototypes",
+    "instructor": "Felix Beck",
+    "date": {
+      "human": "Apr. 24th 6:00pm-8:00pm",
+      "machine":"170424-1800"
+    },
+    "location": "Arts Center - C3-006",
+    "description": "In her book The Function of Ornament, Farshid Moussavi describes visible and invisible forces that will shape the architecture of the future. The combination of new mechanisms with cultural, political and temporal effects will manifestate in new aesthetic compositions and affects. In the workshop the participants will concentrate on the visible forces (structural, functional and physical) to develop paper prototypes.",
+    "tags":["prototypes"],
+    "links": {
+      "url":"",
+      "text":""
+    }
+  },
+
+  {
+    "title": "How To Make Things Sound Awesome",
+    "instructor": "Diana Chester",
+    "date": {
+      "human": "Apr. 17th 6:00pm-8:00pm",
+      "machine":"170417-1800"
+    },
+    "location": "Arts Center - C3-006",
+    "description": "Have you ever wished your film sounded as good as it looks, or that you could quickly enhance that crappy iphone recording? This workshop will go over the basics of sound. Yup sound, that thing that we think about last but notice first. Learn the basics of sound recording, and how to make you recordings sound good from the get go. Learn about how to enhance, edit, and manipulate audio in a sound editing software program like logic or audacity. Learn how to make scary sounds, happy sounds, and weird and crazy sounds. All the power is at your fingertips.",
+    "tags":["sound"],
+    "links": {
+      "url":"",
+      "text":""
+    }
+  },
+
+  {
+    "title": "MEDIATE VR - Life in Motion",
+    "instructor": "Christian Grewell & Ted Lee",
+    "date": {
+      "human": "Apr. 6th 5:00pm-7:00pm",
+      "machine":"170406-1700"
+    },
+    "location": "Arts Center - C3-155",
+    "description": "Create your own animated avatar, capture dance motion and watch yourself in VR! Part of the M.ed.iate pre-launch events at NYUAD.",
+    "tags":["virtual reality"],
+    "links": {
+      "url":"",
+      "text":""
+    }
+  },
+
+  {
+    "title": "MEDIATE VR - Unity 5 Workshop",
+    "instructor": "Christian Grewell",
+    "date": {
+      "human": "Apr. 5th 5:30pm-7:30pm",
+      "machine":"170405-1730"
+    },
+    "location": "Arts Center - C3-029 (IM Lab)",
+    "description": "Learn how to build 3D environments and animations without coding in Unity. Part of the M.ed.iate pre-launch events at NYUAD. Mediate is a joint research project between NYU Abu Dhabi and NYU Shanghai exploring education in entirely new mediums, beginning with virtual reality, reality reconstruction and motion, audio and video capture. It is a reimagining of the classroom - both virtually and physically.",
+    "tags":["virtual reality"],
+    "links": {
+      "url":"",
+      "text":""
+    }
+  },
+
+  {
+    "title": "Intro to Web APIs",
+    "instructor": "Craig Protzel",
+    "date": {
+      "human": "Apr. 3rd 6:00pm-8:00pm",
+      "machine":"170403-1800"
+    },
+    "location": "Arts Center - C3-006",
+    "description": "Make your own Weather App! Have you ever wanted to create an 'interactive' web site? In this hands-on 2 hour workshop we'll fly through the fundamentals of client-side web development by building a basic Weather App - type in a city and get the temperature!. We will cover HTML, CSS, Javascript, and data retrieval via web APIs. All skill levels and backgrounds are welcome. Please bring a laptop.",
+    "tags":["HTML", "CSS", "javascript", "apis"],
+    "links": {
+      "url":"https://github.com/craigprotzel/weather-world",
+      "text":"repo"
+    }
+  },
+
+  {
+    "title": "Intro to Web and Google Maps",
+    "instructor": "Craig Protzel",
+    "date": {
+      "human": "Mar. 6th 6:00pm-8:00pm",
+      "machine":"170306-1800"
+    },
+    "location": "Arts Center - C3-006",
+    "description": "Learn the basics of programming for the web. In this workshop, we'll create a website that includes an embedded Google map. We'll add map markers and 'bind' data to them so you can create a customized cartography experience No programming or web experience required. Please bring a laptop!",
+    "tags":["HTML", "CSS", "javascript"],
+    "links": {
+      "url":"",
+      "text":""
+    }
+  },
+
+  {
+    "title": "Intro to ThreeJS",
+    "instructor": "",
+    "date": {
+      "human": "Feb. 28th 6:00pm-8:00pm",
+      "machine":"170228-1800"
+    },
+    "location": "Arts Center - C3-006",
+    "description": "Are you interested in creating 3D visualizations and animations for the web. In this workshop, we'll introduce threeJS, a javascript library for creating 3D content in the browser. Some basic knowledge of HTML, CSS, and javascript is preferred but not required. Please bring a laptop!",
+    "tags":["HTML", "CSS", "javascript"],
+    "links": {
+      "url":"",
+      "text":""
+    }
+  },
+
+  {
+    "title": "Serial Communication (Hardware + Software, Oh My!)",
+    "instructor": "",
+    "date": {
+      "human": "Feb. 21st 6:00pm-8:00pm",
+      "machine":"170221-1800"
+    },
+    "location": "Arts Center - C3-006",
+    "description": "If you've been following along with the previous 2 weeks of workshops, this is the best one yet! Get information from sensors and buttons (see intro to pcomp above) and send that to your p5.js sketches. Build a controller for a game, collect environmental data and display it graphically, master the physical and virtual worlds! Again, please bring your computer, and perhaps some knowledge of the previous 2 weeks of workshops. (or just hang out!)",
+    "tags":[""],
+    "links": {
+      "url":"",
+      "text":""
+    }
+  },
+
+  {
+    "title": "Introduction to Programming with p5.js",
+    "instructor": "",
+    "date": {
+      "human": "Feb. 14th 6:00pm-8:00pm",
+      "machine":"170214-1800"
+    },
+    "location": "Arts Center - C3-006",
+    "description": "Interested in learning the basics of programming? P5.js is a javascript framework created with artists and designers in mind. Draw interactive graphics in a web browser, and learn a little about the way code runs the world around you. Special Valentine's day edition means we'll use plenty of black and red. No programming experience required, please bring your computer :)",
+    "tags":[""],
+    "links": {
+      "url":"",
+      "text":""
+    }
+  },
+
+  {
+    "title": "Introduction to Physical Computing with Arduino",
+    "instructor": "",
+    "date": {
+      "human": "Feb. 7th 6:00pm-8:30pm",
+      "machine":"170207-1800"
+    },
+    "location": "Arts Center - C3-006",
+    "description": "Ever wanted to learn about microcontrollers, or how to get information from the physical world into a computer? This introductory workshop will get you up and running with buttons, LEDs, and sensors in no time. We will (quickly!) cover basic electricity, digital input/output, and analog input/output. No programming or electronics experience required! Bring a computer!",
+    "tags":[""],
+    "links": {
+      "url":"",
+      "text":""
+    }
+  },
+
+  {
+    "title": "Unity 3D Workshop Part 2",
+    "instructor": "James Hosken",
+    "date": {
+      "human": "Nov. 15th 6:00pm-8:00pm",
+      "machine":"161115-1800"
+    },
+    "location": "Arts Center - C3-006",
+    "description": "GAF James Hosken will guide you through more Unity fun. Focusing in scriptinglighting and importing models, this will be a blast! Unity from the website.",
+    "tags":["unity"],
+    "links": {
+      "url":"",
+      "text":""
+    }
+  },
+
+  {
+    "title": "Theater Tech II: Hacking the Stage",
+    "instructor": "",
+    "date": {
+      "human": "Nov. 8th 6:00pm-8:00pm",
+      "machine":"161108-1800"
+    },
+    "location": "Arts Center - C3-006",
+    "description": "Cameras, microphones, projectors... they've appeared in theater productions before. But how can we use them in new, exciting ways? How can we push them in ways they aren't supposed to be pushed? How can technology affect an actor, a scene and a theatrical moment? How do we make technology into an actor and not a gimmick? Building on the work in Isadora, and examining the work of companies like Wooster Group and Forced Entertainment, students will begin to mess with (and hack!) the different technologies we take for granted on stage and in performance.",
+    "tags":[""],
+    "links": {
+      "url":"",
+      "text":""
+    }
+  },
+
+  {
+    "title": "Unity 3D Workshop Part 1",
+    "instructor": "James Hosken",
+    "date": {
+      "human": "Nov. 1st 6:00pm-8:00pm",
+      "machine":"161101-1800"
+    },
+    "location": "Arts Center - C3-006",
+    "description": "GAF James Hosken will guide you through the basics of the Unity 3D game engine. If you've ever wanted to design a video game, this is your chance to get started! Bring a laptop and download Unity from the website.",
+    "tags":["unity"],
+    "links": {
+      "url":"",
+      "text":""
+    }
+  },
+
+  {
+    "title": "Theater Tech I: Interactive Projections with Isadora",
+    "instructor": "Attilio Rigotti",
+    "date": {
+      "human": "Oct. 18th 6:00pm-8:00pm",
+      "machine":"161018-1800"
+    },
+    "location": "Arts Center - C3-006",
+    "description": "Frustrated with the lack of interactive audio and video software for the theater, Mark Coniglio of Troika Ranch developed his own - Isadora. Combining interactivity with scene control, video with audio, and computers with performance, Isadora has become essential in allowing technology to become another actor on stage. Attilio Rigotti will guide students through an introduction to Isadora, its interface and its mechanics, giving you enough tools to begin exploring your own crazy projection shows.",
+    "tags":["isadora"],
+    "links": {
+      "url":"",
+      "text":""
+    }
+  },
+
+  {
+    "title": "Web Platforms",
+    "instructor": "",
+    "date": {
+      "human": "Oct. 4th 6:00pm-8:00pm",
+      "machine":"161004-1800"
+    },
+    "location": "Arts Center - C3-006",
+    "description": "A survey of a variety of web platforms useful for documenting work, writing research, and archiving projects. The workshop will be geared towards Senior Captsone projects, but it is open to everyone.",
+    "tags":[""],
+    "links": {
+      "url":"http://nyuad.im/workshops/web-authoring-platforms/",
+      "text":""
+    }
+  },
+
+  {
+    "title": "Switch Off Your Eyes",
+    "instructor": "",
+    "date": {
+      "human": "Sept. 27th 6:00pm-8:00pm",
+      "machine":"160927-1800"
+    },
+    "location": "Arts Center - C3-006",
+    "description": "Fari Bradley - Silence in talkies, noise in romance. Did cinema pave the way for abstract and unpalatable sound as an art form by rejecting a narrative, or did certain films do so instead to move towards a 'meta-narrative'. Which directors employed sound art in a way that it became one of the characters in the plot? Chris Weaver- Contact Microphones. Learn how to use microphones to record objects and devices to get unique sounds from the world around you!",
+    "tags":[""],
+    "links": {
+      "url":"",
+      "text":""
+    }
   }
 ]

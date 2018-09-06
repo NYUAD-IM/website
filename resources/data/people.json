@@ -1,113 +1,314 @@
 [
   {
-  	"name": "Craig Protzel",
-  	"roles": ["Program Head of Interactive Media", "Assistant Professor of Interactive Media"],
-  	"current": true,
-  	"description": {
-      "short":"runs the ship",
-      "long": "Craig comes from LA and has been doing editing and production work in the entertainment and teaching creative coding for a while!"
+    "roles": [
+      "Program Head",
+      "Asst. Prof. of Interactive Media"
+    ],
+    "description": {
+      "short": "web, data, stories",
+      "long": "Craig Protzel is a creative technologist from Los Angeles, California whose practice focuses on designing interactive computational spaces for education, exploration, and entertainment. His work often resides at the intersection of web development, computer science, multi-media production, and storytelling. Before joining NYU Abu Dhabi in 2014, Craig’s professional experience included working as a producer-editor in LA, a creative software developer in NYC, and an adjunct professor at NYU Tisch’s ITP."
     },
-  	"courses": ["Communication and Technology", "Communication Lab", "Mashups: Creating with Web API", "Making Education", "Explorable Stories"],
-  	"website": "http://craigprotzel.com/",
-  	"email": "craig.protzel@nyu.edu",
-    "img": "craigprotzel.jpg"
+    "courses": [
+      "Communication and Technology",
+      "Communication Lab",
+      "Mashups: Creating with Web API",
+      "Making Education",
+      "Explorable Stories"
+    ],
+    "name": "Craig Protzel",
+    "current": "true",
+    "website": "http://craigprotzel.com/",
+    "email": "craig.protzel@nyu.edu",
+    "image": "craigprotzel.jpg"
   },
-
   {
-  	"name": "Pierre Depaz",
-  	"roles": ["Lecturer of Interactive Media","Howler Radio DJ"],
-  	"current": true,
-  	"description": {
-      "short":"assigns too much work",
-      "long": "une bande de brigands ravageait la campagne. Le chef des brigands dit à son fidèle second, Pedro: \"Pedro, toi qui sais si bien raconter les histoires, raconte-nous une histoire...\" Et Pedro commença en ces termes: 'Une bande de brigands ravageait la campagne...'"
+    "roles": [
+      "Lecturer of Interactive Media",
+      "Howler Radio DJ"
+    ],
+    "description": {
+      "short": "even javascript is political",
+      "long": "Pierre is a political scientist and sofware developer from France. After studying Media Studies and Game Design, he has worked at the crossroads of art, technology and society. His projects ranged from theatrical performances to augmented reality for investigative journalism, at places like MoMA PS1, the Whitney Museum, the Washington Post and Stony Brook University. He is fascinated with languages, both for humans and machines."
     },
-  	"courses": ["Communication Lab", "Politics of Code", "Alternate Realities", "Software Art: Image", "Software Art: Text"],
-  	"website": "https://pierredepaz.net/",
-  	"email": "pierre.depaz@nyu.edu",
-    "img": "pierredepaz.jpg"
+    "courses": [
+      "Communication Lab",
+      "Politics of Code",
+      "Alternate Realities",
+      "Software Art: Image",
+      "Software Art: Text"
+    ],
+    "name": "Pierre Depaz",
+    "current": "false",
+    "website": "https://pierredepaz.net/",
+    "email": "pierre.depaz@nyu.edu",
+    "image": "pierredepaz.jpg"
   },
-
   {
-  	"name": "Scott Fitzgerald",
-  	"roles": ["Program Head of Interactive Media", "Assistant Professor of Interactive Media"],
-  	"current": false,
-  	"description": {
-      "short":"came up with the idea",
-      "long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "roles": [
+      "Lecturer of Visual Arts",
+      "Lecturer of Interactive Media"
+    ],
+    "description": {
+      "short": "sculpture, circuits, prints, sound",
+      "long": "Jonny Farrow is a multi-disciplinary artist working in sculpture, printmaking, and sound. His work stems from research into the liminal: from suppressed historical narratives, to popular mythologies, to the far-reaching registers of the electro-magnetic spectrum. Farrow’s work also questions the narrative of expertise; with nearly every project, he embarks on learning a new skill set in order to disrupt viewer expectations as well as his own. He holds an MA in music and an MFA in Studio Art from the School of the Art Institute of Chicago, and is currently a lecturer in Visual Arts and Interactive Media at NYUAD."
     },
-  	"courses": ["Intro to Interactive Media", "Light", "Experiential Video Art"],
-  	"website": "https://scottfitzgerald.net/",
-  	"email": "scott.fitzgerald@nyu.edu",
-    "img": "scottfitzgerald.jpg"
+    "courses": [
+      "Circuit Breakers!",
+      "Foundations of 3D",
+      "Sound Art",
+      "Print Making"
+    ],
+    "name": "Jonny Farrow",
+    "current": "true",
+    "website": "http://www.jonnyfarrow.net",
+    "email": "jf613@nyu.edu",
+    "image": "jonnyfarrow.jpg"
   },
-
   {
-  	"name": "Ume Hussain",
-  	"roles": ["Instructor of the Arts", "Lab Manager"],
-  	"current": true,
-  	"description": {
-      "short":"holds us together",
-      "long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "roles": [
+      "Visiting Lecturer of Interactive Media",
+      "Co-founder of Purring Tiger"
+    ],
+    "description": {
+      "short": "multimedia performance",
+      "long": "Aaron Sherwood is a new media artist exploring cause and effect through the mediums of sound and light. This takes the form of large scale audio/visual installations, sound sculptures, guerilla art interventions, and performance. In 2011, along with Kiori Kawai, he founded Purring Tiger, a multi-cultural, multimedia, experimental performance group dedicated to bringing people together in the context of art, in a subtext of wonder."
     },
-  	"courses": [],
-  	"website": "https://umehussain.net/",
-  	"email": "uh242@nyu.edu",
-    "img": "umehussain.jpg"
+    "courses": [
+      "A.rt I.ntel",
+      "Decoding Nature",
+      "Sensors, body and motion",
+      "Intro to Interactive Media"
+    ],
+    "name": "Aaron Sherwood",
+    "current": "true",
+    "website": "https://aaron-sherwood.com/",
+    "email": "sherwood@nyu.edu",
+    "image": "aaronsherwood.png"
   },
-
   {
-  	"name": "James Hosken",
-  	"roles": ["Instructor of the Arts"],
-  	"current": false,
-  	"description": {
-      "short":"abandoned ship",
-      "long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "roles": [
+      "Teacher"
+    ],
+    "description": {
+      "short": "the way forward is developing an ecospheric mentality.",
+      "long": "Marina Zurkow is a media artist focused on near-impossible nature and culture intersections. She uses life science, materials, and technologies – including food, software, clay, animation, mycelium, and petrochemicals (when necessary) – to foster intimate connections between people and non-human agents.\nZurkow is a John Simon Guggenheim Memorial Fellow. She has also been granted awards from the New York Foundation for the Arts, New York State Council for the Arts, the Rockefeller Foundation, and Creative Capital. She is on full time faculty at NYU’s Interactive Telecommunications Program (ITP) in Tisch School of the Arts, and lives in Brooklyn, NY. She is represented by bitforms gallery."
     },
-  	"courses": [],
-  	"website": "https://umehussain.net/",
-  	"email": "uh242@nyu.edu",
-    "img": "jameshosken.jpg"
+    "courses": [
+      "Temporary Expert",
+      "Making the Anthropo(s)cene"
+    ],
+    "name": "Marina Zurkow",
+    "current": "true",
+    "website": "http:/o-matic.com/",
+    "email": "marinazurkow@me.com",
+    "image": "marinazurkow.jpg"
   },
-
   {
-  	"name": "Arantza Rodriguez",
-  	"roles": ["Lab Monitor"],
-  	"current": true,
-  	"description": {
-      "short":"pretends she is a CS major",
-      "long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "roles": [
+      "Program Head of Interactive Media",
+      "Assistant Professor of Interactive Media"
+    ],
+    "description": {
+      "short": "came up with the idea",
+      "long": "Scott Fitzgerald is an artist and educator working with software and physical systems. He is currently an Assistant Arts Professor at NYU IDM and former head of the Interactive Media program at New York University Abu Dhabi. Scott regularly runs workshops on using technology in the arts and was previously the head of documentation for Arduino. While he occasionally curates gallery shows, he still prefers making things with his hands."
     },
-  	"courses": [],
-  	"website": "https://arantza-rodriguez.net/",
-  	"email": "ar240@nyu.edu",
-    "img": "arantzarodriguez.jpg"
+    "courses": [
+      "Intro to Interactive Media",
+      "Light",
+      "Experiential Video Art"
+    ],
+    "name": "Scott Fitzgerald",
+    "current": "true",
+    "website": "https://scottfitzgerald.net/",
+    "email": "scott.fitzgerald@nyu.edu",
+    "image": "scottfitzgerald.jpg"
   },
-
   {
-  	"name": "Adham Chakohi",
-  	"roles": ["Lab Monitor"],
-  	"current": true,
-  	"description": {
-      "short":"pretends he is an Engineering major",
-      "long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "roles": [
+      "Instructor of the Arts",
+      "Lab Manager"
+    ],
+    "description": {
+      "short": "new stillness",
+      "long": "Ume Hussain is an interdisciplinary artist based in Washington, D.C. She received her MFA from at Maryland Institute College of Art. Through her interest in subtlety and quietness, she explores themes of stillness, security, contingency and the illusion of control. Her work incorporates video, sound, light and interactive media to engage and at times implicate her audience."
     },
-  	"courses": [],
-  	"website": "https://adhamchakori.net/",
-  	"email": "amc115@nyu.edu",
-    "img": "adhamchakohi.jpg"
+    "courses": [
+      ""
+    ],
+    "name": "Ume Hussain",
+    "current": "true",
+    "website": "https://umehussain.net/",
+    "email": "uh242@nyu.edu",
+    "image": "umehussain.jpg"
   },
-
   {
-  	"name": "Miha Klasinc",
-  	"roles": ["Lab Monitor"],
-  	"current": true,
-  	"description": {
-      "short":"pretends he is a Psych major",
-      "long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "roles": [
+      "Instructor of the Arts"
+    ],
+    "description": {
+      "short": "abandoned ship",
+      "long": "James was the first IM Instructor and Lab Manager. A Film Major, James is particularly interested in special effects, lights and physical computing. He is pursuing all of these endeavours at Carnegie Mellon University."
     },
-  	"courses": [],
-  	"website": "https://miha.net/",
-  	"email": "mk4908@nyu.edu",
-    "img": "mihaklasinc.jpg"
+    "courses": [
+      ""
+    ],
+    "name": "James Hosken",
+    "current": "true",
+    "website": "http://jameshosken.com/",
+    "email": "james.hosken@nyu.edu",
+    "image": "jameshosken.jpg"
+  },
+  {
+    "roles": [
+      "Lab Monitor"
+    ],
+    "description": {
+      "short": "junior trying to double major in CS and IM.",
+      "long": "Arantza is a junior majoring in Computer Science and minoring in Interactive Media. She is currently very interested in learning how different technologies can be used to improve educational systems around the world. Her hobbies include binge watching T.V. series, playing soccer when possible, and finding new music to listen to."
+    },
+    "courses": [
+      ""
+    ],
+    "name": "Arantza Rodriguez",
+    "current": "true",
+    "website": "https://arantza-rodriguez.net/",
+    "email": "air258@nyu.edu",
+    "image": "arantzarodriguez.jpg"
+  },
+  {
+    "roles": [
+      "Lab Monitor"
+    ],
+    "description": {
+      "short": "likes uncommented code because he's up for a challenge.",
+      "long": "A Junior Computer Science major with minors in Interactive Media and Natural Sciences, and likes to sometimes pretend he's an engineering major. Studied abroad in New York and did J-terms in Washington DC and Berlin. He's interested in physical computing and the effect of technology on people. He also loves music and you will almost always see him with his headphones."
+    },
+    "courses": [
+      ""
+    ],
+    "name": "Adham Chakohi",
+    "current": "true",
+    "website": "https://adhamchakohi.net/",
+    "email": "amc1150@nyu.edu",
+    "image": "adhamchakohi.jpg"
+  },
+  {
+    "roles": [
+      "Lab Monitor"
+    ],
+    "description": {
+      "short": "pretends he is a Psych major",
+      "long": "Miha hasn't updated his bio yet."
+    },
+    "courses": [
+      ""
+    ],
+    "name": "Miha Klasinc",
+    "current": "true",
+    "website": "https://miha.net/",
+    "email": "mk4908@nyu.edu",
+    "image": "mihaklasinc.jpg"
+  },
+  {
+    "roles": [
+      "Lab Monitor"
+    ],
+    "description": {
+      "short": "hanging in there",
+      "long": "Adam is Nagy but he is not nag-y. He is an experienced coffee drinker and meme enthusiast which he considers an art form. He is a film major and he is also interested in tech, making IM the perfect fusion of his passions. He thinks Jack White is a God and he is probably not mistaken."
+    },
+    "courses": [
+      ""
+    ],
+    "name": "Adam Nagy",
+    "current": "true",
+    "website": "https://adamnagy.net/",
+    "email": "an2208@nyu.edu",
+    "image": "adamnagy.jpg"
+  },
+  {
+    "roles": [
+      "Lab Monitor"
+    ],
+    "description": {
+      "short": "pretends he is a SRPP major",
+      "long": "Davis hasn't updated his bio yet."
+    },
+    "courses": [
+      ""
+    ],
+    "name": "Davis Teague",
+    "current": "true",
+    "website": "https://davis-teague.net/",
+    "email": "dqt206@nyu.edu",
+    "image": "davisteague.jpg"
+  },
+  {
+    "roles": [
+      "Lab Monitor"
+    ],
+    "description": {
+      "short": "Emirati student between Interactive Media, Legal Studies Film, and VisArts.",
+      "long": "Lateefa is from Abu Dhabi, UAE who gained interest in Interactive Media during her freshman spring semester after taking Communications Lab and dropped her plan for majoring in Philosophy for Interactive Media. Lateefa is interested in the versatility of storytelling and world-building in Interactive Media. She also enjoys spending 8 hours straight on A/V edits. Totally chill."
+    },
+    "courses": [
+      ""
+    ],
+    "name": "Lateefa Almazroeei",
+    "current": "true",
+    "website": "https://lateefa-almazroeei.net/",
+    "email": "la1475@nyu.edu",
+    "image": "lateefaalmazroeei.jpg"
+  },
+  {
+    "roles": [
+      "Lab Monitor"
+    ],
+    "description": {
+      "short": "IM Lab is my second dorm~",
+      "long": "Hi! I am Yuxin Zhou from NYU Shanghai, Junior student double major in IM and Business & Finance. I am interested in interactive coding with Processing and P5.js, and am inventorying the accessories of the Lab. So...If you would like to know what interesting sensors and devices we have in the Lab, welcome to talk with me! Also, if you are interested in IM classes in NYU Shanghai for your studying away plan, I am glad to share my experience with you."
+    },
+    "courses": [
+      ""
+    ],
+    "name": "Yuxin Zhou",
+    "current": "true",
+    "website": "https://yuxinzhou.net/",
+    "email": "yz2812@nyu.edu",
+    "image": "yuxinzhou.jpg"
+  },
+  {
+    "roles": [
+      "VR Monitor"
+    ],
+    "description": {
+      "short": "VR Major doubling in CS.",
+      "long": "Ming hasn't updated her bio yet/"
+    },
+    "courses": [
+      ""
+    ],
+    "name": "Ming Hu",
+    "current": "true",
+    "website": "https://github.com/mingwho",
+    "email": "ming.hu@nyu.edu",
+    "image": "minghu.jpg"
+  },
+  {
+    "roles": [
+      "VR Monitor"
+    ],
+    "description": {
+      "short": "CS Major doubling in VR",
+      "long": "Nick hasn't updated his bio yet."
+    },
+    "courses": [
+      ""
+    ],
+    "name": "Nick White",
+    "current": "true",
+    "website": "https://github.com/njw275",
+    "email": "njw275@nyu.edu",
+    "image": "nickwhite.jpg"
   }
 ]
