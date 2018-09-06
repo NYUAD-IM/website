@@ -1,1 +1,86 @@
-[{"category":{"main":"JOBS/INTERNSHIPS","sub":["software development","performance","vr","physical computing"]},"connection":{"name":"John Doe","contact":"john@doe.com","relationship":"friend of the program"},"title":"Performer wanted","location":"Bulawayo, Zimbabwe","link":"http://yoo.ooo/","deadline":"June 6th 2018","description":"perform on the other side of the world!"},{"category":{"main":"CALL FOR PROPOSALS","sub":["software development","performance","vr","physical computing"]},"connection":{"name":"John Doe","contact":"john@doe.com","relationship":"friend of the program"},"title":"Artist wanted","location":"Bulawayo, Zimbabwe","link":"http://yoo.ooo/","deadline":"June 6th 2018","description":"do all these things on the other side of the world!"},{"category":{"main":"GRADUATE EDUCATION","sub":["software development","performance","vr","physical computing"]},"connection":{"name":"John Doe","contact":"john@doe.com","relationship":"friend of the program"},"title":"Researcher wanted","location":"Bulawayo, Zimbabwe","link":"http://yoo.ooo/","deadline":"June 6th 2018","description":"research on the other side of the world!"},{"category":{"main":"JOBS/INTERNSHIPS","sub":["software development","performance","vr","physical computing"]},"connection":{"name":"John Doe","contact":"john@doe.com","relationship":"friend of the program"},"title":"Lab monitor position","location":"Bulawayo, Zimbabwe","link":"http://yoo.ooo/","deadline":"June 6th 2018","description":"monitor on the other side of the world!"}]
+[
+  {
+    "category":{
+      "main":"JOBS/INTERNSHIPS",
+      "sub":[
+        "software development",
+        "performance",
+        "vr",
+        "physical computing"
+      ]
+    },
+    "connection":{
+      "name":"John Doe",
+      "contact":"john@doe.com",
+      "relationship":"friend of the program"
+    },
+    "title":"Performer wanted",
+    "location":"Bulawayo, Zimbabwe",
+    "link":"http://yoo.ooo/",
+    "deadline":"June 6th 2018",
+    "description":"perform on the other side of the world!"
+  },
+  {
+    "category":{
+      "main":"CALL FOR PROPOSALS",
+      "sub":[
+        "software development",
+        "performance",
+        "vr",
+        "physical computing"
+      ]
+    },
+    "connection":{
+      "name":"John Doe",
+      "contact":"john@doe.com",
+      "relationship":"friend of the program"
+    },
+    "title":"Artist wanted",
+    "location":"Bulawayo, Zimbabwe",
+    "link":"http://yoo.ooo/",
+    "deadline":"June 6th 2018",
+    "description":"do all these things on the other side of the world!"
+  },
+  {
+    "category":{
+      "main":"GRADUATE EDUCATION",
+      "sub":[
+        "software development",
+        "performance",
+        "vr",
+        "physical computing"
+      ]
+    },
+    "connection":{
+      "name":"John Doe",
+      "contact":"john@doe.com",
+      "relationship":"friend of the program"
+    },
+    "title":"Researcher wanted",
+    "location":"Bulawayo, Zimbabwe",
+    "link":"http://yoo.ooo/",
+    "deadline":"June 6th 2018",
+    "description":"research on the other side of the world!"
+  },
+  {
+    "category":{
+      "main":"JOBS/INTERNSHIPS",
+      "sub":[
+        "software development",
+        "performance",
+        "vr",
+        "physical computing"
+      ]
+    },
+    "connection":{
+      "name":"John Doe",
+      "contact":"john@doe.com",
+      "relationship":"friend of the program"
+    },
+    "title":"Lab monitor position",
+    "location":"Bulawayo, Zimbabwe",
+    "link":"http://yoo.ooo/",
+    "deadline":"June 6th 2018",
+    "description":"monitor on the other side of the world!"
+  }
+]
