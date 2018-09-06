@@ -160,11 +160,11 @@
   },
   {
     "roles":[
-      "Instructor of the Arts"
+      "Assistant Instructor of the Arts"
     ],
     "description":{
       "short":"making art with robots",
-      "long":"Jack gratudated from NYU Shanghai with a degree in Computer Science, but when he studied away at NYU Abu Dhabi in his senior year, he took four Visual Art classes. He built Minus E, a robot that creates large scale drawings."
+      "long":"Jack gratudated from NYU Shanghai with a degree in Computer Science, but when he studied away at NYU Abu Dhabi in his senior year, he took four Visual Art classes and he loved them. He built Minus E, a robot that creates large scale drawings."
     },
     "courses":[
       ""
