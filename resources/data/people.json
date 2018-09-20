@@ -1,5 +1,6 @@
 [
   {
+    "name":"Craig Protzel",
     "roles":[
       "Program Head",
       "Asst. Prof. of Interactive Media"
@@ -15,35 +16,13 @@
       "Making Education",
       "Explorable Stories"
     ],
-    "name":"Craig Protzel",
     "current":"true",
     "website":"http://craigprotzel.com/",
     "email":"craig.protzel@nyu.edu",
     "image":"craigprotzel.jpg"
   },
   {
-    "roles":[
-      "Lecturer of Interactive Media",
-      "Howler Radio DJ"
-    ],
-    "description":{
-      "short":"even javascript is political",
-      "long":"Pierre is a political scientist and sofware developer from France. After studying Media Studies and Game Design, he has worked at the crossroads of art, technology and society. His projects ranged from theatrical performances to augmented reality for investigative journalism, at places like MoMA PS1, the Whitney Museum, the Washington Post and Stony Brook University. He is fascinated with languages, both for humans and machines."
-    },
-    "courses":[
-      "Communication Lab",
-      "Politics of Code",
-      "Alternate Realities",
-      "Software Art: Image",
-      "Software Art: Text"
-    ],
-    "name":"Pierre Depaz",
-    "current":"false",
-    "website":"https://pierredepaz.net/",
-    "email":"pierre.depaz@nyu.edu",
-    "image":"pierredepaz.jpg"
-  },
-  {
+    "name":"Jonny Farrow",
     "roles":[
       "Lecturer of Visual Arts",
       "Lecturer of Interactive Media"
@@ -58,13 +37,34 @@
       "Sound Art",
       "Print Making"
     ],
-    "name":"Jonny Farrow",
     "current":"true",
     "website":"http://www.jonnyfarrow.net",
     "email":"jf613@nyu.edu",
     "image":"jonnyfarrow.jpg"
   },
   {
+    "name":"Sarah Fay Krom",
+    "roles":[
+      "Assistant Professor of Practice of Interactive Media"
+    ],
+    "description":{
+      "short":"visual language for interactive media",
+      "long":"Sarah Fay Krom is an Assistant Professor of Practice of Interactive Media in the Division of Arts & Humanities at New York University Abu Dhabi. She holds a BFA from Carnegie Mellon University and an MFA from the Digital Arts and New Media program at the University of California, Santa Cruz. Sarah Fay’s work explores visually expressive interactive storyworlds and the underlying computational processes that expand and enrich their artistic palette. Her research interests are interactive storytelling, computational cinema and character performance, procedural animation, and visual media in digital games. Her professional work includes games, children’s media, and interactive installations. She is currently working on a game about “seeing as knowing” and the mediated visual message."
+    },
+    "courses":[
+      "Communications Lab",
+      "Games and Play",
+      "Alternate Realities",
+      "Games as Art",
+      "Interactive Storytelling"
+    ],
+    "current":"true",
+    "website":"https://sarahfaykrom.com",
+    "email":"sfk3@nyu.edu",
+    "image":"sarahfaykrom.jpg"
+  },
+  {
+    "name":"Aaron Sherwood",
     "roles":[
       "Visiting Lecturer of Interactive Media",
       "Co-founder of Purring Tiger"
@@ -79,13 +79,13 @@
       "Sensors, body and motion",
       "Intro to Interactive Media"
     ],
-    "name":"Aaron Sherwood",
     "current":"true",
     "website":"https://aaron-sherwood.com/",
     "email":"sherwood@nyu.edu",
     "image":"aaronsherwood.png"
   },
   {
+    "name":"Marina Zurkow",
     "roles":[
       "Teacher"
     ],
@@ -97,31 +97,10 @@
       "Temporary Expert",
       "Making the Anthropo(s)cene"
     ],
-    "name":"Marina Zurkow",
     "current":"true",
     "website":"http:/o-matic.com/",
     "email":"marinazurkow@me.com",
     "image":"marinazurkow.jpg"
-  },
-  {
-    "roles":[
-      "Program Head of Interactive Media",
-      "Assistant Professor of Interactive Media"
-    ],
-    "description":{
-      "short":"came up with the idea",
-      "long":"Scott Fitzgerald is an artist and educator working with software and physical systems. He is currently an Assistant Arts Professor at NYU IDM and former head of the Interactive Media program at New York University Abu Dhabi. Scott regularly runs workshops on using technology in the arts and was previously the head of documentation for Arduino. While he occasionally curates gallery shows, he still prefers making things with his hands."
-    },
-    "courses":[
-      "Intro to Interactive Media",
-      "Light",
-      "Experiential Video Art"
-    ],
-    "name":"Scott Fitzgerald",
-    "current":"true",
-    "website":"https://scottfitzgerald.net/",
-    "email":"scott.fitzgerald@nyu.edu",
-    "image":"scottfitzgerald.jpg"
   },
   {
     "roles":[
@@ -142,23 +121,7 @@
     "image":"umehussain.jpg"
   },
   {
-    "roles":[
-      "Instructor of the Arts"
-    ],
-    "description":{
-      "short":"abandoned ship",
-      "long":"James was the first IM Instructor and Lab Manager. A Film Major, James is particularly interested in special effects, lights and physical computing. He is pursuing all of these endeavours at Carnegie Mellon University."
-    },
-    "courses":[
-      ""
-    ],
-    "name":"James Hosken",
-    "current":"false",
-    "website":"http://jameshosken.com/",
-    "email":"james.hosken@nyu.edu",
-    "image":"jameshosken.jpg"
-  },
-  {
+    "name":"Jack B. Du",
     "roles":[
       "Assistant Instructor of the Arts"
     ],
@@ -169,11 +132,69 @@
     "courses":[
       ""
     ],
-    "name":"Jack B. Du",
     "current":"true",
     "website":"https://jackbdu.com/",
     "email":"jackbdu@nyu.edu",
     "image":"jackbdu.jpg"
+  },
+  {
+    "name":"Scott Fitzgerald",
+    "roles":[
+      "Former Program Head of Interactive Media",
+      "Former Assistant Professor of Interactive Media"
+    ],
+    "description":{
+      "short":"came up with the idea",
+      "long":"Scott Fitzgerald is an artist and educator working with software and physical systems. He is currently an Assistant Arts Professor at NYU IDM and former head of the Interactive Media program at New York University Abu Dhabi. Scott regularly runs workshops on using technology in the arts and was previously the head of documentation for Arduino. While he occasionally curates gallery shows, he still prefers making things with his hands."
+    },
+    "courses":[
+      "Intro to Interactive Media",
+      "Light",
+      "Experiential Video Art"
+    ],
+    "current":"true",
+    "website":"https://scottfitzgerald.net/",
+    "email":"scott.fitzgerald@nyu.edu",
+    "image":"scottfitzgerald.jpg"
+  },
+  {
+    "name":"Pierre Depaz",
+    "roles":[
+      "Former Lecturer of Interactive Media",
+      "Howler Radio DJ"
+    ],
+    "description":{
+      "short":"even javascript is political",
+      "long":"Pierre is a political scientist and sofware developer from France. After studying Media Studies and Game Design, he has worked at the crossroads of art, technology and society. His projects ranged from theatrical performances to augmented reality for investigative journalism, at places like MoMA PS1, the Whitney Museum, the Washington Post and Stony Brook University. He is fascinated with languages, both for humans and machines."
+    },
+    "courses":[
+      "Communication Lab",
+      "Politics of Code",
+      "Alternate Realities",
+      "Software Art: Image",
+      "Software Art: Text"
+    ],
+    "current":"false",
+    "website":"https://pierredepaz.net/",
+    "email":"pierre.depaz@nyu.edu",
+    "image":"pierredepaz.jpg"
+  },
+  {
+    "name":"James Hosken",
+    "roles":[
+      "Former Instructor of the Arts"
+    ],
+    "description":{
+      "short":"abandoned ship",
+      "long":"James was the first IM Instructor and Lab Manager. A Film Major, James is particularly interested in special effects, lights and physical computing. He is pursuing all of these endeavours at Carnegie Mellon University."
+    },
+    "courses":[
+      ""
+    ],
+    "current":"false",
+    "website":"http://jameshosken.com/",
+    "email":"james.hosken@nyu.edu",
+    "image":"jameshosken.jpg"
   },
   {
     "name":"Diego Arias",
