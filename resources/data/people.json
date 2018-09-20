@@ -176,156 +176,94 @@
     "image":"jackbdu.jpg"
   },
   {
-    "roles":[
-      "Lab Monitor"
-    ],
+    "name":"Diego Arias",
+    "roles":["Lab Monitor"],
     "description":{
-      "short":"junior trying to double major in CS and IM.",
-      "long":"Arantza is a junior majoring in Computer Science and minoring in Interactive Media. She is currently very interested in learning how different technologies can be used to improve educational systems around the world. Her hobbies include binge watching T.V. series, playing soccer when possible, and finding new music to listen to."
+      "short":"Full time student, part time gardener and photographer",
+      "long":"I am Diego, a junior year student majoring in IM and Economics. I am interested in marketing, design, smart cities/homes, pro-bono initiatives and sustainable fabrication. If I had to pick a meal for the rest of my life, it would probably be spaghetti carbonara."
     },
-    "courses":[
-      ""
-    ],
-    "name":"Arantza Rodriguez",
-    "current":"false",
-    "website":"https://arantza-rodriguez.net/",
-    "email":"air258@nyu.edu",
-    "image":"arantzarodriguez.jpg"
+    "courses":[""],
+    "current":"true",
+    "website":"",
+    "email":"diego.arias@nyu.edu",
+    "image":"diegoarias.jpg"
   },
   {
-    "roles":[
-      "Lab Monitor"
-    ],
+    "name":"Shantanu Bhatia",
+    "roles":["Lab Monitor"],
     "description":{
-      "short":"likes uncommented code because he's up for a challenge.",
-      "long":"A Junior Computer Science major with minors in Interactive Media and Natural Sciences, and likes to sometimes pretend he's an engineering major. Studied abroad in New York and did J-terms in Washington DC and Berlin. He's interested in physical computing and the effect of technology on people. He also loves music and you will almost always see him with his headphones."
+      "short":"VR Dreams, Electric Sheep",
+      "long":"A senior majoring in Computer Science, Shantanu is the result of an experiment to determine if a human can subsist entirely on coffee and memes. He is passionate about VR, automation, accessibility, game design, and K-pop."
     },
-    "courses":[
-      ""
-    ],
-    "name":"Adham Chakohi",
-    "current":"false",
-    "website":"https://adhamchakohi.net/",
-    "email":"amc1150@nyu.edu",
-    "image":"adhamchakohi.jpg"
+    "courses":[""],
+    "current":"true",
+    "website":"http://shantanubhatia.io",
+    "email":"shantanubhatia@nyu.edu",
+    "image":"shantanubhatia.jpg"
   },
   {
-    "roles":[
-      "Lab Monitor"
-    ],
+    "name":"Maria Paula Calderon",
+    "roles":["Lab Monitor"],
     "description":{
-      "short":"pretends he is a Psych major",
-      "long":"Miha hasn't updated his bio yet."
+      "short":"Still wishing I had a neighbor like Totoro",
+      "long":"Mari is a junior from Costa Rica majoring in Interactive Media and minoring in Design. She likes messing around with Photoshop, listening to Studio Ghibli soundtracks, and laser cutting acrylic boxes. In her free time, she enjoys playing Pokemon Go with her family."
     },
-    "courses":[
-      ""
-    ],
-    "name":"Miha Klasinc",
-    "current":"false",
-    "website":"https://miha.net/",
-    "email":"mk4908@nyu.edu",
-    "image":"mihaklasinc.jpg"
+    "courses":[""],
+    "current":"true",
+    "website":"https://www.behance.net/mpc4417214",
+    "email":"mpc441@nyu.edu",
+    "image":"mariapaulacalderon.jpg"
   },
   {
-    "roles":[
-      "Lab Monitor"
-    ],
+    "name":"Atoka Jo",
+    "roles":["Lab Monitor"],
     "description":{
-      "short":"hanging in there",
-      "long":"Adam is Nagy but he is not nag-y. He is an experienced coffee drinker and meme enthusiast which he considers an art form. He is a film major and he is also interested in tech, making IM the perfect fusion of his passions. He thinks Jack White is a God and he is probably not mistaken."
+      "short":"A SRPP major who wanted to be a IM major.",
+      "long":"Atoka loves bubble tea, so if you ever see her sad or tired, get her bubble tea to cheer her up!"
     },
-    "courses":[
-      ""
-    ],
-    "name":"Adam Nagy",
-    "current":"false",
-    "website":"https://adamnagy.net/",
-    "email":"an2208@nyu.edu",
-    "image":"adamnagy.jpg"
+    "courses":[""],
+    "current":"true",
+    "website":"",
+    "email":"aj1857@nyu.edu",
+    "image":"atokajo.jpg"
   },
   {
-    "roles":[
-      "Lab Monitor"
-    ],
+    "name":"María Laura Mirabelli",
+    "roles":["Lab Monitor"],
     "description":{
-      "short":"pretends he is a SRPP major",
-      "long":"Davis hasn't updated his bio yet."
+      "short":"My patronus is a wolf.",
+      "long":"And yes, I'm a proud Hufflepuff."
     },
-    "courses":[
-      ""
-    ],
-    "name":"Davis Teague",
-    "current":"false",
-    "website":"https://davis-teague.net/",
-    "email":"dqt206@nyu.edu",
-    "image":"davisteague.jpg"
+    "courses":[""],
+    "current":"true",
+    "website":"",
+    "email":"mlm809@nyu.edu",
+    "image":"marialauramirabelli.jpg"
   },
   {
-    "roles":[
-      "Lab Monitor"
-    ],
+    "name":"Manas Pant",
+    "roles":["Lab Monitor"],
     "description":{
-      "short":"Emirati student between Interactive Media, Legal Studies Film, and VisArts.",
-      "long":"Lateefa is from Abu Dhabi, UAE who gained interest in Interactive Media during her freshman spring semester after taking Communications Lab and dropped her plan for majoring in Philosophy for Interactive Media. Lateefa is interested in the versatility of storytelling and world-building in Interactive Media. She also enjoys spending 8 hours straight on A/V edits. Totally chill."
+      "short":"SRPP major hahahaha",
+      "long":"Senior from India with a minor in IM. Likes reading, running, Bollywood. Wants to become Prime Minister of India."
     },
-    "courses":[
-      ""
-    ],
-    "name":"Lateefa Almazroeei",
-    "current":"false",
-    "website":"https://lateefa-almazroeei.net/",
-    "email":"la1475@nyu.edu",
-    "image":"lateefaalmazroeei.jpg"
+    "courses":[""],
+    "current":"true",
+    "website":"",
+    "email":"mp4083@nyu.edu",
+    "image":"manaspant.jpg"
   },
   {
-    "roles":[
-      "Lab Monitor"
-    ],
+    "name":"Abdullah Zameek",
+    "roles":["Lab Monitor"],
     "description":{
-      "short":"IM Lab is my second dorm~",
-      "long":"Hi! I am Yuxin Zhou from NYU Shanghai, Junior student double major in IM and Business & Finance. I am interested in interactive coding with Processing and P5.js, and am inventorying the accessories of the Lab. So...If you would like to know what interesting sensors and devices we have in the Lab, welcome to talk with me! Also, if you are interested in IM classes in NYU Shanghai for your studying away plan, I am glad to share my experience with you."
+      "short":"prolly seg faulting or stack smashing.",
+      "long":"Currently a sophormore majoring in Computer Science with (extended) minors in Interactive Media and Math. Also runs hackAD as Co-President and DiscoVR as Treasurer (woot shameless SIG promotion). Dabbling in all things tech-related, ranging from cyber security to machine learning, while discovering new doors along the way. Loves RPGs, avid Pokemon fan (Gen IV master race, fite me) and knew half the UN Charter and half a dozen other conventions and declarations for no particular reason :\")"
     },
-    "courses":[
-      ""
-    ],
-    "name":"Yuxin Zhou",
-    "current":"false",
-    "website":"https://yuxinzhou.net/",
-    "email":"yz2812@nyu.edu",
-    "image":"yuxinzhou.jpg"
+    "courses":[""],
+    "current":"true",
+    "website":"",
+    "email":"abdullah.zameek@nyu.edu",
+    "image":"abdullahzameek.jpg"
   },
-  {
-    "roles":[
-      "VR Monitor"
-    ],
-    "description":{
-      "short":"VR Major doubling in CS.",
-      "long":"Ming hasn't updated her bio yet/"
-    },
-    "courses":[
-      ""
-    ],
-    "name":"Ming Hu",
-    "current":"false",
-    "website":"https://github.com/mingwho",
-    "email":"ming.hu@nyu.edu",
-    "image":"minghu.jpg"
-  },
-  {
-    "roles":[
-      "VR Monitor"
-    ],
-    "description":{
-      "short":"CS Major doubling in VR",
-      "long":"Nick hasn't updated his bio yet."
-    },
-    "courses":[
-      ""
-    ],
-    "name":"Nick White",
-    "current":"false",
-    "website":"https://github.com/njw275",
-    "email":"njw275@nyu.edu",
-    "image":"nickwhite.jpg"
-  }
 ]
