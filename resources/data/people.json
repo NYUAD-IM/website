@@ -236,6 +236,19 @@
     "image":"mariapaulacalderon.jpg"
   },
   {
+    "name":"Neyva Tomasa Hernandez",
+    "roles":["Lab Monitor"],
+    "description":{
+      "short":"Coding and Art are my jam, homie.",
+      "long":"Currently a Mexican/American junior who lives in the IM Lab. Will code for food (Spicy is preferred). Ask me about my 1.5m taco."
+    },
+    "courses":[""],
+    "current":"true",
+    "website":"",
+    "email":"nth230@nyu.edu",
+    "image":"neyvatomasahernandez.jpg"
+  },
+  {
     "name":"Atoka Jo",
     "roles":["Lab Monitor"],
     "description":{
@@ -260,19 +273,6 @@
     "website":"",
     "email":"mlm809@nyu.edu",
     "image":"marialauramirabelli.jpg"
-  },
-  {
-    "name":"Manas Pant",
-    "roles":["Lab Monitor"],
-    "description":{
-      "short":"SRPP major hahahaha",
-      "long":"Senior from India with a minor in IM. Likes reading, running, Bollywood. Wants to become Prime Minister of India."
-    },
-    "courses":[""],
-    "current":"true",
-    "website":"",
-    "email":"mp4083@nyu.edu",
-    "image":"manaspant.jpg"
   },
   {
     "name":"Abdullah Zameek",
