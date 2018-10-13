@@ -101,9 +101,9 @@ let experienceToggle = () => {
 	let el = document.getElementById('description-center')
 	if(el.style.opacity == 0){
 		el.style.opacity = 1
-		setTimeout(() => {
-			window.location = '/website'
-		}, 2000)
+//		setTimeout(() => {
+//			window.location = '/website'
+//		}, 2000)
 	}else{
 		el.style.opacity = 0
 	}
