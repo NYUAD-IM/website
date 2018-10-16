@@ -249,19 +249,6 @@
     "image":"neyvatomasahernandez.jpg"
   },
   {
-    "name":"Atoka Jo",
-    "roles":["Lab Monitor"],
-    "description":{
-      "short":"A SRPP major who wanted to be a IM major.",
-      "long":"Atoka loves bubble tea, so if you ever see her sad or tired, get her bubble tea to cheer her up!"
-    },
-    "courses":[""],
-    "current":"true",
-    "website":"",
-    "email":"aj1857@nyu.edu",
-    "image":"atokajo.jpg"
-  },
-  {
     "name":"María Laura Mirabelli",
     "roles":["Lab Monitor"],
     "description":{
@@ -273,6 +260,19 @@
     "website":"",
     "email":"mlm809@nyu.edu",
     "image":"marialauramirabelli.jpg"
+  },
+  {
+    "name":"Arantza Rodriguez",
+    "roles":["Lab Monitor"],
+    "description":{
+      "short":"Still pretending to be a CS major",
+      "long":"Arantza is a senior majoring in Computer Science and minoring in Interactive Media. She is currently very interested in learning how different technologies can be used to improve educational systems around the world. Her hobbies include binge watching T.V. series, playing soccer when possible, and finding new music to listen to."
+    },
+    "courses":[""],
+    "current":"true",
+    "website":"www.arantzarodriguez.com",
+    "email":"air258@nyu.edu",
+    "image":"arantzarodriguez.jpg"
   },
   {
     "name":"Abdullah Zameek",
