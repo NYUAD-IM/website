@@ -3,7 +3,7 @@
     "title":"Build a Pizza AI and learn Data Science",
     "instructor":"Gabor Csapo and Jihyun Kim",
     "date":{
-      "human":"April 15th 6:00pm-8:00pm",
+      "human":"April 15th, 2018 | 6:00pm-8:00pm",
       "machine":"180415-1800"
     },
     "location":"Arts Center - C3-029",
@@ -22,7 +22,7 @@
     "title":"Networked Virtual Reality!",
     "instructor":"Ming Hu and Nick White",
     "date":{
-      "human":"March 25th 6:00pm-8:00pm",
+      "human":"March 25th, 2018 | 6:00pm-8:00pm",
       "machine":"180325-1800"
     },
     "location":"Arts Center - C3-029",
@@ -41,7 +41,7 @@
     "title":"Writing Sounds with ToneJS",
     "instructor":"Pierre Depaz",
     "date":{
-      "human":"Feb. 5th 6:00pm-8:00pm",
+      "human":"Feb. 5th, 2018 | 6:00pm-8:00pm",
       "machine":"180205-1800"
     },
     "location":"Arts Center - C3-006",
@@ -60,7 +60,7 @@
     "title":"Intro To Contact Improvisation",
     "instructor":"Kiori Kawai",
     "date":{
-      "human":"Feb. 12th 6:00pm-8:00pm",
+      "human":"Feb. 12th, 2018 | 6:00pm-8:00pm",
       "machine":"180212-1800"
     },
     "location":"Arts Center - C3-006",
@@ -79,7 +79,7 @@
     "title":"Nothing to Something - An Intro to Rapid Prototyping",
     "instructor":"Felix Beck",
     "date":{
-      "human":"Feb. 19th 6:00pm-8:00pm",
+      "human":"Feb. 19th, 2018 | 6:00pm-8:00pm",
       "machine":"180219-1800"
     },
     "location":"Arts Center - C3-006",
@@ -96,9 +96,9 @@
   },
   {
     "title":"Special Event: 24X",
-    "instructor":"???",
+    "instructor":"IM Program",
     "date":{
-      "human":"Feb. 24th 3:00pm - Feb. 25th 3:00pm",
+      "human":"Feb. 24th 3:00pm - Feb. 25th 3:00pm, 2018",
       "machine":"180224-1500"
     },
     "location":"Arts Center - C3-029 (IM Lab)",
@@ -117,7 +117,7 @@
     "title":"Exploring Arduino",
     "instructor":"Michael Shiloh",
     "date":{
-      "human":"Feb. 26th 6:00pm-8:00pm",
+      "human":"Feb. 26th, 2017 | 6:00pm-8:00pm",
       "machine":"180226-1800"
     },
     "location":"Arts Center - C3-006",
@@ -136,7 +136,7 @@
     "title":"Paper Prototypes",
     "instructor":"Felix Beck",
     "date":{
-      "human":"Apr. 24th 6:00pm-8:00pm",
+      "human":"Apr. 24th, 2017 | 6:00pm-8:00pm",
       "machine":"170424-1800"
     },
     "location":"Arts Center - C3-006",
@@ -153,7 +153,7 @@
     "title":"How To Make Things Sound Awesome",
     "instructor":"Diana Chester",
     "date":{
-      "human":"Apr. 17th 6:00pm-8:00pm",
+      "human":"Apr. 17th, 2017 | 6:00pm-8:00pm",
       "machine":"170417-1800"
     },
     "location":"Arts Center - C3-006",
@@ -170,7 +170,7 @@
     "title":"MEDIATE VR - Life in Motion",
     "instructor":"Christian Grewell & Ted Lee",
     "date":{
-      "human":"Apr. 6th 5:00pm-7:00pm",
+      "human":"Apr. 6th, 2017 | 5:00pm-7:00pm",
       "machine":"170406-1700"
     },
     "location":"Arts Center - C3-155",
@@ -187,7 +187,7 @@
     "title":"MEDIATE VR - Unity 5 Workshop",
     "instructor":"Christian Grewell",
     "date":{
-      "human":"Apr. 5th 5:30pm-7:30pm",
+      "human":"Apr. 5th, 2017 | 5:30pm-7:30pm",
       "machine":"170405-1730"
     },
     "location":"Arts Center - C3-029 (IM Lab)",
@@ -204,7 +204,7 @@
     "title":"Intro to Web APIs",
     "instructor":"Craig Protzel",
     "date":{
-      "human":"Apr. 3rd 6:00pm-8:00pm",
+      "human":"Apr. 3rd, 2017 | 6:00pm-8:00pm",
       "machine":"170403-1800"
     },
     "location":"Arts Center - C3-006",
@@ -224,7 +224,7 @@
     "title":"Intro to Web and Google Maps",
     "instructor":"Craig Protzel",
     "date":{
-      "human":"Mar. 6th 6:00pm-8:00pm",
+      "human":"Mar. 6th, 2017 | 6:00pm-8:00pm",
       "machine":"170306-1800"
     },
     "location":"Arts Center - C3-006",
@@ -243,7 +243,7 @@
     "title":"Intro to ThreeJS",
     "instructor":"",
     "date":{
-      "human":"Feb. 28th 6:00pm-8:00pm",
+      "human":"Feb. 28th, 2017 | 6:00pm-8:00pm",
       "machine":"170228-1800"
     },
     "location":"Arts Center - C3-006",
@@ -262,7 +262,7 @@
     "title":"Serial Communication (Hardware + Software, Oh My!)",
     "instructor":"",
     "date":{
-      "human":"Feb. 21st 6:00pm-8:00pm",
+      "human":"Feb. 21st, 2017 | 6:00pm-8:00pm",
       "machine":"170221-1800"
     },
     "location":"Arts Center - C3-006",
@@ -279,7 +279,7 @@
     "title":"Introduction to Programming with p5.js",
     "instructor":"",
     "date":{
-      "human":"Feb. 14th 6:00pm-8:00pm",
+      "human":"Feb. 14th, 2017 | 6:00pm-8:00pm",
       "machine":"170214-1800"
     },
     "location":"Arts Center - C3-006",
@@ -296,7 +296,7 @@
     "title":"Introduction to Physical Computing with Arduino",
     "instructor":"",
     "date":{
-      "human":"Feb. 7th 6:00pm-8:30pm",
+      "human":"Feb. 7th, 2017 | 6:00pm-8:30pm",
       "machine":"170207-1800"
     },
     "location":"Arts Center - C3-006",
@@ -313,7 +313,7 @@
     "title":"Unity 3D Workshop Part 2",
     "instructor":"James Hosken",
     "date":{
-      "human":"Nov. 15th 6:00pm-8:00pm",
+      "human":"Nov. 15th, 2016 | 6:00pm-8:00pm",
       "machine":"161115-1800"
     },
     "location":"Arts Center - C3-006",
@@ -330,7 +330,7 @@
     "title":"Theater Tech II: Hacking the Stage",
     "instructor":"",
     "date":{
-      "human":"Nov. 8th 6:00pm-8:00pm",
+      "human":"Nov. 8th, 2016 | 6:00pm-8:00pm",
       "machine":"161108-1800"
     },
     "location":"Arts Center - C3-006",
@@ -347,7 +347,7 @@
     "title":"Unity 3D Workshop Part 1",
     "instructor":"James Hosken",
     "date":{
-      "human":"Nov. 1st 6:00pm-8:00pm",
+      "human":"Nov. 1st, 2016 | 6:00pm-8:00pm",
       "machine":"161101-1800"
     },
     "location":"Arts Center - C3-006",
@@ -364,7 +364,7 @@
     "title":"Theater Tech I: Interactive Projections with Isadora",
     "instructor":"Attilio Rigotti",
     "date":{
-      "human":"Oct. 18th 6:00pm-8:00pm",
+      "human":"Oct. 18th, 2016 | 6:00pm-8:00pm",
       "machine":"161018-1800"
     },
     "location":"Arts Center - C3-006",
@@ -381,7 +381,7 @@
     "title":"Web Platforms",
     "instructor":"",
     "date":{
-      "human":"Oct. 4th 6:00pm-8:00pm",
+      "human":"Oct. 4th, 2016, 6:00pm-8:00pm",
       "machine":"161004-1800"
     },
     "location":"Arts Center - C3-006",
@@ -398,7 +398,7 @@
     "title":"Switch Off Your Eyes",
     "instructor":"",
     "date":{
-      "human":"Sept. 27th 6:00pm-8:00pm",
+      "human":"Sept. 27th, 2016 | 6:00pm-8:00pm",
       "machine":"160927-1800"
     },
     "location":"Arts Center - C3-006",
