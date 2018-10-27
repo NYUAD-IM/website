@@ -117,12 +117,12 @@ let createWorkshop = (_ws, _i) => {
 
 let expand = (_el, _col) => {
 	let subcont = _el.parentNode.children[1]
-	if(subcont.style.color == 'black'){
-		subcont.style.width = '0px'
-		subcont.style.color = 'white'
-	}else{
+	if(subcont.style.color == 'white'){
 		subcont.style.width = '800px'
 		subcont.style.color = 'black'
+	}else{
+		subcont.style.width = '0px'
+		subcont.style.color = 'white'
 	}
 
 	document.body.style.backgroundColor = _col
