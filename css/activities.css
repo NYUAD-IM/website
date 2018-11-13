@@ -46,7 +46,7 @@
 }
 
 .activity-blurb{
-	top: 30%;
+	bottom: 0;
 	padding-left: 15px;
 	padding-right: 15px;
 	color: black;

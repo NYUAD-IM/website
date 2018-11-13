@@ -20,6 +20,7 @@ let populate = (d) => {
     createActivity(ACTIVITIES[index], positions[index%3])
     index++
 
+    /*
     while(index < ACTIVITIES.length){
   	  if(Math.random() > 0.5){
   		  createNote(pitch)
@@ -28,6 +29,16 @@ let populate = (d) => {
   		  createActivity(ACTIVITIES[index], positions[index%3])
   		  index++
   	  }
+    }
+    */
+
+    while(index < ACTIVITIES.length){
+      createActivity(ACTIVITIES[index], positions[index%3])
+      index++
+    }
+    while(pitch < Math.random() * 8) {
+      createNote(pitch)
+      pitch++
     }
   }
 }
@@ -101,14 +112,11 @@ let createActivity = (act, pos) => {
 	blurb.innerText = act.blurb
 	cont.appendChild(blurb)
 
-	let link = document.createElement('div')
-	link.setAttribute('class', 'activity-link')
 	let _l = document.createElement('a')
 	_l.setAttribute('href', act.link)
   _l.setAttribute('target', '_blank')
-	_l.innerText = 'Learn more!'
-	link.appendChild(_l)
-	cont.appendChild(link)
 
-	container.appendChild(cont)
+  _l.appendChild(cont);
+
+	container.appendChild(_l)
 }
