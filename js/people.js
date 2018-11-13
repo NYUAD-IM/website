@@ -75,6 +75,12 @@ let current = null
 let previous = null
 
 let replace = (_el, _name) => {
+  document.getElementsByClassName("current-name")[0].style = "border-bottom: 3px solid black;";
+  document.getElementsByClassName("current-roles")[0].style = "border-bottom: 3px solid black;";
+  document.getElementsByClassName("current-courses")[0].style = "border-bottom: 3px solid black;";
+  document.getElementsByClassName("current-description")[0].style = "border-bottom: 3px solid black;";
+  document.getElementsByClassName("current-website")[0].style = "border-bottom: 3px solid black;";
+  document.getElementsByClassName("current-email")[0].style = "border-bottom: 3px solid black;";
 	for(let one of everybody)
 		if(one.name == _name)
 			current = one

@@ -79,7 +79,6 @@
 	bottom: 10%;
 	right: 10%;
 	width: 43%;
-	border-left: 3px solid black;
 	float: right;
 	overflow: hidden;
 	transition: top 0.2s ease;
@@ -92,7 +91,6 @@
 .current-headshot-container, .current-name, .current-roles, .current-courses, .current-description, .current-website, .current-email {
 	display: inline-block;
 	border: none;
-	border-bottom: 3px solid black;
 	float: left;
 	padding: 0px;
 	padding-left: 3px;
@@ -110,10 +108,7 @@
 	height: 150px;
 	width: 150px;
 	overflow: hidden;
-
-	/*border-top: 3px solid black;*/
-	border-right: 3px solid black;
-	border-bottom: none;
+	border: none;
 }
 
 .current-headshot-container img {
@@ -160,7 +155,7 @@
 
 }*/
 
-@media (max-width: 500px) and (orientation: portrait){
+@media (max-width: 700px) and (orientation: portrait){
 
 	.headshots-container {
 		width: 50%;
@@ -195,8 +190,6 @@
 		top: 30%;
 		right: 5%;
 
-		border: none;
-
 		font-size: 0.8em;
 	}
 
@@ -211,11 +204,6 @@
 
 	.current-headshot-container {
 		display: none;
-	}
-
-	.current-headshot-container, .current-name, .current-roles, .current-courses, .current-description, .current-website, .current-email{
-		border: none;
-		border-bottom: 2px solid black;
 	}
 
 	.current-roles {
