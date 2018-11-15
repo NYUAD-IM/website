@@ -64,7 +64,7 @@
       "Michael Shiloh"
     ],
     "terms":[
-      "FALL"
+      "NCO"
     ],
     "description":{
       "short":"intro to robot building",
@@ -193,7 +193,7 @@
       "Craig Protzel"
     ],
     "terms":[
-      "SPRING"
+      "NCO"
     ],
     "description":{
       "short":"Learn education theory through project-based work.",
@@ -218,7 +218,7 @@
       "Aaron Sherwood"
     ],
     "terms":[
-      "SPRING"
+      "NCO"
     ],
     "description":{
       "short":"Artificial Intelligence through the lens of art.",
@@ -296,7 +296,7 @@
       "Pierre Depaz"
     ],
     "terms":[
-      "FALL"
+      "NCO"
     ],
     "description":{
       "short":"the relationship between code and politics",
@@ -349,7 +349,7 @@
       "Pierre Depaz"
     ],
     "terms":[
-      "FALL"
+      "NCO"
     ],
     "description":{
       "short":"Intro to computer-aided artistic endeavours in visual arts",
@@ -376,7 +376,7 @@
       "Pierre Depaz"
     ],
     "terms":[
-      "FALL"
+      "NCO"
     ],
     "description":{
       "short":"Intro to computer-aided artistic endeavours in poetry",
@@ -405,7 +405,7 @@
       "Craig Protzel"
     ],
     "terms":[
-      "JANUARY"
+      "NCO"
     ],
     "description":{
       "short":"creative web development, design, storytelling, and interaction",
@@ -479,6 +479,81 @@
     "track":"Computational Media",
     "current":"true",
     "year":"2018",
+    "link":""
+  },
+  {
+    "instructors":[
+      "Sarah Fay Krom"
+    ],
+    "terms":[
+      "SPRING"
+    ],
+    "description":{
+      "short":"An introduction to the history, theory and practice of computer-based artistic endeavors in the field of visual arts.",
+      "long":"To be updated."
+    },
+    "crosslisted":[
+      ""
+    ],
+    "tags":[
+      ""
+    ],
+    "title":"Software Art: ASCII to Algorithm",
+    "program":"Interactive Media",
+    "number":"IM-UH 2321",
+    "track":"Computational Media",
+    "current":"true",
+    "year":"2019",
+    "link":""
+  },
+  {
+    "instructors":[
+      "Marina Zurkow"
+    ],
+    "terms":[
+      "SPRING"
+    ],
+    "description":{
+      "short":"This seminar course is an introduction to the theories, questions and conditions that encompass interactive media, and cultivates a capacity for critical awareness to help inform and direct students’ creative practice.",
+      "long":"To be updated."
+    },
+    "crosslisted":[
+      ""
+    ],
+    "tags":[
+      ""
+    ],
+    "title":"Understanding Interactive Media: Critical Questions & Theory",
+    "program":"Interactive Media",
+    "number":"IM-UH 1013",
+    "track":"Media & Design Thinking",
+    "current":"true",
+    "year":"2019",
+    "link":""
+  },
+  {
+    "instructors":[
+      "David Wrisley"
+    ],
+    "terms":[
+      "SPRING"
+    ],
+    "description":{
+      "short":"An introduction to the benefits and limitations of digital methods of both the benefits and limitations of digital methods in the context of humanities research and analysis.",
+      "long":"To be updated."
+    },
+    "crosslisted":[
+      ""
+    ],
+    "tags":[
+      ""
+    ],
+    "title":"Introduction to Digital Humanities",
+    "program":"Interactive Media",
+    "number":"IM-UH 1511",
+    "track":"Media & Design Thinking",
+    "current":"true",
+    "year":"2019",
     "link":""
   }
 ]
