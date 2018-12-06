@@ -555,5 +555,55 @@
     "current":"true",
     "year":"2019",
     "link":""
+  },
+  {
+    "instructors":[
+      "Craig Protzel"
+    ],
+    "terms":[
+      "JANUARY"
+    ],
+    "description":{
+      "short":"This course explores how immersive technologies (Augmented, Virtual & Mixed Reality) are transforming storytelling & how new business models are emerging to support this fast-moving sector.",
+      "long":"This course explores how immersive technologies (Augmented, Virtual & Mixed Reality) are transforming storytelling & how new business models are emerging to support a fast moving and constantly disrupted & disrupting sector. Through classwork, field trips, exposure to industry leaders and world class storytellers, students will experience first hand how new storytelling structures are being created and developed incrementally through an ongoing conversation with disciplines across film, television, theatre, game design and experiential marketing. They will also understand the challenges in funding, & distributing these projects in what is still largely a pre-market economy. The course combines project work, mentors, field trips and collaborative methods to create a dynamic hands on environment that mixes storytelling with immersive technologies."
+    },
+    "crosslisted":[
+      ""
+    ],
+    "tags":[
+      ""
+    ],
+    "title":"Immersive Storytelling, and the Art of Making the Virtual, a Reality",
+    "program":"Interactive Media",
+    "number":"IM-UH 1300J",
+    "track":"Media & Design Thinking",
+    "current":"true",
+    "year":"2019",
+    "link":""
+  },
+  {
+    "instructors":[
+      "Christian Grewell"
+    ],
+    "terms":[
+      "JANUARY"
+    ],
+    "description":{
+      "short":"This course will explore the fundamental building blocks of technology-enhanced and human-aware rapid product design through a combination of design thinking and design doing with real-world impact.",
+      "long":"We live today at the forefront of the Fourth Industrial Revolution. Rapid progress and accessibility of disciplines and technologies such as robotics, sensors, artificial intelligence and machine learning, nanotechnology, rapid prototyping and global communications networks are all building on and amplifying one another, making us superhuman. Smart systems - homes, factories, farms, grids or entire cities—will help tackle problems as diverse as climate change and waste management to human health and happiness. Alongside these technological advances are a set of broader socio-economic, geopolitical and demographic disruptions with nearly equivalent impact to the technological factors. In this course, students will explore fundamental building blocks of technology-enhanced and human-aware rapid product design through a combination of design thinking and design doing. This course makes full use of the liberal arts to connect and constrain in order to challenge students to be creative in both their application of technology and their design of solutions with a real-world impact."
+    },
+    "crosslisted":[
+      ""
+    ],
+    "tags":[
+      ""
+    ],
+    "title":"Super-human",
+    "program":"Interactive Media",
+    "number":"IM-UH 1512J",
+    "track":"Media & Design Thinking",
+    "current":"true",
+    "year":"2019",
+    "link":""
   }
 ]
