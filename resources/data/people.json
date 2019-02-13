@@ -197,94 +197,87 @@
     "image":"jameshosken.jpg"
   },
   {
-    "name":"Diego Arias",
+    "name":"Alejandra Trejo Rodriguez",
     "roles":["Lab Monitor"],
-    "description":{
-      "short":"Full time student, part time gardener and photographer",
-      "long":"I am Diego, a junior year student majoring in IM and Economics. I am interested in marketing, design, smart cities/homes, pro-bono initiatives and sustainable fabrication. If I had to pick a meal for the rest of my life, it would probably be spaghetti carbonara."
+    "description":
+    {
+      "short":"I thought I was a dog person until I met the campus cats.",
+      "long":"Hi there! This is Alejandra. I'm a senior majoring in Computer Science and Interactive Media who's still figuring things out. I'm currently interested in understanding how art and tech can be used to raise awareness about social issues in my native Mexico. If you have any ideas"
     },
     "courses":[""],
     "current":"true",
     "website":"",
-    "email":"diego.arias@nyu.edu",
-    "image":"diegoarias.jpg"
+    "email":"atr313@nyu.edu",
+    "image":"alejandratrejorodriguez.jpg"
   },
   {
-    "name":"Shantanu Bhatia",
+    "name":"Araz Aslanian",
     "roles":["Lab Monitor"],
-    "description":{
-      "short":"VR Dreams, Electric Sheep",
-      "long":"A senior majoring in Computer Science, Shantanu is the result of an experiment to determine if a human can subsist entirely on coffee and memes. He is passionate about VR, automation, accessibility, game design, and K-pop."
-    },
-    "courses":[""],
-    "current":"true",
-    "website":"http://shantanubhatia.io",
-    "email":"shantanubhatia@nyu.edu",
-    "image":"shantanubhatia.jpg"
-  },
-  {
-    "name":"Maria Paula Calderon",
-    "roles":["Lab Monitor"],
-    "description":{
-      "short":"Still wishing I had a neighbor like Totoro",
-      "long":"Mari is a junior from Costa Rica majoring in Interactive Media and minoring in Design. She likes messing around with Photoshop, listening to Studio Ghibli soundtracks, and laser cutting acrylic boxes. In her free time, she enjoys playing Pokemon Go with her family."
-    },
-    "courses":[""],
-    "current":"true",
-    "website":"https://www.behance.net/mpc4417214",
-    "email":"mpc441@nyu.edu",
-    "image":"mariapaulacalderon.jpg"
-  },
-  {
-    "name":"Neyva Tomasa Hernandez",
-    "roles":["Lab Monitor"],
-    "description":{
-      "short":"Coding and Art are my jam, homie.",
-      "long":"Currently a Mexican/American junior who lives in the IM Lab. Will code for food (Spicy is preferred). Ask me about my 1.5m taco."
+    "description":
+    {
+      "short":"Real bugs scare me more than computer ones.",
+      "long":"Araz is a senior majoring in Psychology with a minor in Interactive Media. She is interested in human-computer interaction"
     },
     "courses":[""],
     "current":"true",
     "website":"",
-    "email":"nth230@nyu.edu",
-    "image":"neyvatomasahernandez.jpg"
+    "email":"ava267@nyu.edu",
+    "image":"arazaslanian.jpg"
   },
   {
-    "name":"María Laura Mirabelli",
+    "name":"Cassie Ulvick",
     "roles":["Lab Monitor"],
-    "description":{
-      "short":"My patronus is a wolf.",
-      "long":"And yes, I'm a proud Hufflepuff."
+    "description":
+    {
+      "short":"Probably hungry",
+      "long":"Cassie is a junior at NYU Shanghai majoring in Interactive Media Arts and minoring in Business and Chinese. She likes art"
+    },
+    "courses":[""],
+    "current":"true",
+    "website":"https://www.cassandraulvick.com/",
+    "email":"clu216@nyu.edu",
+    "image":"cassieulvick.jpg"
+  },
+  {
+    "name":"May Baho",
+    "roles":["Lab Monitor"],
+    "description":
+    {
+      "short":":--) ",
+      "long":"May is a philosophy major in her senior year. She likes to make stuff and then criticize it. Don't take much of what she says seriously."
     },
     "courses":[""],
     "current":"true",
     "website":"",
-    "email":"mlm809@nyu.edu",
-    "image":"marialauramirabelli.jpg"
+    "email":"may.baho@nyu.edu",
+    "image":"maybaho.jpg"
   },
   {
-    "name":"Arantza Rodriguez",
+    "name":"Russell Coke",
     "roles":["Lab Monitor"],
-    "description":{
-      "short":"Still pretending to be a CS major",
-      "long":"Arantza is a senior majoring in Computer Science and minoring in Interactive Media. She is currently very interested in learning how different technologies can be used to improve educational systems around the world. Her hobbies include binge watching T.V. series, playing soccer when possible, and finding new music to listen to."
-    },
-    "courses":[""],
-    "current":"true",
-    "website":"www.arantzarodriguez.com",
-    "email":"air258@nyu.edu",
-    "image":"arantzarodriguez.jpg"
-  },
-  {
-    "name":"Abdullah Zameek",
-    "roles":["Lab Monitor"],
-    "description":{
-      "short":"prolly seg faulting or stack smashing.",
-      "long":"Currently a sophormore majoring in Computer Science with (extended) minors in Interactive Media and Math. Also runs hackAD as Co-President and DiscoVR as Treasurer (woot shameless SIG promotion). Dabbling in all things tech-related, ranging from cyber security to machine learning, while discovering new doors along the way. Loves RPGs, avid Pokemon fan (Gen IV master race, fite me) and knew half the UN Charter and half a dozen other conventions and declarations for no particular reason :\")"
+    "description":
+    {
+      "short":"Best thing since solderless breadboards",
+      "long":"Russell is a self-professed nerd and lover of all things tech. He is CS major who loves creative coding and helping anyone who needs it... yes"
     },
     "courses":[""],
     "current":"true",
     "website":"",
-    "email":"abdullah.zameek@nyu.edu",
-    "image":"abdullahzameek.jpg"
+    "email":"rc3469@nyu.edu",
+    "image":"russellcoke.jpg"
+  },
+  {
+    "name":"Vince Nguyen",
+    "roles":["Lab Monitor"],
+    "description":
+    {
+      "short":"To react or to interact?",
+      "long":"Vince is currently a second-year student majoring in Interactive Media with a minor in Computer Science and Visual Arts. His main interest lies on the use of interactive technology for storytelling purposes to transform traditional spaces such as museums"
+    },
+    "courses":[""],
+    "current":"true",
+    "website":"",
+    "email":"vince.nguyen@nyu.edu",
+    "image":"vincenguyen.jpg"
   }
 ]
