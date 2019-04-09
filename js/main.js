@@ -7,9 +7,10 @@ $(document).ready(function(){
   //Inject resusable HTML
   $('#header').load('/html/header.html');
   $('#footer').load('/html/footer.html');
-
+  $('#header').ready(showNavigation);
 	dropdown_height = detectmob() ? '280px' : '40px'
 });
+
 
 
 let showNavigation = () => {
