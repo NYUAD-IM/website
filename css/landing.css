@@ -103,7 +103,7 @@ canvas{
 .description-center{
 	position: absolute;
 	z-index: 4;
-	display: block;
+	display: none;
 
 	width: 60vw;
 	height: 33.75vw;
