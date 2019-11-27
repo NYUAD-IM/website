@@ -197,68 +197,12 @@
     "image":"jameshosken.jpg"
   },
   {
-    "name":"Alejandra Trejo Rodriguez",
-    "roles":["Lab Assistant"],
-    "description":
-    {
-      "short":"I thought I was a dog person until I met the campus cats.",
-      "long":"Hi there! This is Alejandra. I'm a senior majoring in Computer Science and Interactive Media who's still figuring things out. I'm currently interested in understanding how art and tech can be used to raise awareness about social issues in my native Mexico. If you have any ideas, hit me up!"
-    },
-    "courses":[""],
-    "current":"true",
-    "website":"",
-    "email":"atr313@nyu.edu",
-    "image":"alejandratrejorodriguez.jpg"
-  },
-  {
-    "name":"Araz Aslanian",
-    "roles":["Lab Assistant"],
-    "description":
-    {
-      "short":"Real bugs scare me more than computer ones.",
-      "long":"Araz is a senior majoring in Psychology with a minor in Interactive Media. She is interested in human-computer interaction, coding, and building things from scratch. Her hobbies include discovering new restaurants, playing board games / video games, and watching T.V. shows."
-    },
-    "courses":[""],
-    "current":"true",
-    "website":"",
-    "email":"ava267@nyu.edu",
-    "image":"arazaslanian.jpg"
-  },
-  {
-    "name":"Cassie Ulvick",
-    "roles":["Lab Assistant"],
-    "description":
-    {
-      "short":"Probably hungry",
-      "long":"Cassie is a junior at NYU Shanghai majoring in Interactive Media Arts and minoring in Business and Chinese. She likes art, tennis, and anything food-related. You can bribe her with pho."
-    },
-    "courses":[""],
-    "current":"true",
-    "website":"https://www.cassandraulvick.com/",
-    "email":"clu216@nyu.edu",
-    "image":"cassieulvick.jpg"
-  },
-  {
-    "name":"May Baho",
-    "roles":["Lab Assistant"],
-    "description":
-    {
-      "short":":--) ",
-      "long":"May is a philosophy major in her senior year. She likes to make stuff and then criticize it. Don't take much of what she says seriously."
-    },
-    "courses":[""],
-    "current":"true",
-    "website":"",
-    "email":"may.baho@nyu.edu",
-    "image":"maybaho.jpg"
-  },
-  {
     "name":"Russell Coke",
-    "roles":["Lab Assistant"],
+    "roles":["Lab Monitor"],
     "description":
     {
       "short":"Best thing since solderless breadboards",
-      "long":"Russell is a self-professed nerd and lover of all things tech. He is CS major who loves creative coding and helping anyone who needs it... yes, even if they don't love Harry Potter as much as I do."
+      "long":"Russell is a self-professed nerd and lover of all things tech. He is CS major who loves creative coding and helping anyone who needs it... yes"
     },
     "courses":[""],
     "current":"true",
@@ -267,17 +211,73 @@
     "image":"russellcoke.jpg"
   },
   {
-    "name":"Vince Nguyen",
-    "roles":["Lab Assistant"],
+    "name":"Steven Wyks",
+    "roles":["Lab Monitor"],
     "description":
     {
-      "short":"To react or to interact?",
-      "long":"Vince is currently a second-year student majoring in Interactive Media with a minor in Computer Science and Visual Arts. His main interest lies on the use of interactive technology for storytelling purposes to transform traditional spaces such as museums, exhibitions, and classrooms. His superpowers include, but are not limited, to Netflix and YouTube binge-watching, dramatizing absolutely everything, and wearing a sweater under the 40-degree heat of Abu Dhabi."
+      "short":"I leave my car on while pumping gas",
+      "long":"Steven is a junior majoring in Interactive Media interested in the use of technology to create engaging experiences. Steven enjoys playing video games"
     },
     "courses":[""],
     "current":"true",
-    "website":"https://www.behance.net/vincenguyen",
-    "email":"vince.nguyen@nyu.edu",
-    "image":"vincenguyen.jpg"
+    "website":"https://stevenwyks.com",
+    "email":"slw515@nyu.edu",
+    "image":"stevenwyks.jpg"
+  },
+  {
+    "name":"Paulin Alcoser",
+    "roles":["Lab Monitor"],
+    "description":
+    {
+      "short":"I just want to build my own R2-D2!",
+      "long":"Hello"
+    },
+    "courses":[""],
+    "current":"true",
+    "website":"",
+    "email":"pac469@nyu.edu",
+    "image":"paulinalcoser.jpg"
+  },
+  {
+    "name":"Jahnae Miller",
+    "roles":["Lab Monitor"],
+    "description":
+    {
+      "short":"riding 'til the final destination",
+      "long":"Jahnae is a senior majoring in Computer Science with minors in Interactive Media and Mathematics. Her hobbies include playing video games"
+    },
+    "courses":[""],
+    "current":"true",
+    "website":"https://jahnaemiller.github.io",
+    "email":"jahnae@nyu.edu",
+    "image":"jahnaemiller.jpg"
+  },
+  {
+    "name":"Mai Lootah",
+    "roles":["Lab Monitor"],
+    "description":
+    {
+      "short":"Hello World!",
+      "long":"I'm currently a senior majoring in Interactive Media"
+    },
+    "courses":[""],
+    "current":"true",
+    "website":"",
+    "email":"mkl406@nyu.edu",
+    "image":"mailootah.jpg"
+  },
+  {
+    "name":"Praggya Ayshwarya J.",
+    "roles":["Lab Monitor"],
+    "description":
+    {
+      "short":"An engineer in the right lab",
+      "long":"Praggya is a third year computer engineer who is either a workaholic or a procrastinator - no in between. You will see her searching for WiFi or taking selfies the old school way on her new iPhone... as she dropped it and destroyed its WiFi antenna and front camera."
+    },
+    "courses":[""],
+    "current":"true",
+    "website":"",
+    "email":"paj274@nyu.edu",
+    "image":"praggyaayshwaryaj..jpg"
   }
 ]
