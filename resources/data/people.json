@@ -196,88 +196,88 @@
     "email":"james.hosken@nyu.edu",
     "image":"jameshosken.jpg"
   },
+{
+  "name":"Rashid Al Qubaisi",
+  "roles":["Lab Assistant"],
+  "description":
   {
-    "name":"Russell Coke",
-    "roles":["Lab Monitor"],
-    "description":
-    {
-      "short":"Best thing since solderless breadboards",
-      "long":"Russell is a self-professed nerd and lover of all things tech. He is CS major who loves creative coding and helping anyone who needs it... yes"
-    },
-    "courses":[""],
-    "current":"true",
-    "website":"",
-    "email":"rc3469@nyu.edu",
-    "image":"russellcoke.jpg"
+    "short":"I don't play basketball",
+    "long":"My name is Rashid. I currently am majoring in Interactive Media and Economics. Most of my free time is spent on the golf course. In my opinion, the IM lab is one of the coolest places on campus as you can get almost anything done there."
   },
+  "courses":[""],
+  "current":"true",
+  "website":"",
+  "email":"raq217@nyu.edu",
+  "image":"rashidalqubaisi.jpg"
+},
+{
+  "name":"Li Cheng",
+  "roles":["Lab Assistant"],
+  "description":
   {
-    "name":"Steven Wyks",
-    "roles":["Lab Monitor"],
-    "description":
-    {
-      "short":"I leave my car on while pumping gas",
-      "long":"Steven is a junior majoring in Interactive Media interested in the use of technology to create engaging experiences. Steven enjoys playing video games"
-    },
-    "courses":[""],
-    "current":"true",
-    "website":"https://stevenwyks.com",
-    "email":"slw515@nyu.edu",
-    "image":"stevenwyks.jpg"
+    "short":"I don't byte",
+    "long":"I am a sophomore IM major and currently super interested in everything design and tech related. In my free time you can find me drinking matcha latte somewhere in the city."
   },
+  "courses":[""],
+  "current":"true",
+  "website":"",
+  "email":"li.cheng@nyu.edu",
+  "image":"licheng.jpg"
+},
+{
+  "name":"Maxim Blinov",
+  "roles":["Lab Assistant"],
+  "description":
   {
-    "name":"Paulin Alcoser",
-    "roles":["Lab Monitor"],
-    "description":
-    {
-      "short":"I just want to build my own R2-D2!",
-      "long":"Hello"
-    },
-    "courses":[""],
-    "current":"true",
-    "website":"",
-    "email":"pac469@nyu.edu",
-    "image":"paulinalcoser.jpg"
+    "short":"“His card tricks are insane” -David Blaine",
+    "long":"A junior majoring in Computer science and Interactive media. I like physical computation, so that’s why I started doing IM and had lots of fun with it. I do photography as my hobby and I can show some pretty cool card tricks."
   },
+  "courses":[""],
+  "current":"true",
+  "website":"https://www.instagram.com/max_blin0v",
+  "email":"Mab1312@nyu.edu",
+  "image":"maximblinov.jpg"
+},
+{
+  "name":"Junior Garcia",
+  "roles":["Lab Assistant"],
+  "description":
   {
-    "name":"Jahnae Miller",
-    "roles":["Lab Monitor"],
-    "description":
-    {
-      "short":"riding 'til the final destination",
-      "long":"Jahnae is a senior majoring in Computer Science with minors in Interactive Media and Mathematics. Her hobbies include playing video games"
-    },
-    "courses":[""],
-    "current":"true",
-    "website":"https://jahnaemiller.github.io",
-    "email":"jahnae@nyu.edu",
-    "image":"jahnaemiller.jpg"
+    "short":"I prefer lemon pie over water.",
+    "long":"Junior is a Computer Science and Interactive Media major who enjoys engaging with and attempting to make creative technology projects. You can recognize him through his incessant need to smile at any situation, be it appropriate or not. He likes to listen to jokes and funny stories, so please feel free to enlighten his day with such."
   },
+  "courses":[""],
+  "current":"true",
+  "website":"http://juniorfranciscogarcia.com",
+  "email":"jfg388@nyu.edu",
+  "image":"juniorgarcia.jpg"
+},
+{
+  "name":"Zheljko Nenadikj",
+  "roles":["Lab Assistant"],
+  "description":
   {
-    "name":"Mai Lootah",
-    "roles":["Lab Monitor"],
-    "description":
-    {
-      "short":"Hello World!",
-      "long":"I'm currently a senior majoring in Interactive Media"
-    },
-    "courses":[""],
-    "current":"true",
-    "website":"",
-    "email":"mkl406@nyu.edu",
-    "image":"mailootah.jpg"
+    "short":"Slavic engineer - nothing could go wrong.",
+    "long":"Hi, my name is Zheljko, but you can call me Zheki. I am a Serbian guy interested and very passionate about biology, robotics, astronomy, and gaming. If you would like to chat about these topics or anything else honestly, I would love to too!"
   },
+  "courses":[""],
+  "current":"true",
+  "website":"",
+  "email":"zn382@nyu.edu",
+  "image":"zheljkonenadikj.jpg"
+},
+{
+  "name":"Ganjina Oripova ",
+  "roles":["Lab Assistant"],
+  "description":
   {
-    "name":"Praggya Ayshwarya J.",
-    "roles":["Lab Monitor"],
-    "description":
-    {
-      "short":"An engineer in the right lab",
-      "long":"Praggya is a third year computer engineer who is either a workaholic or a procrastinator - no in between. You will see her searching for WiFi or taking selfies the old school way on her new iPhone... as she dropped it and destroyed its WiFi antenna and front camera."
-    },
-    "courses":[""],
-    "current":"true",
-    "website":"",
-    "email":"paj274@nyu.edu",
-    "image":"praggyaayshwaryaj..jpg"
-  }
+    "short":"Dont' be upsetti, eat your spaghetti ",
+    "long":"I am a third-year student at NYUAD majoring in Interactive Media and minoring in Psychology, Music and Arabic. Since my childhood, I have had a keen interest in art and the way it can shape our lives. For me, design and art are inherently intertwined in a common desire to help us better capture reality and improve our vision. That is why for me, Interactive Media is about taking progressive steps in every aspect of design, small or large, in our everyday lives."
+  },
+  "courses":[""],
+  "current":"true",
+  "website":"http://www.go543.nyuadim.com",
+  "email":"go543@nyu.edu",
+  "image":"ganjinaoripova.jpg"
+}
 ]
