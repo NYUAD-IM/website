@@ -20,25 +20,24 @@
     "email":"sherwood@nyu.edu",
     "image":"aaronsherwood.png"
   },
-
   {
     "name":"Jonny Farrow",
     "roles":[
-      "Lecturer of Visual Arts",
-      "Lecturer of Interactive Media"
+      "Assistant Arts Professor Visual Arts and Interactive Media"
     ],
     "description":{
-      "short":"sculpture, circuits, prints, sound",
-      "long":"Jonny Farrow is a multi-disciplinary artist working in sculpture, printmaking, and sound. His work stems from research into the liminal: from suppressed historical narratives, to popular mythologies, to the far-reaching registers of the electro-magnetic spectrum. Farrow’s work also questions the narrative of expertise; with nearly every project, he embarks on learning a new skill set in order to disrupt viewer expectations as well as his own. He holds an MA in music and an MFA in Studio Art from the School of the Art Institute of Chicago, and is currently a lecturer in Visual Arts and Interactive Media at NYUAD."
+      "short":"Multi-disciplinary artist primarily working in sculpture, printmaking, sound, and transmission art.",
+      "long":"Jonny Farrow is a multi-disciplinary artist primarily working in cast sculpture, printmaking, sound, and transmission art. His work stems from research into the liminal: from suppressed historical narratives, to popular mythologies, and to the far-reaching registers on the electro-magnetic spectrum. Coming out of New York’s Lower East Side music scene of the 90s, Farrow’s work also questions the narrative of expertise; with nearly every project, he embarks on learning a new skill set in order to disrupt viewer expectations as well as his own. For Farrow, this practice is both political and metaphysical. He has shown and presented work in New York, Chicago, San Francisco, Sweden, United Kingdom, Kuwait, and has had two solo exhibits in the United Arab Emirates. From 2011-2016 he produced The Distract and Disable Program broadcast on WGXC 90.7 FM in Hudson, NY, and his music and sound works have been released by Hello CD, free103point9, and Must Die Records. Along with an MA in music, he holds an MFA in Studio Art from the School of the Art Institute of Chicago, and currently teaches Visual Arts and Interactive Media courses at New York University Abu Dhabi."
     },
     "courses":[
       "Circuit Breakers!",
       "Foundations of 3D",
+      "Print Studio 1",
       "Sound Art",
-      "Print Making"
+      "Grad Seminar"
     ],
     "current":"true",
-    "website":"http://www.jonnyfarrow.net",
+    "website":"https://www.jonnyfarrow.net",
     "email":"jf613@nyu.edu",
     "image":"jonnyfarrow.jpg"
   },
