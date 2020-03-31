@@ -1,26 +1,26 @@
-[
-  {
-    "name":"Craig Protzel",
+[  {
+    "name":"Aaron Sherwood",
     "roles":[
       "Program Head",
-      "Asst. Prof. of Interactive Media"
+      "Assistant Arts Professor of Interactive Media",
+      "Co-founder of Purring Tiger"
     ],
     "description":{
-      "short":"web, data, stories",
-      "long":"Craig Protzel is a creative technologist from Los Angeles, California whose practice focuses on designing interactive computational spaces for education, exploration, and entertainment. His work often resides at the intersection of web development, computer science, multi-media production, and storytelling. Before joining NYU Abu Dhabi in 2014, Craig’s professional experience included working as a producer-editor in LA, a creative software developer in NYC, and an adjunct professor at NYU Tisch’s ITP."
+      "short":"multimedia performance",
+      "long":"Aaron Sherwood is a new media artist exploring cause and effect through the mediums of sound and light. This takes the form of large scale audio/visual installations, sound sculptures, guerilla art interventions, and performance. In 2011, along with Kiori Kawai, he founded Purring Tiger, a multi-cultural, multimedia, experimental performance group dedicated to bringing people together in the context of art, in a subtext of wonder."
     },
     "courses":[
-      "Communication and Technology",
-      "Communication Lab",
-      "Mashups: Creating with Web API",
-      "Making Education",
-      "Explorable Stories"
+      "A.rt I.ntel",
+      "Decoding Nature",
+      "Sensors, body and motion",
+      "Intro to Interactive Media"
     ],
     "current":"true",
-    "website":"http://craigprotzel.com/",
-    "email":"craig.protzel@nyu.edu",
-    "image":"craigprotzel.jpg"
+    "website":"https://aaron-sherwood.com/",
+    "email":"sherwood@nyu.edu",
+    "image":"aaronsherwood.png"
   },
+
   {
     "name":"Jonny Farrow",
     "roles":[
@@ -64,45 +64,6 @@
     "image":"sarahfaykrom.jpg"
   },
   {
-    "name":"Aaron Sherwood",
-    "roles":[
-      "Visiting Lecturer of Interactive Media",
-      "Co-founder of Purring Tiger"
-    ],
-    "description":{
-      "short":"multimedia performance",
-      "long":"Aaron Sherwood is a new media artist exploring cause and effect through the mediums of sound and light. This takes the form of large scale audio/visual installations, sound sculptures, guerilla art interventions, and performance. In 2011, along with Kiori Kawai, he founded Purring Tiger, a multi-cultural, multimedia, experimental performance group dedicated to bringing people together in the context of art, in a subtext of wonder."
-    },
-    "courses":[
-      "A.rt I.ntel",
-      "Decoding Nature",
-      "Sensors, body and motion",
-      "Intro to Interactive Media"
-    ],
-    "current":"true",
-    "website":"https://aaron-sherwood.com/",
-    "email":"sherwood@nyu.edu",
-    "image":"aaronsherwood.png"
-  },
-  {
-    "name":"Marina Zurkow",
-    "roles":[
-      "Teacher"
-    ],
-    "description":{
-      "short":"the way forward is developing an ecospheric mentality.",
-      "long":"Marina Zurkow is a media artist focused on near-impossible nature and culture intersections. She uses life science, materials, and technologies – including food, software, clay, animation, mycelium, and petrochemicals (when necessary) – to foster intimate connections between people and non-human agents.\nZurkow is a John Simon Guggenheim Memorial Fellow. She has also been granted awards from the New York Foundation for the Arts, New York State Council for the Arts, the Rockefeller Foundation, and Creative Capital. She is on full time faculty at NYU’s Interactive Telecommunications Program (ITP) in Tisch School of the Arts, and lives in Brooklyn, NY. She is represented by bitforms gallery."
-    },
-    "courses":[
-      "Temporary Expert",
-      "Making the Anthropo(s)cene"
-    ],
-    "current":"true",
-    "website":"http:/o-matic.com/",
-    "email":"marinazurkow@me.com",
-    "image":"marinazurkow.jpg"
-  },
-  {
     "roles":[
       "Instructor of the Arts",
       "Lab Manager"
@@ -138,146 +99,87 @@
     "image":"jackbdu.jpg"
   },
   {
-    "name":"Scott Fitzgerald",
-    "roles":[
-      "Former Program Head of Interactive Media",
-      "Former Assistant Professor of Interactive Media"
-    ],
-    "description":{
-      "short":"came up with the idea",
-      "long":"Scott Fitzgerald is an artist and educator working with software and physical systems. He is currently an Assistant Arts Professor at NYU IDM and former head of the Interactive Media program at New York University Abu Dhabi. Scott regularly runs workshops on using technology in the arts and was previously the head of documentation for Arduino. While he occasionally curates gallery shows, he still prefers making things with his hands."
+    "name":"Rashid Al Qubaisi",
+    "roles":["Lab Assistant"],
+    "description":
+    {
+      "short":"I don't play basketball",
+      "long":"My name is Rashid. I currently am majoring in Interactive Media and Economics. Most of my free time is spent on the golf course. In my opinion, the IM lab is one of the coolest places on campus as you can get almost anything done there."
     },
-    "courses":[
-      "Intro to Interactive Media",
-      "Light",
-      "Experiential Video Art"
-    ],
+    "courses":[""],
     "current":"true",
-    "website":"https://scottfitzgerald.net/",
-    "email":"scott.fitzgerald@nyu.edu",
-    "image":"scottfitzgerald.jpg"
+    "website":"",
+    "email":"raq217@nyu.edu",
+    "image":"rashidalqubaisi.jpg"
   },
   {
-    "name":"Pierre Depaz",
-    "roles":[
-      "Former Lecturer of Interactive Media",
-      "Howler Radio DJ"
-    ],
-    "description":{
-      "short":"even javascript is political",
-      "long":"Pierre is a political scientist and sofware developer from France. After studying Media Studies and Game Design, he has worked at the crossroads of art, technology and society. His projects ranged from theatrical performances to augmented reality for investigative journalism, at places like MoMA PS1, the Whitney Museum, the Washington Post and Stony Brook University. He is fascinated with languages, both for humans and machines."
+    "name":"Li Cheng",
+    "roles":["Lab Assistant"],
+    "description":
+    {
+      "short":"I don't byte",
+      "long":"I am a sophomore IM major and currently super interested in everything design and tech related. In my free time you can find me drinking matcha latte somewhere in the city."
     },
-    "courses":[
-      "Communication Lab",
-      "Politics of Code",
-      "Alternate Realities",
-      "Software Art: Image",
-      "Software Art: Text"
-    ],
-    "current":"false",
-    "website":"https://pierredepaz.net/",
-    "email":"pierre.depaz@nyu.edu",
-    "image":"pierredepaz.jpg"
+    "courses":[""],
+    "current":"true",
+    "website":"",
+    "email":"li.cheng@nyu.edu",
+    "image":"licheng.jpg"
   },
   {
-    "name":"James Hosken",
-    "roles":[
-      "Former Instructor of the Arts"
-    ],
-    "description":{
-      "short":"abandoned ship",
-      "long":"James was the first IM Instructor and Lab Manager. A Film Major, James is particularly interested in special effects, lights and physical computing. He is pursuing all of these endeavours at ITP."
+    "name":"Maxim Blinov",
+    "roles":["Lab Assistant"],
+    "description":
+    {
+      "short":"“His card tricks are insane” -David Blaine",
+      "long":"A junior majoring in Computer science and Interactive media. I like physical computation, so that’s why I started doing IM and had lots of fun with it. I do photography as my hobby and I can show some pretty cool card tricks."
     },
-    "courses":[
-      ""
-    ],
-    "current":"false",
-    "website":"http://jameshosken.com/",
-    "email":"james.hosken@nyu.edu",
-    "image":"jameshosken.jpg"
+    "courses":[""],
+    "current":"true",
+    "website":"https://www.instagram.com/max_blin0v",
+    "email":"Mab1312@nyu.edu",
+    "image":"maximblinov.jpg"
   },
-{
-  "name":"Rashid Al Qubaisi",
-  "roles":["Lab Assistant"],
-  "description":
   {
-    "short":"I don't play basketball",
-    "long":"My name is Rashid. I currently am majoring in Interactive Media and Economics. Most of my free time is spent on the golf course. In my opinion, the IM lab is one of the coolest places on campus as you can get almost anything done there."
+    "name":"Junior Garcia",
+    "roles":["Lab Assistant"],
+    "description":
+    {
+      "short":"I prefer lemon pie over water.",
+      "long":"Junior is a Computer Science and Interactive Media major who enjoys engaging with and attempting to make creative technology projects. You can recognize him through his incessant need to smile at any situation, be it appropriate or not. He likes to listen to jokes and funny stories, so please feel free to enlighten his day with such."
+    },
+    "courses":[""],
+    "current":"true",
+    "website":"http://juniorfranciscogarcia.com",
+    "email":"jfg388@nyu.edu",
+    "image":"juniorgarcia.jpg"
   },
-  "courses":[""],
-  "current":"true",
-  "website":"",
-  "email":"raq217@nyu.edu",
-  "image":"rashidalqubaisi.jpg"
-},
-{
-  "name":"Li Cheng",
-  "roles":["Lab Assistant"],
-  "description":
   {
-    "short":"I don't byte",
-    "long":"I am a sophomore IM major and currently super interested in everything design and tech related. In my free time you can find me drinking matcha latte somewhere in the city."
+    "name":"Zheljko Nenadikj",
+    "roles":["Lab Assistant"],
+    "description":
+    {
+      "short":"Slavic engineer - nothing could go wrong.",
+      "long":"Hi, my name is Zheljko, but you can call me Zheki. I am a Serbian guy interested and very passionate about biology, robotics, astronomy, and gaming. If you would like to chat about these topics or anything else honestly, I would love to too!"
+    },
+    "courses":[""],
+    "current":"true",
+    "website":"",
+    "email":"zn382@nyu.edu",
+    "image":"zheljkonenadikj.jpg"
   },
-  "courses":[""],
-  "current":"true",
-  "website":"",
-  "email":"li.cheng@nyu.edu",
-  "image":"licheng.jpg"
-},
-{
-  "name":"Maxim Blinov",
-  "roles":["Lab Assistant"],
-  "description":
   {
-    "short":"“His card tricks are insane” -David Blaine",
-    "long":"A junior majoring in Computer science and Interactive media. I like physical computation, so that’s why I started doing IM and had lots of fun with it. I do photography as my hobby and I can show some pretty cool card tricks."
-  },
-  "courses":[""],
-  "current":"true",
-  "website":"https://www.instagram.com/max_blin0v",
-  "email":"Mab1312@nyu.edu",
-  "image":"maximblinov.jpg"
-},
-{
-  "name":"Junior Garcia",
-  "roles":["Lab Assistant"],
-  "description":
-  {
-    "short":"I prefer lemon pie over water.",
-    "long":"Junior is a Computer Science and Interactive Media major who enjoys engaging with and attempting to make creative technology projects. You can recognize him through his incessant need to smile at any situation, be it appropriate or not. He likes to listen to jokes and funny stories, so please feel free to enlighten his day with such."
-  },
-  "courses":[""],
-  "current":"true",
-  "website":"http://juniorfranciscogarcia.com",
-  "email":"jfg388@nyu.edu",
-  "image":"juniorgarcia.jpg"
-},
-{
-  "name":"Zheljko Nenadikj",
-  "roles":["Lab Assistant"],
-  "description":
-  {
-    "short":"Slavic engineer - nothing could go wrong.",
-    "long":"Hi, my name is Zheljko, but you can call me Zheki. I am a Serbian guy interested and very passionate about biology, robotics, astronomy, and gaming. If you would like to chat about these topics or anything else honestly, I would love to too!"
-  },
-  "courses":[""],
-  "current":"true",
-  "website":"",
-  "email":"zn382@nyu.edu",
-  "image":"zheljkonenadikj.jpg"
-},
-{
-  "name":"Ganjina Oripova ",
-  "roles":["Lab Assistant"],
-  "description":
-  {
-    "short":"Dont' be upsetti, eat your spaghetti ",
-    "long":"I am a third-year student at NYUAD majoring in Interactive Media and minoring in Psychology, Music and Arabic. Since my childhood, I have had a keen interest in art and the way it can shape our lives. For me, design and art are inherently intertwined in a common desire to help us better capture reality and improve our vision. That is why for me, Interactive Media is about taking progressive steps in every aspect of design, small or large, in our everyday lives."
-  },
-  "courses":[""],
-  "current":"true",
-  "website":"http://www.go543.nyuadim.com",
-  "email":"go543@nyu.edu",
-  "image":"ganjinaoripova.jpg"
-}
+    "name":"Ganjina Oripova ",
+    "roles":["Lab Assistant"],
+    "description":
+    {
+      "short":"Dont' be upsetti, eat your spaghetti ",
+      "long":"I am a third-year student at NYUAD majoring in Interactive Media and minoring in Psychology, Music and Arabic. Since my childhood, I have had a keen interest in art and the way it can shape our lives. For me, design and art are inherently intertwined in a common desire to help us better capture reality and improve our vision. That is why for me, Interactive Media is about taking progressive steps in every aspect of design, small or large, in our everyday lives."
+    },
+    "courses":[""],
+    "current":"true",
+    "website":"http://www.go543.nyuadim.com",
+    "email":"go543@nyu.edu",
+    "image":"ganjinaoripova.jpg"
+  }
 ]
