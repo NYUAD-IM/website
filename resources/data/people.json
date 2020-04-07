@@ -1,4 +1,4 @@
-[  {
+[ {
     "name":"Aaron Sherwood",
     "roles":[
       "Program Head",
@@ -19,6 +19,47 @@
     "website":"https://aaron-sherwood.com/",
     "email":"sherwood@nyu.edu",
     "image":"aaronsherwood.png"
+  },
+  {
+    "name":"Joerg Blumtritt",
+    "roles":[
+      "Visiting Assistant Professor of Practice of Interactive Media"
+    ],
+    "description":{
+      "short":"Die Wunde schließt der Speer nur, der sie schlug.",
+      "long":"Joerg Blumtritt (*1970) is a creative technologist, researcher and professor for interactive media teaching at NYU Abu Dhabi. He founded startups in big data, mobile apps, and open source hardware. He consults businesses and public institutions in technology driven transformation. As political activist and researcher, Joerg works on projects regarding future of democratic participation and media."
+    },
+    "courses":[
+      "Decoding Nature",
+      "Politics of Code",
+      "Communication and Technology",
+      "Future Punk",
+      "Mashups"
+    ],
+    "current":"true",
+    "website":"",
+    "email":"joerg.blumtritt@nyu.edu",
+    "image":"joergblumtritt.jpg"
+  },
+  {
+    "name":"Heather Dewey-Hagborg",
+    "roles":[
+      "Visiting Assistant Professor"
+    ],
+    "description":{
+      "short":"Dr. Heather Dewey-Hagborg is a transdisciplinary artist and educator who is interested in art as research and critical practice.",
+      "long":"Dr. Heather Dewey-Hagborg is a transdisciplinary artist and educator who is interested in art as research and critical practice. Her controversial biopolitical art practice includes the project Stranger Visions in which she created portrait sculptures from analyses of genetic material (hair, cigarette butts, chewed up gum) collected in public places.\n Heather has shown work internationally at events and venues including the World Economic Forum, the Daejeon Biennale, the Guangzhou Triennial, and the Shenzhen Urbanism and Architecture Biennale, the Van Abbemuseum, Transmediale and PS1 MOMA. Her work is held in public collections of the Centre Pompidou, the Victoria and Albert Museum, the Wellcome Collection, the Exploratorium, and the New York Historical Society, among others, and has been widely discussed in the media, from the New York Times and the BBC to Art Forum and Wired.\n Heather has a PhD in Electronic Arts from Rensselaer Polytechnic Institute. She is an artist fellow at AI Now, an Artist-in-Residence at the Exploratorium, as well as Science Center, and is an affiliate of Data & Society.\n She is also a co-founder and co-curator of REFRESH, an inclusive and politically engaged collaborative platform at the intersection of Art, Science, and Technology."
+    },
+    "courses":[
+      "Bioart Practices",
+      "Understanding IM",
+      "Communication and Technology",
+      "Capstone"
+    ],
+    "current":"true",
+    "website":"http://deweyhagborg.com/",
+    "email":"hdh216@nyu.edu",
+    "image":"heatherdeweyhagborg.jpg"
   },
   {
     "name":"Jonny Farrow",
